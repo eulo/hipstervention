@@ -1,7 +1,7 @@
 {
-  "name": "Venuemob",
+  "name": "Hipstervention",
   "version": "0.1.0",
-  "description": "My Venuemob Dashboard",
+  "description": "",
   "main": "gulpfile.js",
   "browserify": {
     "transform": [
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:venuemob/my-venuemob.git"
+    "url": "git@github.com:eulo/hipstervention.git"
   }
 }

@@ -1,10 +1,18 @@
+@import 'mixins';
 @import 'fonts';
+@import 'modal';
 
 h2,h3,h4,h5,h6 {
   font-family: 'Parliment', serif;
 }
 
-body {
+
+
+p {
+  font-family: "proxima-nova",sans-serif;
+}
+
+body{
   background: url(../img/paper_bg.jpg) #e8dec7;
 }
 
@@ -22,24 +30,140 @@ header {
 
 section {
   padding-bottom: 10px;
-    background: url(../img/halo.png) no-repeat center center fixed; 
+    background: url(../img/halo.png) no-repeat center 26px; 
     -webkit-background-size: cover, cover;
        -moz-background-size: cover, cover;
          -o-background-size: cover, cover;
             background-size: cover, cover;
 
   &:before {
-    height: 23px;
+    height: 52px;
     width: 100%;
     display: block;
     content: ' ';
-    margin-top: -10px;
-    background: url(../img/rope_border.png) repeat-x;
+    margin-top: -26px;
+    background: url(../img/rope_banner.png) no-repeat center center;
+  }
+
+  &#global-effects {
+    background-position: center 10px; 
+     &:before {
+      height: 23px;
+      margin-top: -10px;
+      background: url(../img/rope_border.png) repeat-x;
+    } 
+  }
+
+  &#signs-and-symptoms {
+
+  }
+
+  &#hipstervention {
+
+  }
+
+  &#save-a-mate {
+
+  }
+
+  &#news {
+
+    &:after {
+      height: 52px;
+      width: 100%;
+      display: block;
+      content: ' ';
+      margin-top: 26px;
+      background: url(../img/rope_banner.png) no-repeat center center;
+    }
+
+    .container {
+
+      .news-box-cont {
+        @include clearfix;
+        padding-bottom: 140px;
+
+        .news-box {
+          background: rgba(100,0,0,0.1);  
+          width: 360px;
+          height: 410px;
+          float: left;
+          padding: 60px 30px 60px 60px;
+          margin: 10px;
+
+          p {
+            font-size: 20px;
+
+            strong {
+              font-weight: 600;
+            }
+          }
+
+          &.video-link {
+            position: relative;
+            padding: 0;
+            cursor: pointer;
+
+            div.play-button {
+              background: url(../img/button-video-play.png) no-repeat center center;
+              position: absolute;
+              // 135 x 132
+              width: 135px;
+              height: 132px;
+              top: (410 / 2) - (132/2) + px;  
+              left: (360 / 2) - (135/2) + px;
+            }
+            img {
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .row { // forms
+        h3 {
+          text-align: left;
+        }
+        p {
+          text-align: left;
+        }
+      }
+    }
   }
 
   .container {
-    .row {
+    > .row {
 
+      h3 {
+        text-align: center;
+      }
+
+      > .col-md-6 {
+        padding-bottom: 60px;
+
+        h3 {
+          font-size: 59px;
+        }
+      }
+
+      .col-md-4 {
+        padding-bottom: 60px;
+
+        > img {
+          width: 300px;
+          margin: 0 auto;
+          display: block;
+        }
+
+        h3 {
+          font-size: 52px; 
+        }
+      }
+      
+      p {
+        font-size: 17px;
+        text-align: center;
+      }
     }
   }
 }
