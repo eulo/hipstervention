@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Parliment-Outline';
+  src: url("../fonts/parliament-outline-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/parliament-outline-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/parliament-outline-webfont.woff2") format("woff2"), url("../fonts/parliament-outline-webfont.woff") format("woff"), url("../fonts/Parliament-Outline.otf") format("opentype");
+  /* Safari, Android, iOS */ }
+
+@font-face {
+  font-family: 'Parliment';
+  src: url("../fonts/parliament-regular-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/parliament-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/parliament-regular-webfont.woff2") format("woff2"), url("../fonts/parliament-regular-webfont.woff") format("woff"), url("../fonts/Parliament-Regular.otf") format("opentype");
+  /* Safari, Android, iOS */ }
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Parliment', serif; }
+
+body {
+  background: url(../img/paper_bg.jpg) #e8dec7; }
+
+header {
+  background: url(../img/big_beard_bg_01.jpg) top center no-repeat;
+  height: 900px; }
+  header h1 {
+    background: url(../img/main_logo.png) top center no-repeat;
+    margin: 0;
+    text-indent: -9999px;
+    height: 227px; }
+
+section {
+  padding-bottom: 10px;
+  background: url(../img/halo.png) no-repeat center center fixed;
+  -webkit-background-size: cover, cover;
+  -moz-background-size: cover, cover;
+  -o-background-size: cover, cover;
+  background-size: cover, cover; }
+  section:before {
+    height: 23px;
+    width: 100%;
+    display: block;
+    content: ' ';
+    margin-top: -10px;
+    background: url(../img/rope_border.png) repeat-x; }

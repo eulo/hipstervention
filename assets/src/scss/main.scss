@@ -1,0 +1,47 @@
+@import 'fonts';
+
+h2,h3,h4,h5,h6 {
+  font-family: 'Parliment', serif;
+}
+
+body {
+  background: url(../img/paper_bg.jpg) #e8dec7;
+}
+
+header {
+  background: url(../img/big_beard_bg_01.jpg) top center no-repeat;
+  height: 900px;
+
+  h1 {
+    background: url(../img/main_logo.png) top center no-repeat;
+    margin: 0;
+    text-indent: -9999px;
+    height: 227px;
+  }
+}
+
+section {
+  padding-bottom: 10px;
+    background: url(../img/halo.png) no-repeat center center fixed; 
+    -webkit-background-size: cover, cover;
+       -moz-background-size: cover, cover;
+         -o-background-size: cover, cover;
+            background-size: cover, cover;
+
+  &:before {
+    height: 23px;
+    width: 100%;
+    display: block;
+    content: ' ';
+    margin-top: -10px;
+    background: url(../img/rope_border.png) repeat-x;
+  }
+
+  .container {
+    .row {
+
+    }
+  }
+}
+
+
