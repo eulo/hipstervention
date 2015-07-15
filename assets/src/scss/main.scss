@@ -1,6 +1,7 @@
 @import 'mixins';
 @import 'fonts';
 @import 'modal';
+@import 'media-queries';
 
 h2, h3, h4,h5,h6 {
   font-family: 'Parliment', serif;
@@ -12,6 +13,10 @@ p {
 
 body{
   background: url(../img/paper_bg.jpg) #e8dec7;
+}
+
+.shareaholic-canvas {
+  margin-top: 18px;
 }
 
 header {
@@ -92,7 +97,7 @@ header {
 
 section {
   padding-bottom: 10px;
-
+  overflow: hidden;
   background: url(../img/halo.png) no-repeat center center fixed; 
   -webkit-background-size: cover, cover;
      -moz-background-size: cover, cover;
@@ -113,53 +118,106 @@ section {
   }
 
   .animation {
+    @include enable3d;
+    
     > div {
       margin: 0 auto;
     }
   }
 
   &#global-effects {
+
+    h2 {
+      .animation {
+        div {
+          margin-top: -150px;
+        }
+      }
+    }
+    
     .barber-graph {
-      margin-top: 110px;
+      margin: 110px auto 0;
       background: url(../img/barber_graph.png) no-repeat;
       width: 519px;
       height: 536px;
       position: relative;
 
+      @include mobile-only {
+        transform: scale(0.5, 0.5);
+        left: -20%;
+      }
       .animation {
         position: absolute;
         left: 220px;
       }
     }
     .pants-graph {
-      margin-top: 50px;
+      margin: 50px auto 0;
       background: url(../img/pants_graph.png) no-repeat;
       width: 539px;
       height: 424px;
+
+      @include mobile-only {
+        transform: scale(0.5, 0.5);
+        left: -20%;
+      }
     }
     .graph-only {
-      margin-top: 40px;
+      margin: 40px auto 0;
       background: url(../img/graph_only.png) no-repeat;
       width: 517px;
       height: 428px;
       position: relative;
 
+      @include mobile-only {
+        transform: scale(0.5, 0.5);
+        left: -20%;
+      }
       .animation {
         position: absolute;
         left: 10px;
       }
     }
+    .fixie-graph {
+      @include mobile-only {
+        transform: scale(0.5, 0.5);
+      }     
+    }
   }
 
   &#signs-and-symptoms {
+
+    h2 {
+      .animation {
+        div {
+          margin-top: -170px;
+          margin-bottom: -170px;
+        }
+      }
+    }
+
     .row {
       .animation {
         min-height: 500px;
+      }
+      .col-md-6 {
+        height: 750px;
       }
     }
   }
 
   &#hipstervention {
+
+    h2 {
+      .animation {
+        div {
+          margin-top: -340px;
+          margin-bottom: -450px;
+          background-position: -1004px 0px;
+        }
+      }
+    }
+
     .ht-heading {
       margin: 80px auto 20px;
       display: block;
@@ -169,6 +227,28 @@ section {
       }
       &.ht-heading-03 {
         margin-top: 190px;
+      }
+    }
+
+    .row {
+      .col-md-6 {
+        padding-bottom: 0;
+      }
+    }
+
+    .animation {
+      &.bear-trap {
+        div {
+          margin-bottom: -150px;
+        }
+      }
+      &.tears-glass {
+        div {
+          margin-bottom: -100px;
+        }
+      }
+      &.beard-slap {
+
       }
     }
 
@@ -186,6 +266,15 @@ section {
   }
 
   &#save-a-mate {
+
+    h2 {
+      .animation {
+        div {
+          margin-top: -170px;
+          margin-bottom: -210px;
+        }
+      }
+    }
 
     .row {
       padding-bottom: 80px;
@@ -230,6 +319,15 @@ section {
       content: ' ';
       margin-top: 26px;
       background: url(../img/rope_banner.png) no-repeat center center;
+    }
+
+    h2 {
+      .animation {
+        div {
+          margin-top: -350px;
+          margin-bottom: -250px;
+        }
+      }
     }
 
     .container {
@@ -293,7 +391,7 @@ section {
         text-align: center;
       }
 
-      > .col-md-6 {
+      > .col-md-12, > .col-md-6 {
         padding-bottom: 60px;
 
         h3 {
@@ -322,5 +420,4 @@ section {
     }
   }
 }
-
 

@@ -13193,7 +13193,6 @@ module.exports = Animate = (function() {
     this.playing = true;
     self = this;
     return this.interval = setInterval(function() {
-      var styles;
       if (self.frame === null) {
         self.frame = 0;
       } else {
@@ -13203,12 +13202,11 @@ module.exports = Animate = (function() {
           self.frame = self.frame + 1;
         }
       }
-      styles = {
+      return self.$div.css({
         width: self.data[self.keys[self.frame]].frame.w,
         height: self.data[self.keys[self.frame]].frame.h,
         backgroundPosition: "-" + self.data[self.keys[self.frame]].frame.x + "px -" + self.data[self.keys[self.frame]].frame.y + "px"
-      };
-      return self.$div.css(styles);
+      });
     }, 1000 / this.fps);
   };
 
@@ -13230,6 +13228,7 @@ module.exports = Animate = (function() {
       };
     })(this), 1000);
     return this.interval = setInterval(function() {
+      var item;
       if (self.frame === null) {
         self.frame = 0;
       } else {
@@ -13239,10 +13238,14 @@ module.exports = Animate = (function() {
           clearInterval(self.interval);
         }
       }
+      item = self.data[self.keys[self.frame]];
+      if (item == null) {
+        return;
+      }
       return self.$div.css({
-        width: self.data[self.keys[self.frame]].frame.w,
-        height: self.data[self.keys[self.frame]].frame.h,
-        backgroundPosition: "-" + self.data[self.keys[self.frame]].frame.x + "px -" + self.data[self.keys[self.frame]].frame.y + "px"
+        width: item.frame.w,
+        height: item.frame.h,
+        backgroundPosition: "-" + item.frame.x + "px -" + item.frame.y + "px"
       });
     }, 1000 / 10);
   };
@@ -13255,15 +13258,20 @@ module.exports = Animate = (function() {
     clearInterval(this.interval);
     self = this;
     return this.interval = setInterval(function() {
+      var item;
       if (self.frame - 1 >= 0) {
         self.frame = self.frame - 1;
       } else {
         clearInterval(self.interval);
       }
+      item = self.data[self.keys[self.frame]];
+      if (item == null) {
+        return;
+      }
       return self.$div.css({
-        width: self.data[self.keys[self.frame]].frame.w,
-        height: self.data[self.keys[self.frame]].frame.h,
-        backgroundPosition: "-" + self.data[self.keys[self.frame]].frame.x + "px -" + self.data[self.keys[self.frame]].frame.y + "px"
+        width: item.frame.w,
+        height: item.frame.h,
+        backgroundPosition: "-" + item.frame.x + "px -" + item.frame.y + "px"
       });
     }, 1000 / 10);
   };
@@ -13344,7 +13352,7 @@ throttled = _.throttle(function() {
       return el.stop();
     }
   });
-}, 100);
+}, 1000);
 
 $(window).scroll(throttled);
 

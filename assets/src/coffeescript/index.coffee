@@ -35,6 +35,6 @@ throttled = _.throttle ()->
       el.start()
     else
       el.stop()
-, 100
+, 1000
 $(window).scroll throttled
     

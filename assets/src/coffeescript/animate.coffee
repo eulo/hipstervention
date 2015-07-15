@@ -48,11 +48,11 @@ class Animate
         else
           self.frame = self.frame + 1
 
-      styles =
+      self.$div.css
         width: self.data[self.keys[self.frame]].frame.w
         height: self.data[self.keys[self.frame]].frame.h
         backgroundPosition: "-#{self.data[self.keys[self.frame]].frame.x}px -#{self.data[self.keys[self.frame]].frame.y}px"
-      self.$div.css styles
+        
     , 1000 / @fps
 
   stop: () ->
@@ -76,10 +76,14 @@ class Animate
         else
           clearInterval self.interval
 
+      item = self.data[self.keys[self.frame]]
+      if !item?
+        return
+
       self.$div.css
-        width: self.data[self.keys[self.frame]].frame.w
-        height: self.data[self.keys[self.frame]].frame.h
-        backgroundPosition: "-#{self.data[self.keys[self.frame]].frame.x}px -#{self.data[self.keys[self.frame]].frame.y}px"
+        width: item.frame.w
+        height: item.frame.h
+        backgroundPosition: "-#{item.frame.x}px -#{item.frame.y}px"
 
     , 1000 / 10
 
@@ -93,11 +97,15 @@ class Animate
         self.frame = self.frame - 1
       else
         clearInterval self.interval
+
+      item = self.data[self.keys[self.frame]]
+      if !item?
+        return
  
       self.$div.css
-        width: self.data[self.keys[self.frame]].frame.w
-        height: self.data[self.keys[self.frame]].frame.h
-        backgroundPosition: "-#{self.data[self.keys[self.frame]].frame.x}px -#{self.data[self.keys[self.frame]].frame.y}px"
+        width: item.frame.w
+        height: item.frame.h
+        backgroundPosition: "-#{item.frame.x}px -#{item.frame.y}px"
   
     , 1000 / 10
 
