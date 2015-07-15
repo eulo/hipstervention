@@ -44,32 +44,55 @@ body {
 
 header {
   background: url(../img/big_beard_bg_01.jpg) top center no-repeat;
-  height: 900px; }
+  height: 900px;
+  position: relative;
+  overflow: hidden; }
   header h1 {
     background: url(../img/main_logo.png) top center no-repeat;
     margin: 0;
     text-indent: -9999px;
     height: 227px; }
-  header nav {
+  header .beard-nav {
     position: relative;
     left: 50%; }
-    header nav a.animation {
+    header .beard-nav a.animation {
       position: absolute;
       display: block;
       text-indent: -9999px; }
-      header nav a.animation.menu-1 {
+      header .beard-nav a.animation.menu-1 {
         left: -510px; }
-      header nav a.animation.menu-2 {
+      header .beard-nav a.animation.menu-2 {
         left: -450px;
         top: 200px; }
-      header nav a.animation.menu-3 {
+      header .beard-nav a.animation.menu-3 {
         left: -140px;
         top: 370px; }
-      header nav a.animation.menu-4 {
+      header .beard-nav a.animation.menu-4 {
         left: 200px;
         top: 200px; }
-      header nav a.animation.menu-5 {
+      header .beard-nav a.animation.menu-5 {
         left: 350px; }
+  header nav {
+    position: absolute;
+    bottom: 0;
+    height: 64px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    overflow: hidden; }
+    header nav ul li {
+      display: inline; }
+      header nav ul li a {
+        font-family: 'Parliment', serif;
+        text-transform: uppercase;
+        color: #828282;
+        font-size: 22px;
+        line-height: 64px;
+        padding: 0 30px; }
+        header nav ul li a.logo {
+          padding-right: 80px; }
+        header nav ul li a:hover {
+          text-decoration: none;
+          color: white; }
 
 section {
   padding-bottom: 10px;

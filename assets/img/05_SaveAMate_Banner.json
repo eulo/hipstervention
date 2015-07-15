@@ -1,0 +1,411 @@
+﻿{"frames": {
+
+"05_SaveAMate_Banner_00.png":
+{
+	"frame": {"x":0,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_01.png":
+{
+	"frame": {"x":632,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_02.png":
+{
+	"frame": {"x":1264,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_03.png":
+{
+	"frame": {"x":1896,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_04.png":
+{
+	"frame": {"x":2528,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_05.png":
+{
+	"frame": {"x":3160,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_06.png":
+{
+	"frame": {"x":0,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_07.png":
+{
+	"frame": {"x":632,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_08.png":
+{
+	"frame": {"x":1264,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_09.png":
+{
+	"frame": {"x":1896,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_10.png":
+{
+	"frame": {"x":2528,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_11.png":
+{
+	"frame": {"x":3160,"y":632,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_12.png":
+{
+	"frame": {"x":0,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_13.png":
+{
+	"frame": {"x":632,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_14.png":
+{
+	"frame": {"x":1264,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_15.png":
+{
+	"frame": {"x":1896,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_16.png":
+{
+	"frame": {"x":2528,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_17.png":
+{
+	"frame": {"x":3160,"y":1264,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_18.png":
+{
+	"frame": {"x":0,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_19.png":
+{
+	"frame": {"x":632,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_20.png":
+{
+	"frame": {"x":1264,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_21.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_22.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_23.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_24.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_25.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_26.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_27.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_28.png":
+{
+	"frame": {"x":1896,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_29.png":
+{
+	"frame": {"x":2528,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_30.png":
+{
+	"frame": {"x":2528,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_31.png":
+{
+	"frame": {"x":2528,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_32.png":
+{
+	"frame": {"x":2528,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_33.png":
+{
+	"frame": {"x":2528,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_34.png":
+{
+	"frame": {"x":3160,"y":1896,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_35.png":
+{
+	"frame": {"x":0,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_36.png":
+{
+	"frame": {"x":632,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_37.png":
+{
+	"frame": {"x":1264,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_38.png":
+{
+	"frame": {"x":1896,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_39.png":
+{
+	"frame": {"x":2528,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_40.png":
+{
+	"frame": {"x":3160,"y":2528,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_41.png":
+{
+	"frame": {"x":0,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_42.png":
+{
+	"frame": {"x":632,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_43.png":
+{
+	"frame": {"x":1264,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_44.png":
+{
+	"frame": {"x":1896,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_45.png":
+{
+	"frame": {"x":2528,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_46.png":
+{
+	"frame": {"x":3160,"y":3160,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_47.png":
+{
+	"frame": {"x":0,"y":3792,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_48.png":
+{
+	"frame": {"x":632,"y":3792,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+},
+"05_SaveAMate_Banner_49.png":
+{
+	"frame": {"x":0,"y":0,"w":632,"h":632},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":632,"h":632},
+	"sourceSize": {"w":632,"h":632}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "05_SaveAMate_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":8192},
+	"scale": "1"
+}
+}

@@ -1,0 +1,291 @@
+﻿{"frames": {
+
+"02_SignAndSymptoms_Banner_00.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_01.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_02.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_03.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_04.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_05.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_06.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_07.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_08.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_09.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_10.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_11.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_12.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_13.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_14.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_15.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_16.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_17.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_18.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_19.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_20.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_21.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_22.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_23.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_24.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_25.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_26.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_27.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_28.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_29.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_30.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_31.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_32.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_33.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+},
+"02_SignAndSymptoms_Banner_34.png":
+{
+	"frame": {"x":0,"y":0,"w":616,"h":616},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":616,"h":616},
+	"sourceSize": {"w":616,"h":616}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "02_SignAndSymptoms_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
