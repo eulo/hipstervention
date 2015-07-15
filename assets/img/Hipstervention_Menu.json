@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"Hipstervention_01.png":
+{
+	"frame": {"x":0,"y":0,"w":230,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":287},
+	"sourceSize": {"w":230,"h":287}
+},
+"Hipstervention_02.png":
+{
+	"frame": {"x":230,"y":0,"w":230,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":287},
+	"sourceSize": {"w":230,"h":287}
+},
+"Hipstervention_03.png":
+{
+	"frame": {"x":0,"y":287,"w":230,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":287},
+	"sourceSize": {"w":230,"h":287}
+},
+"Hipstervention_04.png":
+{
+	"frame": {"x":230,"y":287,"w":230,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":287},
+	"sourceSize": {"w":230,"h":287}
+},
+"Hipstervention_05.png":
+{
+	"frame": {"x":0,"y":574,"w":230,"h":287},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":287},
+	"sourceSize": {"w":230,"h":287}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "Hipstervention_Menu.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"SaveAMate_01.png":
+{
+	"frame": {"x":0,"y":0,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273}
+},
+"SaveAMate_02.png":
+{
+	"frame": {"x":194,"y":0,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273}
+},
+"SaveAMate_03.png":
+{
+	"frame": {"x":0,"y":273,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273}
+},
+"SaveAMate_04.png":
+{
+	"frame": {"x":194,"y":273,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273}
+},
+"SaveAMate_05.png":
+{
+	"frame": {"x":0,"y":546,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "SaveAMate_Menu.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

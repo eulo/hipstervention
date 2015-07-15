@@ -1,0 +1,275 @@
+{"frames": {
+
+"11_EyeRoll_00.png":
+{
+	"frame": {"x":0,"y":0,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_01.png":
+{
+	"frame": {"x":392,"y":0,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_02.png":
+{
+	"frame": {"x":784,"y":0,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_03.png":
+{
+	"frame": {"x":1176,"y":0,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_04.png":
+{
+	"frame": {"x":1568,"y":0,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_05.png":
+{
+	"frame": {"x":0,"y":392,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_06.png":
+{
+	"frame": {"x":392,"y":392,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_07.png":
+{
+	"frame": {"x":784,"y":392,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_08.png":
+{
+	"frame": {"x":1176,"y":392,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_09.png":
+{
+	"frame": {"x":1568,"y":392,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_10.png":
+{
+	"frame": {"x":0,"y":784,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_11.png":
+{
+	"frame": {"x":392,"y":784,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_12.png":
+{
+	"frame": {"x":784,"y":784,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_13.png":
+{
+	"frame": {"x":1176,"y":784,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_14.png":
+{
+	"frame": {"x":1568,"y":784,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_15.png":
+{
+	"frame": {"x":0,"y":1176,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_16.png":
+{
+	"frame": {"x":392,"y":1176,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_17.png":
+{
+	"frame": {"x":784,"y":1176,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_18.png":
+{
+	"frame": {"x":1176,"y":1176,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_19.png":
+{
+	"frame": {"x":1568,"y":1176,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_20.png":
+{
+	"frame": {"x":0,"y":1568,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_21.png":
+{
+	"frame": {"x":392,"y":1568,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_22.png":
+{
+	"frame": {"x":784,"y":1568,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_23.png":
+{
+	"frame": {"x":1176,"y":1568,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_24.png":
+{
+	"frame": {"x":1568,"y":1568,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_25.png":
+{
+	"frame": {"x":0,"y":1960,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_26.png":
+{
+	"frame": {"x":392,"y":1960,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_27.png":
+{
+	"frame": {"x":784,"y":1960,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_28.png":
+{
+	"frame": {"x":1176,"y":1960,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_29.png":
+{
+	"frame": {"x":1568,"y":1960,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_30.png":
+{
+	"frame": {"x":0,"y":2352,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_31.png":
+{
+	"frame": {"x":392,"y":2352,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+},
+"11_EyeRoll_32.png":
+{
+	"frame": {"x":784,"y":2352,"w":392,"h":392},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":392,"h":392},
+	"sourceSize": {"w":392,"h":392}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "11_EyeRoll.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":4096},
+	"scale": "1"
+}
+}

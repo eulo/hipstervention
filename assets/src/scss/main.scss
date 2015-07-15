@@ -2,11 +2,9 @@
 @import 'fonts';
 @import 'modal';
 
-h2,h3,h4,h5,h6 {
+h2, h3, h4,h5,h6 {
   font-family: 'Parliment', serif;
 }
-
-
 
 p {
   font-family: "proxima-nova",sans-serif;
@@ -26,11 +24,41 @@ header {
     text-indent: -9999px;
     height: 227px;
   }
+
+  nav {
+    position: relative;
+    left: 50%;
+
+    a.animation {
+      position: absolute;
+      display: block;
+      text-indent: -9999px;
+
+      &.menu-1 {
+        left: -510px; 
+      }
+      &.menu-2 {
+        left: -450px;
+        top: 200px;
+      }
+      &.menu-3 {
+        left: -140px;
+        top: 370px;
+      }
+      &.menu-4 {
+        left: 200px;
+        top: 200px;
+      }
+      &.menu-5 {
+        left: 350px;
+      }
+    }
+  }
 }
 
 section {
   padding-bottom: 10px;
-    background: url(../img/halo.png) no-repeat center 26px; 
+    background: url(../img/halo.png) no-repeat center center fixed; 
     -webkit-background-size: cover, cover;
        -moz-background-size: cover, cover;
          -o-background-size: cover, cover;
@@ -41,29 +69,121 @@ section {
     width: 100%;
     display: block;
     content: ' ';
-    margin-top: -26px;
     background: url(../img/rope_banner.png) no-repeat center center;
+    padding: 60px 0;
+  }
+
+  h2 {
+    text-indent: -10000px;
+  }
+
+  .animation {
+    > div {
+      margin: 0 auto;
+    }
   }
 
   &#global-effects {
-    background-position: center 10px; 
-     &:before {
-      height: 23px;
-      margin-top: -10px;
-      background: url(../img/rope_border.png) repeat-x;
-    } 
+    .barber-graph {
+      margin-top: 110px;
+      background: url(../img/barber_graph.png) no-repeat;
+      width: 519px;
+      height: 536px;
+      position: relative;
+
+      .animation {
+        position: absolute;
+        left: 220px;
+      }
+    }
+    .pants-graph {
+      margin-top: 50px;
+      background: url(../img/pants_graph.png) no-repeat;
+      width: 539px;
+      height: 424px;
+    }
+    .graph-only {
+      margin-top: 40px;
+      background: url(../img/graph_only.png) no-repeat;
+      width: 517px;
+      height: 428px;
+      position: relative;
+
+      .animation {
+        position: absolute;
+        left: 10px;
+      }
+    }
   }
 
   &#signs-and-symptoms {
-
+    .row {
+      .animation {
+        min-height: 500px;
+      }
+    }
   }
 
   &#hipstervention {
+    .ht-heading {
+      margin: 80px auto 20px;
+      display: block;
 
+      &.ht-heading-01 {
+        margin-top: 170px;
+      }
+      &.ht-heading-03 {
+        margin-top: 190px;
+      }
+    }
+
+    p {
+      margin-left: 65px;
+    }
+
+    .star-border {
+      background: url(../img/star-border.png) no-repeat;
+      width: 226px;
+      height: 25px;
+      margin: 10px auto 0;
+      background-position: 60px 0;
+    }
   }
 
   &#save-a-mate {
 
+    .row {
+      padding-bottom: 80px;
+
+      .col-md-3 {
+        h3 {
+          font-size: 50px;
+          line-height: 70px;
+        }
+      }
+    }
+
+    .col-md-12 {
+
+      p {
+        max-width: 900px;
+        margin: 0 auto 10px;
+        padding: 20px 0;
+      }
+    }
+    .star-border {
+      background: url(../img/star-border.png) no-repeat;
+      width: 166px;
+      height: 25px;
+      margin: 10px auto 0;
+    }
+    .download-link {
+      display: block;
+      background: url(../img/download-link.png) no-repeat;
+      width: 251px;
+      height: 97px;
+      text-indent: -9999px;
+    }
   }
 
   &#news {

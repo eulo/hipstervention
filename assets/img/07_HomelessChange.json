@@ -1,0 +1,499 @@
+{"frames": {
+
+"07_HomelessChange_00.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_01.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_02.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_03.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_04.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_05.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_06.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_07.png":
+{
+	"frame": {"x":0,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_08.png":
+{
+	"frame": {"x":528,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_09.png":
+{
+	"frame": {"x":1056,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_10.png":
+{
+	"frame": {"x":1584,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_11.png":
+{
+	"frame": {"x":2112,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_12.png":
+{
+	"frame": {"x":2640,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_13.png":
+{
+	"frame": {"x":3168,"y":0,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_14.png":
+{
+	"frame": {"x":0,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_15.png":
+{
+	"frame": {"x":528,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_16.png":
+{
+	"frame": {"x":1056,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_17.png":
+{
+	"frame": {"x":1584,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_18.png":
+{
+	"frame": {"x":2112,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_19.png":
+{
+	"frame": {"x":2640,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_20.png":
+{
+	"frame": {"x":3168,"y":528,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_21.png":
+{
+	"frame": {"x":0,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_22.png":
+{
+	"frame": {"x":528,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_23.png":
+{
+	"frame": {"x":1056,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_24.png":
+{
+	"frame": {"x":1584,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_25.png":
+{
+	"frame": {"x":2112,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_26.png":
+{
+	"frame": {"x":2640,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_27.png":
+{
+	"frame": {"x":3168,"y":1056,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_28.png":
+{
+	"frame": {"x":0,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_29.png":
+{
+	"frame": {"x":528,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_30.png":
+{
+	"frame": {"x":1056,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_31.png":
+{
+	"frame": {"x":1584,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_32.png":
+{
+	"frame": {"x":2112,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_33.png":
+{
+	"frame": {"x":2640,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_34.png":
+{
+	"frame": {"x":3168,"y":1584,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_35.png":
+{
+	"frame": {"x":0,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_36.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_37.png":
+{
+	"frame": {"x":0,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_38.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_39.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_40.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_41.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_42.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_43.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_44.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_45.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_46.png":
+{
+	"frame": {"x":528,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_47.png":
+{
+	"frame": {"x":1056,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_48.png":
+{
+	"frame": {"x":1584,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_49.png":
+{
+	"frame": {"x":2112,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_50.png":
+{
+	"frame": {"x":2640,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_51.png":
+{
+	"frame": {"x":3168,"y":2112,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_52.png":
+{
+	"frame": {"x":0,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_53.png":
+{
+	"frame": {"x":528,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_54.png":
+{
+	"frame": {"x":528,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_55.png":
+{
+	"frame": {"x":528,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_56.png":
+{
+	"frame": {"x":528,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_57.png":
+{
+	"frame": {"x":528,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_58.png":
+{
+	"frame": {"x":1056,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_59.png":
+{
+	"frame": {"x":1584,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+},
+"07_HomelessChange_60.png":
+{
+	"frame": {"x":2112,"y":2640,"w":528,"h":528},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":528,"h":528},
+	"sourceSize": {"w":528,"h":528}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "07_HomelessChange.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":4096},
+	"scale": "1"
+}
+}

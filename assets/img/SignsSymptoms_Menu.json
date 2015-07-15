@@ -1,0 +1,51 @@
+﻿{"frames": {
+
+"SignsSymptoms_01.png":
+{
+	"frame": {"x":0,"y":0,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249}
+},
+"SignsSymptoms_02.png":
+{
+	"frame": {"x":210,"y":0,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249}
+},
+"SignsSymptoms_03.png":
+{
+	"frame": {"x":0,"y":249,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249}
+},
+"SignsSymptoms_04.png":
+{
+	"frame": {"x":210,"y":249,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249}
+},
+"SignsSymptoms_05.png":
+{
+	"frame": {"x":0,"y":498,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "SignsSymptoms_Menu.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}

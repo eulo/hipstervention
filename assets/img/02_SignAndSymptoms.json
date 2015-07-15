@@ -1,0 +1,291 @@
+{"frames": {
+
+"02_SignAndSymptoms_00.png":
+{
+	"frame": {"x":0,"y":0,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_01.png":
+{
+	"frame": {"x":0,"y":0,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_02.png":
+{
+	"frame": {"x":232,"y":0,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_03.png":
+{
+	"frame": {"x":464,"y":0,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_04.png":
+{
+	"frame": {"x":696,"y":0,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_05.png":
+{
+	"frame": {"x":0,"y":232,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_06.png":
+{
+	"frame": {"x":232,"y":232,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_07.png":
+{
+	"frame": {"x":464,"y":232,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_08.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_09.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_10.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_11.png":
+{
+	"frame": {"x":696,"y":232,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_12.png":
+{
+	"frame": {"x":0,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_13.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_14.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_15.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_16.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_17.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_18.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_19.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_20.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_21.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_22.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_23.png":
+{
+	"frame": {"x":696,"y":232,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_24.png":
+{
+	"frame": {"x":464,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_25.png":
+{
+	"frame": {"x":696,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_26.png":
+{
+	"frame": {"x":0,"y":696,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_27.png":
+{
+	"frame": {"x":232,"y":696,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_28.png":
+{
+	"frame": {"x":464,"y":696,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_29.png":
+{
+	"frame": {"x":696,"y":696,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_30.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_31.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_32.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_33.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+},
+"02_SignAndSymptoms_34.png":
+{
+	"frame": {"x":232,"y":464,"w":232,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":232},
+	"sourceSize": {"w":232,"h":232}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "02_SignAndSymptoms.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
