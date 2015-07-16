@@ -208,7 +208,7 @@ section {
     @media (max-width: 480px) {
       section#global-effects .pants-graph {
         transform: scale(0.5, 0.5);
-        left: -20%; } }
+        margin-left: -20%; } }
   section#global-effects .graph-only {
     margin: 40px auto 0;
     background: url(../img/graph_only.png) no-repeat;
@@ -225,6 +225,8 @@ section {
   @media (max-width: 480px) {
     section#global-effects .fixie-graph {
       transform: scale(0.5, 0.5); } }
+  section#signs-and-symptoms h2 {
+    margin: -220px 0; }
   section#signs-and-symptoms .row .animation {
     min-height: 500px; }
   section#signs-and-symptoms .row .col-md-6 {
@@ -232,6 +234,8 @@ section {
   @media only screen and (max-width: 1024px) {
     section#signs-and-symptoms .row h3 {
       font-size: 42px; } }
+  section#hipstervention h2 {
+    margin: -80px 0; }
   section#hipstervention .ht-heading {
     margin: 80px auto 20px;
     display: block; }
