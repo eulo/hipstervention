@@ -13148,7 +13148,7 @@ module.exports = Animate = (function() {
 
   Animate.prototype.offscreenDiff = 100;
 
-  function Animate($el) {
+  function Animate($el, load_flag) {
     this.mouseOut = bind(this.mouseOut, this);
     this.mouseIn = bind(this.mouseIn, this);
     this.start = bind(this.start, this);
@@ -13157,24 +13157,31 @@ module.exports = Animate = (function() {
     this.$el = $el;
     this.$div = $('<div>');
     this.$el.append(this.$div);
-    this.load(this.setup);
+    if (load_flag) {
+      this.load();
+    }
   }
 
-  Animate.prototype.load = function(cb) {
+  Animate.prototype.load = function(callback) {
     var self;
     self = this;
     this.img_src = this.$el.data('img');
     return $.get(this.$el.data('json'), (function(_this) {
       return function(res) {
         _this.data = res.frames;
-        return $.get(_this.$el.data('img'), cb);
+        return $.get(_this.$el.data('img'), function() {
+          _this.loaded = true;
+          _this.setup();
+          if (callback) {
+            return callback();
+          }
+        });
       };
     })(this));
   };
 
   Animate.prototype.setup = function() {
     var dim;
-    this.loaded = true;
     dim = this.getFirst(this.data);
     this.$div.css({
       backgroundImage: "url(" + this.img_src + ")",
@@ -13305,7 +13312,7 @@ module.exports = Animate = (function() {
 
 
 },{"./../../bower_components/underscore/underscore.js":3}],5:[function(require,module,exports){
-var $, Animate, _, elements, menu, throttle_resize, throttle_scroll;
+var $, Animate, _, ani_arr, ani_cb, elements, i, menu, throttle_resize, throttle_scroll;
 
 $ = require("./../../bower_components/jquery/dist/jquery.js");
 
@@ -13352,7 +13359,7 @@ $('.animation').each(function() {
   if ($(this).hasClass('animation-hover') && !$(this).is(':visible')) {
     return;
   }
-  item = new Animate($(this));
+  item = new Animate($(this), false);
   if ($(this).hasClass('animation-hover')) {
     return menu.push(item);
   } else {
@@ -13366,6 +13373,18 @@ _.each(menu, function(el, i, arr) {
   $("nav a[href=#" + (el.$el.prop('href').split('#')[1]) + "]").mouseenter(el.mouseIn);
   return $("nav a[href=#" + (el.$el.prop('href').split('#')[1]) + "]").mouseleave(el.mouseOut);
 });
+
+i = 0;
+
+ani_arr = elements.concat(menu);
+
+ani_cb = function() {
+  if (i + 1 < ani_arr.length) {
+    return ani_arr[++i].load(ani_cb);
+  }
+};
+
+ani_arr[i].load(ani_cb);
 
 throttle_scroll = _.throttle(function() {
   return _.each(elements, function(el, i, arr) {

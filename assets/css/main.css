@@ -137,13 +137,28 @@ header {
           color: white; }
 
 section {
-  padding-bottom: 10px;
   overflow: hidden;
+  /*
   background: url(../img/halo.png) no-repeat center center;
   -webkit-background-size: cover, cover;
-  -moz-background-size: cover, cover;
-  -o-background-size: cover, cover;
-  background-size: cover, cover; }
+     -moz-background-size: cover, cover;
+       -o-background-size: cover, cover;
+          background-size: cover, cover;
+          */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(217, 147, 89, 0) 0%, rgba(217, 147, 89, 0) 53%, rgba(217, 147, 89, 0.75) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(217, 147, 89, 0)), color-stop(53%, rgba(217, 147, 89, 0)), color-stop(100%, rgba(217, 147, 89, 0.75)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(217, 147, 89, 0) 0%, rgba(217, 147, 89, 0) 53%, rgba(217, 147, 89, 0.75) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, rgba(217, 147, 89, 0) 0%, rgba(217, 147, 89, 0) 53%, rgba(217, 147, 89, 0.75) 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(217, 147, 89, 0) 0%, rgba(217, 147, 89, 0) 53%, rgba(217, 147, 89, 0.75) 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, rgba(217, 147, 89, 0) 0%, rgba(217, 147, 89, 0) 53%, rgba(217, 147, 89, 0.75) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d99359', endColorstr='#bfd99359',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
   section:before {
     height: 87px;
     width: 100%;
@@ -151,6 +166,16 @@ section {
     content: ' ';
     background: url(../img/rope_border_middle.png) no-repeat center center;
     padding: 90px 0 60px; }
+  section .container:before {
+    background-image: url(../img/border-flowers.png);
+    background-repeat: no-repeat;
+    content: ' ';
+    height: 157px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-position: center 0; }
   section h2 {
     text-indent: -10000px;
     -webkit-transition: 0.5s all;
@@ -186,7 +211,17 @@ section {
       margin: 0 auto; }
   section#global-effects:before {
     height: 82px;
-    background: url(../img/rope_border_top.png) no-repeat center center; }
+    background: url(../img/rope_border_top.png) no-repeat center center;
+    margin-top: 40px; }
+  @media only screen and (max-width: 768px) {
+    section#global-effects h2 .animation {
+      transform: scale(0.55, 0.55); } }
+  @media only screen and (max-width: 480px) {
+    section#global-effects h2 .animation {
+      transform: scale(0.55, 0.55); } }
+  @media (max-width: 320px) {
+    section#global-effects h2 .animation {
+      transform: scale(0.55, 0.55); } }
   section#global-effects .barber-graph {
     margin: 110px auto 0;
     background: url(../img/barber_graph.png) no-repeat;
@@ -196,7 +231,7 @@ section {
     @media (max-width: 480px) {
       section#global-effects .barber-graph {
         transform: scale(0.5, 0.5);
-        margin-left: -20%; } }
+        margin-left: -30%; } }
     section#global-effects .barber-graph .animation {
       position: absolute;
       left: 220px; }
@@ -218,13 +253,17 @@ section {
     @media (max-width: 480px) {
       section#global-effects .graph-only {
         transform: scale(0.5, 0.5);
-        left: -20%; } }
+        left: -30%; } }
     section#global-effects .graph-only .animation {
       position: absolute;
       left: 10px; }
   @media (max-width: 480px) {
     section#global-effects .fixie-graph {
       transform: scale(0.5, 0.5); } }
+  section#signs-and-symptoms .container:before {
+    background-position: center -157px;
+    height: 161px;
+    margin-top: 210px; }
   section#signs-and-symptoms h2 {
     margin: -220px 0; }
   section#signs-and-symptoms .row .animation {
@@ -234,6 +273,10 @@ section {
   @media only screen and (max-width: 1024px) {
     section#signs-and-symptoms .row h3 {
       font-size: 42px; } }
+  section#hipstervention .container:before {
+    background-position: center -321px;
+    height: 205px;
+    margin-top: 60px; }
   section#hipstervention h2 {
     margin: -80px 0; }
   section#hipstervention .ht-heading {
@@ -313,13 +356,31 @@ section {
     @media only screen and (max-width: 1024px) {
       section#save-a-mate .download-link {
         margin: 0 auto; } }
+  section#news .container:before {
+    background-position: center -157px;
+    height: 161px;
+    margin-top: 70px; }
+  section#news .container:after {
+    background-image: url(../img/border-flowers.png);
+    background-repeat: no-repeat;
+    content: ' ';
+    height: 202px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-position: center -524px;
+    margin-top: -140px; }
   section#news:after {
     height: 82px;
     width: 100%;
     display: block;
     content: ' ';
     margin-top: 26px;
-    background: url(../img/rope_border_bottom.png) no-repeat center center; }
+    background: url(../img/rope_border_bottom.png) no-repeat center center;
+    margin-bottom: 40px; }
+  section#news h2 {
+    margin-top: -90px; }
   section#news .container .news-box-cont {
     *zoom: 1;
     padding-bottom: 140px;

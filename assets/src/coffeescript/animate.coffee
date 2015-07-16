@@ -11,21 +11,25 @@ class Animate
   interval: null
   offscreenDiff: 100
 
-  constructor: ($el) ->
+  constructor: ($el, load_flag) ->
     @$el = $el
     @$div = $ '<div>'
     @$el.append @$div
-    @load @setup
+    if load_flag
+      @load()
 
-  load: (cb) =>
+  load: (callback) =>
     self = @
     @img_src = @$el.data('img')
     $.get @$el.data('json'), (res) =>
       @data = res.frames
-      $.get @$el.data('img'), cb
+      $.get @$el.data('img'), () =>
+        @loaded = true
+        @setup()
+        if callback
+          callback()
 
   setup: () =>
-    @loaded = true
     dim = @getFirst @data
     @$div.css
       backgroundImage: "url(#{@img_src})"

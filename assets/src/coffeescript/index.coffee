@@ -36,17 +36,30 @@ menu = []
 $('.animation').each () ->
   if $(this).hasClass('animation-hover') && !$(this).is(':visible')
     return
-  item = new Animate $(this)
+  item = new Animate $(this), false
   if $(this).hasClass('animation-hover')
     menu.push item
   else
     elements.push item
 
+# Bind them
 _.each menu, (el, i, arr) ->
   el.$el.mouseenter el.mouseIn
   el.$el.mouseleave el.mouseOut
   $("nav a[href=##{el.$el.prop('href').split('#')[1]}]").mouseenter el.mouseIn
   $("nav a[href=##{el.$el.prop('href').split('#')[1]}]").mouseleave el.mouseOut
+
+# Load them
+i = 0
+
+ani_arr = elements.concat(menu)
+ani_cb = () ->
+  if i+1 < ani_arr.length
+    ani_arr[++i].load ani_cb
+ani_arr[i].load ani_cb
+
+
+
 # scroll event
 throttle_scroll = _.throttle ()->
   _.each elements, (el, i, arr) ->
