@@ -19,6 +19,8 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
 elements = []
 menu = []
 $('.animation').each () ->
+  if !$(this).is(':visible')
+    return
   item = new Animate $(this)
   if $(this).hasClass('animation-hover')
     menu.push item
@@ -28,13 +30,33 @@ $('.animation').each () ->
 _.each menu, (el, i, arr) ->
   el.$el.mouseenter el.mouseIn
   el.$el.mouseleave el.mouseOut
-  
-throttled = _.throttle ()->
+
+# scroll event
+throttle_scroll = _.throttle ()->
   _.each elements, (el, i, arr) ->
     if el.isInView()
       el.start()
     else
       el.stop()
 , 1000
-$(window).scroll throttled
-    
+$(window).scroll throttle_scroll
+
+# resize event
+throttle_resize = _.throttle ()->
+  if $(window).width() > 768
+    $('header').height 900
+  else
+    $('header').height 1076/640 * $(window).width()
+  $('.animation:visible').each () ->
+    $(this).find('div').css
+      marginLeft: ($(this).width() - $(this).find('div').width()) / 2 + 'px'
+  ###
+  $('h2').each ()->
+    diff = ($(this).height() - $(this).find('.animation').height()) / 2
+    $(this).css
+      marginTop: "-#{diff}px"
+      marginBottom: "-#{diff}px"
+  ###
+, 400
+$(window).resize throttle_resize
+throttle_resize()

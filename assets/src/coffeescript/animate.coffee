@@ -7,7 +7,7 @@ class Animate
   playing: false
   frame: null
   keys: []
-  fps: 25
+  fps: 10
   interval: null
 
   constructor: ($el) ->
@@ -52,7 +52,7 @@ class Animate
         width: self.data[self.keys[self.frame]].frame.w
         height: self.data[self.keys[self.frame]].frame.h
         backgroundPosition: "-#{self.data[self.keys[self.frame]].frame.x}px -#{self.data[self.keys[self.frame]].frame.y}px"
-        
+
     , 1000 / @fps
 
   stop: () ->
@@ -101,12 +101,12 @@ class Animate
       item = self.data[self.keys[self.frame]]
       if !item?
         return
- 
+
       self.$div.css
         width: item.frame.w
         height: item.frame.h
         backgroundPosition: "-#{item.frame.x}px -#{item.frame.y}px"
-  
+
     , 1000 / 10
 
   getFirst: (obj) ->
@@ -125,6 +125,3 @@ class Animate
     elemBottom = elemTop + @$div.height()
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop))
-
-
-

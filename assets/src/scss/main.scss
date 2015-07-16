@@ -24,17 +24,35 @@ header {
   height: 900px;
   position: relative;
   overflow: hidden;
+  @include tablet-portrait-and-below {
+    position: static;
+    background-image: url(../img/guy-with-beard_mobile.jpg);
+    -webkit-background-size: contain;
+       -moz-background-size: contain;
+         -o-background-size: contain;
+            background-size: contain;
+
+
+  }
+
+
 
   h1 {
     background: url(../img/main_logo.png) top center no-repeat;
     margin: 0;
     text-indent: -9999px;
     height: 227px;
+    @include tablet-portrait-and-below {
+      display: none;
+    }
   }
 
   .beard-nav {
     position: relative;
     left: 50%;
+    @include tablet-portrait-and-below {
+        display:none;
+    }
 
     a.animation {
       position: absolute;
@@ -42,7 +60,7 @@ header {
       text-indent: -9999px;
 
       &.menu-1 {
-        left: -510px; 
+        left: -510px;
       }
       &.menu-2 {
         left: -450px;
@@ -69,6 +87,15 @@ header {
     background: rgba(0,0,0,0.7);
     width: 100%;
     overflow: hidden;
+    @include tablet-portrait-and-below {
+      top: 0;
+      position: fixed;
+      z-index: 10;
+
+      ul {
+        padding:0;
+      }
+    }
 
     ul {
       li {
@@ -83,6 +110,14 @@ header {
 
           &.logo {
             padding-right: 80px;
+            @include tablet-portrait-and-below {
+              padding: 0;
+              display: block;
+              img {
+                display: block;
+                margin: auto;
+              }
+            }
           }
 
           &:hover {
@@ -98,28 +133,42 @@ header {
 section {
   padding-bottom: 10px;
   overflow: hidden;
-  background: url(../img/halo.png) no-repeat center center fixed; 
+  background: url(../img/halo.png) no-repeat center center;
   -webkit-background-size: cover, cover;
      -moz-background-size: cover, cover;
        -o-background-size: cover, cover;
           background-size: cover, cover;
 
   &:before {
-    height: 52px;
+    height: 87px;
     width: 100%;
     display: block;
     content: ' ';
-    background: url(../img/rope_banner.png) no-repeat center center;
-    padding: 60px 0;
+    background: url(../img/rope_border_middle.png) no-repeat center center;
+    padding: 90px 0 60px;
   }
 
   h2 {
     text-indent: -10000px;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    transition:0.5s all;
+
   }
 
   .animation {
     @include enable3d;
-    
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    transition:0.5s all;
+
+    @include tablet-portrait-and-below {
+      transform: scale(0.55, 0.55);
+    }
+    @include mobile-landscape-and-below {
+      transform: scale(0.3, 0.3);
+    }
+
     > div {
       margin: 0 auto;
     }
@@ -127,14 +176,18 @@ section {
 
   &#global-effects {
 
+    &:before {
+      height: 82px;
+      background: url(../img/rope_border_top.png) no-repeat center center;
+    }
+
     h2 {
       .animation {
         div {
-          margin-top: -150px;
         }
       }
     }
-    
+
     .barber-graph {
       margin: 110px auto 0;
       background: url(../img/barber_graph.png) no-repeat;
@@ -181,7 +234,7 @@ section {
     .fixie-graph {
       @include mobile-only {
         transform: scale(0.5, 0.5);
-      }     
+      }
     }
   }
 
@@ -190,8 +243,6 @@ section {
     h2 {
       .animation {
         div {
-          margin-top: -170px;
-          margin-bottom: -170px;
         }
       }
     }
@@ -211,9 +262,6 @@ section {
     h2 {
       .animation {
         div {
-          margin-top: -340px;
-          margin-bottom: -450px;
-          background-position: -1004px 0px;
         }
       }
     }
@@ -233,6 +281,22 @@ section {
     .row {
       .col-md-6 {
         padding-bottom: 0;
+        @include tablet-landscape-and-below {
+          .animation {
+            transform: scale(0.75,0.75);
+
+          }
+          .ht-heading {
+            width: 100%;
+            margin-left: 2%;
+          }
+        }
+        @include tablet-portrait-and-below {
+          .ht-heading {
+            width: 80%;
+            margin-left: 10%;
+          }
+        }
       }
     }
 
@@ -270,14 +334,15 @@ section {
     h2 {
       .animation {
         div {
-          margin-top: -170px;
-          margin-bottom: -210px;
         }
       }
     }
 
     .row {
       padding-bottom: 80px;
+      @include tablet-landscape-and-below {
+        padding-bottom: 0;
+      }
 
       .col-md-3 {
         h3 {
@@ -307,25 +372,26 @@ section {
       width: 251px;
       height: 97px;
       text-indent: -9999px;
+      @include tablet-landscape-and-below {
+        margin: 0 auto;
+      }
     }
   }
 
   &#news {
 
     &:after {
-      height: 52px;
+      height: 82px;
       width: 100%;
       display: block;
       content: ' ';
       margin-top: 26px;
-      background: url(../img/rope_banner.png) no-repeat center center;
+      background: url(../img/rope_border_bottom.png) no-repeat center center;
     }
 
     h2 {
       .animation {
         div {
-          margin-top: -350px;
-          margin-bottom: -250px;
         }
       }
     }
@@ -337,9 +403,9 @@ section {
         padding-bottom: 140px;
 
         .news-box {
-          background: rgba(100,0,0,0.1);  
+          background: rgba(100,0,0,0.1);
           width: 360px;
-          height: 410px;
+          height: 360px;
           float: left;
           padding: 60px 30px 60px 60px;
           margin: 10px;
@@ -363,7 +429,7 @@ section {
               // 135 x 132
               width: 135px;
               height: 132px;
-              top: (410 / 2) - (132/2) + px;  
+              top: (360 / 2) - (132/2) + px;
               left: (360 / 2) - (135/2) + px;
             }
             img {
@@ -373,12 +439,44 @@ section {
         }
       }
 
-      .row { // forms
+      .join-the-movement { // forms
         h3 {
-          text-align: left;
+
         }
         p {
-          text-align: left;
+
+        }
+        .col-md-12 {
+            padding-bottom: 30px;
+        }
+        .input-group {
+
+          max-width: 750px;
+          margin: 0 auto;
+
+          input {
+            border-radius: 0;
+            border: 2px solid black;
+            font-size: 28px;
+            height: 56px;
+          }
+
+          .input-group-btn {
+            padding-left: 20px;
+
+            button {
+              font-size: 28px;
+              border: 2px solid black;
+              color: white;
+              font-weight: 600;
+              text-transform: uppercase;
+              border-radius: 0;
+              background: #cf3e0f;
+              padding: 6px 30px;
+            }
+          }
+
+
         }
       }
     }
@@ -409,10 +507,10 @@ section {
         }
 
         h3 {
-          font-size: 52px; 
+          font-size: 52px;
         }
       }
-      
+
       p {
         font-size: 17px;
         text-align: center;
@@ -420,4 +518,3 @@ section {
     }
   }
 }
-

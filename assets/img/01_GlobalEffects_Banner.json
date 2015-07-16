@@ -1,403 +1,404 @@
-﻿{"frames": {
+{"frames": [
 
-"01_GlobalEffects_Banner_00.png":
 {
-	"frame": {"x":0,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_00.png",
+	"frame": {"x":2810,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_01.png":
 {
-	"frame": {"x":480,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_01.png",
+	"frame": {"x":2342,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_02.png":
 {
-	"frame": {"x":960,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_02.png",
+	"frame": {"x":2810,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_03.png":
 {
-	"frame": {"x":1440,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_03.png",
+	"frame": {"x":2342,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_04.png":
 {
-	"frame": {"x":1920,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_04.png",
+	"frame": {"x":2810,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_05.png":
 {
-	"frame": {"x":2400,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_05.png",
+	"frame": {"x":2342,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_06.png":
 {
-	"frame": {"x":2880,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_06.png",
+	"frame": {"x":1874,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_07.png":
 {
-	"frame": {"x":3360,"y":0,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_07.png",
+	"frame": {"x":1874,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_08.png":
 {
-	"frame": {"x":0,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_08.png",
+	"frame": {"x":1874,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_09.png":
 {
-	"frame": {"x":480,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_09.png",
+	"frame": {"x":2810,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_10.png":
 {
-	"frame": {"x":960,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_10.png",
+	"frame": {"x":2342,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_11.png":
 {
-	"frame": {"x":1440,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_11.png",
+	"frame": {"x":1874,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_12.png":
 {
-	"frame": {"x":1920,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_12.png",
+	"frame": {"x":2810,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_13.png":
 {
-	"frame": {"x":2400,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_13.png",
+	"frame": {"x":2342,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_14.png":
 {
-	"frame": {"x":2880,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_14.png",
+	"frame": {"x":1874,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_15.png":
 {
-	"frame": {"x":3360,"y":480,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_15.png",
+	"frame": {"x":1406,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_16.png":
 {
-	"frame": {"x":0,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_16.png",
+	"frame": {"x":1406,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_17.png":
 {
-	"frame": {"x":480,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_17.png",
+	"frame": {"x":1406,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_18.png":
 {
-	"frame": {"x":960,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_18.png",
+	"frame": {"x":1406,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_19.png":
 {
-	"frame": {"x":1440,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_19.png",
+	"frame": {"x":1406,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_20.png":
 {
-	"frame": {"x":1920,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_20.png",
+	"frame": {"x":2810,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_21.png":
 {
-	"frame": {"x":2400,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_21.png",
+	"frame": {"x":2342,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_22.png":
 {
-	"frame": {"x":2880,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_22.png",
+	"frame": {"x":1874,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_23.png":
 {
-	"frame": {"x":3360,"y":960,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_23.png",
+	"frame": {"x":1406,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_24.png":
 {
-	"frame": {"x":0,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_24.png",
+	"frame": {"x":2810,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_25.png":
 {
-	"frame": {"x":480,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_25.png",
+	"frame": {"x":2342,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_26.png":
 {
-	"frame": {"x":960,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_26.png",
+	"frame": {"x":1874,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_27.png":
 {
-	"frame": {"x":1440,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_27.png",
+	"frame": {"x":1406,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_28.png":
 {
-	"frame": {"x":1920,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_28.png",
+	"frame": {"x":938,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_29.png":
 {
-	"frame": {"x":2400,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_29.png",
+	"frame": {"x":938,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_30.png":
 {
-	"frame": {"x":2880,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_30.png",
+	"frame": {"x":938,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_31.png":
 {
-	"frame": {"x":3360,"y":1440,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_31.png",
+	"frame": {"x":938,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_32.png":
 {
-	"frame": {"x":0,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_32.png",
+	"frame": {"x":938,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_33.png":
 {
-	"frame": {"x":480,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_33.png",
+	"frame": {"x":938,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_34.png":
 {
-	"frame": {"x":960,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_34.png",
+	"frame": {"x":938,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_35.png":
 {
-	"frame": {"x":1440,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_35.png",
+	"frame": {"x":470,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_36.png":
 {
-	"frame": {"x":1920,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_36.png",
+	"frame": {"x":470,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_37.png":
 {
-	"frame": {"x":2400,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_37.png",
+	"frame": {"x":470,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_38.png":
 {
-	"frame": {"x":2880,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_38.png",
+	"frame": {"x":470,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_39.png":
 {
-	"frame": {"x":3360,"y":1920,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_39.png",
+	"frame": {"x":470,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_40.png":
 {
-	"frame": {"x":0,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_40.png",
+	"frame": {"x":470,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_41.png":
 {
-	"frame": {"x":480,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_41.png",
+	"frame": {"x":470,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_42.png":
 {
-	"frame": {"x":960,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_42.png",
+	"frame": {"x":2,"y":1670,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_43.png":
 {
-	"frame": {"x":1440,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_43.png",
+	"frame": {"x":2,"y":1392,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_44.png":
 {
-	"frame": {"x":1920,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_44.png",
+	"frame": {"x":2,"y":1114,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_45.png":
 {
-	"frame": {"x":2400,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_45.png",
+	"frame": {"x":2,"y":836,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_46.png":
 {
-	"frame": {"x":2880,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_46.png",
+	"frame": {"x":2,"y":558,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_47.png":
 {
-	"frame": {"x":3360,"y":2400,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_47.png",
+	"frame": {"x":2,"y":280,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
 },
-"01_GlobalEffects_Banner_48.png":
 {
-	"frame": {"x":0,"y":2880,"w":480,"h":480},
+	"filename": "01_GlobalEffects_Banner_48.png",
+	"frame": {"x":2,"y":2,"w":466,"h":276},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":480,"h":480},
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":98,"w":466,"h":276},
 	"sourceSize": {"w":480,"h":480}
-}},
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
 	"image": "01_GlobalEffects_Banner.png",
 	"format": "RGBA8888",
-	"size": {"w":4096,"h":4096},
-	"scale": "1"
+	"size": {"w":3278,"h":1948},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9c7500edd673b50ef5c29e42ce48827e:1/1$"
 }
 }

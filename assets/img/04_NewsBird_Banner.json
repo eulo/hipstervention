@@ -1,99 +1,100 @@
-﻿{"frames": {
+{"frames": [
 
-"04_NewsBird_Banner_00.png":
 {
-	"frame": {"x":0,"y":0,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_00.png",
+	"frame": {"x":1878,"y":682,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_01.png":
 {
-	"frame": {"x":936,"y":0,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_01.png",
+	"frame": {"x":2816,"y":342,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_02.png":
 {
-	"frame": {"x":1872,"y":0,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_02.png",
+	"frame": {"x":1878,"y":342,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_03.png":
 {
-	"frame": {"x":2808,"y":0,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_03.png",
+	"frame": {"x":2816,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_04.png":
 {
-	"frame": {"x":0,"y":936,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_04.png",
+	"frame": {"x":1878,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_05.png":
 {
-	"frame": {"x":936,"y":936,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_05.png",
+	"frame": {"x":940,"y":682,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_06.png":
 {
-	"frame": {"x":1872,"y":936,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_06.png",
+	"frame": {"x":940,"y":342,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_07.png":
 {
-	"frame": {"x":2808,"y":936,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_07.png",
+	"frame": {"x":940,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_08.png":
 {
-	"frame": {"x":0,"y":1872,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_08.png",
+	"frame": {"x":2,"y":682,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_09.png":
 {
-	"frame": {"x":936,"y":1872,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_09.png",
+	"frame": {"x":2,"y":342,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
 },
-"04_NewsBird_Banner_10.png":
 {
-	"frame": {"x":1872,"y":1872,"w":936,"h":936},
+	"filename": "04_NewsBird_Banner_10.png",
+	"frame": {"x":2,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":936},
-	"sourceSize": {"w":936,"h":936}
-}},
+	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
+	"sourceSize": {"w":936,"h":338}
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
 	"image": "04_NewsBird_Banner.png",
 	"format": "RGBA8888",
-	"size": {"w":4096,"h":4096},
-	"scale": "1"
+	"size": {"w":3754,"h":1022},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d8e3ac221b1db35e18901bc2ac31a17d:1/1$"
 }
 }

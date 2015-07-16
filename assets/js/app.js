@@ -13142,7 +13142,7 @@ module.exports = Animate = (function() {
 
   Animate.prototype.keys = [];
 
-  Animate.prototype.fps = 25;
+  Animate.prototype.fps = 10;
 
   Animate.prototype.interval = null;
 
@@ -13303,7 +13303,7 @@ module.exports = Animate = (function() {
 
 
 },{"./../../bower_components/underscore/underscore.js":3}],5:[function(require,module,exports){
-var $, Animate, _, elements, menu, throttled;
+var $, Animate, _, elements, menu, throttle_resize, throttle_scroll;
 
 $ = require("./../../bower_components/jquery/dist/jquery.js");
 
@@ -13331,6 +13331,9 @@ menu = [];
 
 $('.animation').each(function() {
   var item;
+  if (!$(this).is(':visible')) {
+    return;
+  }
   item = new Animate($(this));
   if ($(this).hasClass('animation-hover')) {
     return menu.push(item);
@@ -13344,7 +13347,7 @@ _.each(menu, function(el, i, arr) {
   return el.$el.mouseleave(el.mouseOut);
 });
 
-throttled = _.throttle(function() {
+throttle_scroll = _.throttle(function() {
   return _.each(elements, function(el, i, arr) {
     if (el.isInView()) {
       return el.start();
@@ -13354,7 +13357,32 @@ throttled = _.throttle(function() {
   });
 }, 1000);
 
-$(window).scroll(throttled);
+$(window).scroll(throttle_scroll);
+
+throttle_resize = _.throttle(function() {
+  if ($(window).width() > 768) {
+    $('header').height(900);
+  } else {
+    $('header').height(1076 / 640 * $(window).width());
+  }
+  return $('.animation:visible').each(function() {
+    return $(this).find('div').css({
+      marginLeft: ($(this).width() - $(this).find('div').width()) / 2 + 'px'
+    });
+  });
+
+  /*
+  $('h2').each ()->
+    diff = ($(this).height() - $(this).find('.animation').height()) / 2
+    $(this).css
+      marginTop: "-#{diff}px"
+      marginBottom: "-#{diff}px"
+   */
+}, 400);
+
+$(window).resize(throttle_resize);
+
+throttle_resize();
 
 
 
