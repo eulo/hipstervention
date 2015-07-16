@@ -13295,7 +13295,7 @@ module.exports = Animate = (function() {
     docViewBottom = docViewTop + $window.height();
     elemTop = this.$div.offset().top;
     elemBottom = elemTop + this.$div.height();
-    return (elemBottom - offscreenDiff <= docViewBottom) && (elemTop + offscreenDiff >= docViewTop);
+    return (elemBottom - this.offscreenDiff <= docViewBottom) && (elemTop + this.offscreenDiff >= docViewTop);
   };
 
   return Animate;

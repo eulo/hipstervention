@@ -125,4 +125,4 @@ class Animate
     elemTop = @$div.offset().top
     elemBottom = elemTop + @$div.height()
 
-    return ((elemBottom - offscreenDiff <= docViewBottom) && (elemTop + offscreenDiff >= docViewTop))
+    return ((elemBottom - @offscreenDiff <= docViewBottom) && (elemTop + @offscreenDiff >= docViewTop))
