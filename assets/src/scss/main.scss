@@ -68,7 +68,7 @@ header {
       }
       &.menu-3 {
         left: -140px;
-        top: 370px;
+        top: 330px;
       }
       &.menu-4 {
         left: 200px;
@@ -84,7 +84,8 @@ header {
     position: absolute;
     bottom: 0;
     height: 64px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.5);
+    border-bottom: 3px solid black;
     width: 100%;
     overflow: hidden;
     @include tablet-portrait-and-below {
@@ -107,6 +108,13 @@ header {
           font-size: 22px;
           line-height: 64px;
           padding: 0 30px;
+          @include desktop-and-below {
+            padding: 0 10px;
+            font-size: 15px;
+            &.logo {
+              padding: 0 10px;
+            }
+          }
 
           &.logo {
             padding-right: 80px;
@@ -154,6 +162,17 @@ section {
     -moz-transition:0.5s all;
     transition:0.5s all;
 
+    .animation {
+      @include tablet-portrait-and-below {
+        transform: scale(0.55, 0.55);
+      }
+      @include mobile-landscape-and-below {
+        transform: scale(0.4, 0.4);
+      }
+      @include mobile-portrait-and-below {
+        transform: scale(0.3, 0.3);
+      }
+    }
   }
 
   .animation {
@@ -162,12 +181,7 @@ section {
     -moz-transition:0.5s all;
     transition:0.5s all;
 
-    @include tablet-portrait-and-below {
-      transform: scale(0.55, 0.55);
-    }
-    @include mobile-landscape-and-below {
-      transform: scale(0.3, 0.3);
-    }
+
 
     > div {
       margin: 0 auto;
@@ -197,7 +211,7 @@ section {
 
       @include mobile-only {
         transform: scale(0.5, 0.5);
-        left: -20%;
+        margin-left: -20%;
       }
       .animation {
         position: absolute;
@@ -409,6 +423,13 @@ section {
           float: left;
           padding: 60px 30px 60px 60px;
           margin: 10px;
+          &.news-insta {
+            padding:0;
+          }
+
+          img {
+            width: 100%;
+          }
 
           p {
             font-size: 20px;
@@ -435,6 +456,27 @@ section {
             img {
               margin: 0;
             }
+          }
+
+          @include tablet-landscape-and-below {
+            width: 300px;
+            height: 300px;
+            p {
+              font-size: 14px;
+            }
+            &.video-link {
+
+              div.play-button {
+                // 135 x 132
+                width: 135px;
+                height: 132px;
+                top: (300 / 2) - (132/2) + px;
+                left: (300 / 2) - (135/2) + px;
+              }
+              img {
+              }
+            }
+
           }
         }
       }

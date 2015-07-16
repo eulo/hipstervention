@@ -19,7 +19,7 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
 elements = []
 menu = []
 $('.animation').each () ->
-  if !$(this).is(':visible')
+  if $(this).hasClass('animation-hover') && !$(this).is(':visible')
     return
   item = new Animate $(this)
   if $(this).hasClass('animation-hover')
@@ -30,7 +30,8 @@ $('.animation').each () ->
 _.each menu, (el, i, arr) ->
   el.$el.mouseenter el.mouseIn
   el.$el.mouseleave el.mouseOut
-
+  $("nav a[href=##{el.$el.prop('href').split('#')[1]}]").mouseenter el.mouseIn
+  $("nav a[href=##{el.$el.prop('href').split('#')[1]}]").mouseleave el.mouseOut
 # scroll event
 throttle_scroll = _.throttle ()->
   _.each elements, (el, i, arr) ->

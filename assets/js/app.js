@@ -13331,7 +13331,7 @@ menu = [];
 
 $('.animation').each(function() {
   var item;
-  if (!$(this).is(':visible')) {
+  if ($(this).hasClass('animation-hover') && !$(this).is(':visible')) {
     return;
   }
   item = new Animate($(this));
@@ -13344,7 +13344,9 @@ $('.animation').each(function() {
 
 _.each(menu, function(el, i, arr) {
   el.$el.mouseenter(el.mouseIn);
-  return el.$el.mouseleave(el.mouseOut);
+  el.$el.mouseleave(el.mouseOut);
+  $("nav a[href=#" + (el.$el.prop('href').split('#')[1]) + "]").mouseenter(el.mouseIn);
+  return $("nav a[href=#" + (el.$el.prop('href').split('#')[1]) + "]").mouseleave(el.mouseOut);
 });
 
 throttle_scroll = _.throttle(function() {

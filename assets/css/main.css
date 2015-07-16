@@ -83,7 +83,7 @@ header {
         top: 200px; }
       header .beard-nav a.animation.menu-3 {
         left: -140px;
-        top: 370px; }
+        top: 330px; }
       header .beard-nav a.animation.menu-4 {
         left: 200px;
         top: 200px; }
@@ -93,7 +93,8 @@ header {
     position: absolute;
     bottom: 0;
     height: 64px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid black;
     width: 100%;
     overflow: hidden; }
     @media only screen and (max-width: 768px) {
@@ -112,6 +113,12 @@ header {
         font-size: 22px;
         line-height: 64px;
         padding: 0 30px; }
+        @media only screen and (max-width: 1382px) {
+          header nav ul li a {
+            padding: 0 10px;
+            font-size: 15px; }
+            header nav ul li a.logo {
+              padding: 0 10px; } }
         header nav ul li a.logo {
           padding-right: 80px; }
           @media only screen and (max-width: 768px) {
@@ -145,6 +152,15 @@ section {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all; }
+    @media only screen and (max-width: 768px) {
+      section h2 .animation {
+        transform: scale(0.55, 0.55); } }
+    @media only screen and (max-width: 480px) {
+      section h2 .animation {
+        transform: scale(0.4, 0.4); } }
+    @media (max-width: 320px) {
+      section h2 .animation {
+        transform: scale(0.3, 0.3); } }
   section .animation {
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
@@ -162,12 +178,6 @@ section {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all; }
-    @media only screen and (max-width: 768px) {
-      section .animation {
-        transform: scale(0.55, 0.55); } }
-    @media only screen and (max-width: 480px) {
-      section .animation {
-        transform: scale(0.3, 0.3); } }
     section .animation > div {
       margin: 0 auto; }
   section#global-effects:before {
@@ -182,7 +192,7 @@ section {
     @media (max-width: 480px) {
       section#global-effects .barber-graph {
         transform: scale(0.5, 0.5);
-        left: -20%; } }
+        margin-left: -20%; } }
     section#global-effects .barber-graph .animation {
       position: absolute;
       left: 220px; }
@@ -295,6 +305,10 @@ section {
       float: left;
       padding: 60px 30px 60px 60px;
       margin: 10px; }
+      section#news .container .news-box-cont .news-box.news-insta {
+        padding: 0; }
+      section#news .container .news-box-cont .news-box img {
+        width: 100%; }
       section#news .container .news-box-cont .news-box p {
         font-size: 20px; }
         section#news .container .news-box-cont .news-box p strong {
@@ -312,6 +326,17 @@ section {
           left: 112.5px; }
         section#news .container .news-box-cont .news-box.video-link img {
           margin: 0; }
+      @media only screen and (max-width: 1024px) {
+        section#news .container .news-box-cont .news-box {
+          width: 300px;
+          height: 300px; }
+          section#news .container .news-box-cont .news-box p {
+            font-size: 14px; }
+          section#news .container .news-box-cont .news-box.video-link div.play-button {
+            width: 135px;
+            height: 132px;
+            top: 84px;
+            left: 82.5px; } }
   section#news .container .join-the-movement .col-md-12 {
     padding-bottom: 30px; }
   section#news .container .join-the-movement .input-group {
