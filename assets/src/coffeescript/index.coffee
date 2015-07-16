@@ -23,10 +23,12 @@ $.get('assets/img/main_logo.png').done ()->
 $('.share-fb').click (event)->
   event.preventDefault()
   if FB?
-    FB.ui({
-      method: 'share',
-      href: 'http://thehipstervention.com/',
-    }, function(response){});
+    FB.ui
+      method: 'share'
+      href: 'http://thehipstervention.com/'
+    , (response) ->
+
+
 
 # Animation handle
 elements = []

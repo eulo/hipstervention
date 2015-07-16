@@ -13333,6 +13333,16 @@ $.get('assets/img/main_logo.png').done(function() {
   });
 });
 
+$('.share-fb').click(function(event) {
+  event.preventDefault();
+  if (typeof FB !== "undefined" && FB !== null) {
+    return FB.ui({
+      method: 'share',
+      href: 'http://thehipstervention.com/'
+    }, function(response) {});
+  }
+});
+
 elements = [];
 
 menu = [];
