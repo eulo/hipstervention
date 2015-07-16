@@ -200,12 +200,15 @@ section {
 
     .animation {
       @include tablet-portrait-and-below {
+        -webkit-transform: scale(0.55, 0.55);
         transform: scale(0.55, 0.55);
       }
       @include mobile-landscape-and-below {
+        -webkit-transform: scale(0.4, 0.4);
         transform: scale(0.4, 0.4);
       }
       @include mobile-portrait-and-below {
+        -webkit-transform: scale(0.3, 0.3);
         transform: scale(0.3, 0.3);
       }
     }
@@ -240,12 +243,15 @@ section {
       }
       .animation {
         @include tablet-portrait-and-below {
+          -webkit-transform: scale(0.55, 0.55);
           transform: scale(0.55, 0.55);
         }
         @include mobile-landscape-and-below {
+          -webkit-transform: scale(0.55, 0.55);
           transform: scale(0.55, 0.55);
         }
         @include mobile-portrait-and-below {
+          -webkit-transform: scale(0.55, 0.55);
           transform: scale(0.55, 0.55);
         }
       }
@@ -260,6 +266,7 @@ section {
       position: relative;
 
       @include mobile-only {
+        -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         margin-left: -30%;
       }
@@ -275,6 +282,7 @@ section {
       height: 424px;
 
       @include mobile-only {
+        -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         margin-left: -20%;
       }
@@ -287,6 +295,7 @@ section {
       position: relative;
 
       @include mobile-only {
+        -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         left: -30%;
       }
@@ -297,6 +306,7 @@ section {
     }
     .fixie-graph {
       @include mobile-only {
+        -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
       }
     }
@@ -373,6 +383,7 @@ section {
         padding-bottom: 0;
         @include tablet-landscape-and-below {
           .animation {
+            -webkit-transform: scale(0.75,0.75);
             transform: scale(0.75,0.75);
             margin: -140px auto;
           }
