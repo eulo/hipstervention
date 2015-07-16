@@ -19,6 +19,15 @@ $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
     opacity: 1
 
+# Facebook share
+$('.share-fb').click (event)->
+  event.preventDefault()
+  if FB?
+    FB.ui({
+      method: 'share',
+      href: 'http://thehipstervention.com/',
+    }, function(response){});
+
 # Animation handle
 elements = []
 menu = []

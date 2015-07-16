@@ -4,11 +4,23 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>TheHipstervention.com</title>
+	<title>TheHipstervention.com – Join the movement. Save a hipster.</title>
 
 	<meta name="description" content="">
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+	<!-- Facebook stuff -->
+	<meta property="og:site_name" content="The Hipstervention"/>
+	<meta property="og:title"
+content="TheHipstervention.com – Join the movement. Save a hipster." />
+	<meta property="og:url"
+content="http://thehipstervention.com" />
+	<meta property="og:description" content="Hipsters are a plague. A global pandemic. They’re damaging lives and ruining relationships all around the world. If a Hipster is harming your life and the lives of those around you, it’s time for a Hipstervention. Save a mate before its too late." />
+	<meta property="fb:app_id" content="402100546664117" />
+	<meta property="og:image"
+content="http://thehipstervention.com/assets/img/facebook-share-image.jpg" />
+
 
   <!-- Mobile-friendly viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +35,24 @@
 
 </head>
 <body>
+
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '402100546664117',
+				xfbml      : true,
+				version    : 'v2.4'
+			});
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 
 	<header role="banner" id="top">
 
@@ -215,12 +245,13 @@
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="#" class="share-button share-twit">
+							<a href="https://twitter.com/intent/tweet?text=TheHipstervention.com%20%E2%80%93%20Save%20a%20mate%20before%20its%20too%20late.%20%E2%80%93%20http%3A%2F%2Fthehipstervention.com" target="_blank" class="share-button share-twit">
 								<i class="fa fa-twitter fa-3x"></i>
 							</a>
 						</div>
 						<div class="col-xs-4">
-							<a href="#" class="share-button share-google">
+							<a href="https://plus.google.com/share?url=http%3A%2F%2Fthehipstervention.com" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="share-button share-google">
 								<i class="fa fa-google-plus fa-3x"></i>
 							</a>
 						</div>
