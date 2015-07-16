@@ -541,13 +541,19 @@ section {
         p {
 
         }
+        .social-container {
+          @include clearfix;
+          width: 350px;
+          margin: 0 auto;
+        }
         .social-button {
           display: block;
           height: 60px;
           width: 60px;
           line-height: 60px;
           text-align: center;
-          margin: 20px auto;
+          margin: 20px 5px;
+          float:left;
 
           i {
             height: 60px;

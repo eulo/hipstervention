@@ -375,13 +375,24 @@ section {
             height: 132px;
             top: 84px;
             left: 82.5px; } }
+  section#news .container .join-the-movement .social-container {
+    *zoom: 1;
+    width: 350px;
+    margin: 0 auto; }
+    section#news .container .join-the-movement .social-container:before,
+    section#news .container .join-the-movement .social-container:after {
+      content: " ";
+      display: table; }
+    section#news .container .join-the-movement .social-container:after {
+      clear: both; }
   section#news .container .join-the-movement .social-button {
     display: block;
     height: 60px;
     width: 60px;
     line-height: 60px;
     text-align: center;
-    margin: 20px auto; }
+    margin: 20px 5px;
+    float: left; }
     section#news .container .join-the-movement .social-button i {
       height: 60px;
       width: 60px;
