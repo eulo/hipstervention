@@ -9,6 +9,7 @@ class Animate
   keys: []
   fps: 10
   interval: null
+  offscreenDiff: 100
 
   constructor: ($el) ->
     @$el = $el
@@ -124,4 +125,4 @@ class Animate
     elemTop = @$div.offset().top
     elemBottom = elemTop + @$div.height()
 
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop))
+    return ((elemBottom - offscreenDiff <= docViewBottom) && (elemTop + offscreenDiff >= docViewTop))

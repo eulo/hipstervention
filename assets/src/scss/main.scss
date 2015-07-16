@@ -42,6 +42,10 @@ header {
     margin: 0;
     text-indent: -9999px;
     height: 227px;
+    opacity: 0;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    transition:0.5s all;
     @include tablet-portrait-and-below {
       display: none;
     }
@@ -267,6 +271,11 @@ section {
       }
       .col-md-6 {
         height: 750px;
+      }
+      @include tablet-landscape-and-below {
+        h3 {
+          font-size: 42px;
+        }
       }
     }
   }

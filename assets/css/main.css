@@ -62,7 +62,11 @@ header {
     background: url(../img/main_logo.png) top center no-repeat;
     margin: 0;
     text-indent: -9999px;
-    height: 227px; }
+    height: 227px;
+    opacity: 0;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all; }
     @media only screen and (max-width: 768px) {
       header h1 {
         display: none; } }
@@ -225,6 +229,9 @@ section {
     min-height: 500px; }
   section#signs-and-symptoms .row .col-md-6 {
     height: 750px; }
+  @media only screen and (max-width: 1024px) {
+    section#signs-and-symptoms .row h3 {
+      font-size: 42px; } }
   section#hipstervention .ht-heading {
     margin: 80px auto 20px;
     display: block; }

@@ -13146,6 +13146,8 @@ module.exports = Animate = (function() {
 
   Animate.prototype.interval = null;
 
+  Animate.prototype.offscreenDiff = 100;
+
   function Animate($el) {
     this.mouseOut = bind(this.mouseOut, this);
     this.mouseIn = bind(this.mouseIn, this);
@@ -13293,7 +13295,7 @@ module.exports = Animate = (function() {
     docViewBottom = docViewTop + $window.height();
     elemTop = this.$div.offset().top;
     elemBottom = elemTop + this.$div.height();
-    return (elemBottom <= docViewBottom) && (elemTop >= docViewTop);
+    return (elemBottom - offscreenDiff <= docViewBottom) && (elemTop + offscreenDiff >= docViewTop);
   };
 
   return Animate;
@@ -13323,6 +13325,12 @@ $('.bs-video-modal-lg').on('show.bs.modal', function(event) {
   $modal = $(this);
   $cont = $modal.find('.modal-content').empty();
   return $cont.html(iframe);
+});
+
+$.get('assets/img/main_logo.png').done(function() {
+  return $('h1.brand').css({
+    opacity: 1
+  });
 });
 
 elements = [];

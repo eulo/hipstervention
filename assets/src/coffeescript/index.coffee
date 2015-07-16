@@ -14,6 +14,10 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
   $cont = $modal.find('.modal-content').empty()
   $cont.html iframe
 
+# Main Logo fadeIn
+$.get('assets/img/main_logo.png').done ()->
+  $('h1.brand').css
+    opacity: 1
 
 # Animation handle
 elements = []
