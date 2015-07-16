@@ -3,6 +3,13 @@
 @import 'modal';
 @import 'media-queries';
 
+$fb-blue: #354f87;
+$twit-blue: #019cd0;
+$google-red: #c5422f;
+$insta-brown: #bab39d;
+$tumblr-blue: #48738f;
+$yt-red: #e15955;
+
 h2, h3, h4,h5,h6 {
   font-family: 'Parliment', serif;
 }
@@ -377,6 +384,34 @@ section {
       }
     }
 
+    .share-button {
+      display: block;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      text-align: center;
+      margin: 20px auto;
+
+      i {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+        text-align: center;
+      }
+      &.share-fb {
+        background: $fb-blue;
+      }
+      &.share-twit {
+        background: $twit-blue;
+      }
+      &.share-google {
+        background: $google-red;
+      }
+      i {
+        color:white;
+      }
+    }
+
     .col-md-12 {
 
       p {
@@ -426,6 +461,13 @@ section {
       .news-box-cont {
         @include clearfix;
         padding-bottom: 140px;
+        margin: 0 auto;
+        @include tablet-landscape-and-below {
+          max-width: 640px;
+        }
+        @include mobile-landscape-and-below {
+          max-width: 320px;
+        }
 
         .news-box {
           background: rgba(100,0,0,0.1);
@@ -498,6 +540,39 @@ section {
         }
         p {
 
+        }
+        .social-button {
+          display: block;
+          height: 60px;
+          width: 60px;
+          line-height: 60px;
+          text-align: center;
+          margin: 20px auto;
+
+          i {
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            text-align: center;
+          }
+          &.social-fb {
+            background: $fb-blue;
+          }
+          &.social-twit {
+            background: $twit-blue;
+          }
+          &.social-insta {
+            background: $insta-brown;
+          }
+          &.social-youtube {
+            background: $yt-red;
+          }
+          &.social-tumblr {
+            background: $tumblr-blue;
+          }
+          i {
+            color:white;
+          }
         }
         .col-md-12 {
             padding-bottom: 30px;

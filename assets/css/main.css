@@ -275,6 +275,26 @@ section {
     section#save-a-mate .row .col-md-3 h3 {
       font-size: 50px;
       line-height: 70px; }
+  section#save-a-mate .share-button {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 20px auto; }
+    section#save-a-mate .share-button i {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      text-align: center; }
+    section#save-a-mate .share-button.share-fb {
+      background: #354f87; }
+    section#save-a-mate .share-button.share-twit {
+      background: #019cd0; }
+    section#save-a-mate .share-button.share-google {
+      background: #c5422f; }
+    section#save-a-mate .share-button i {
+      color: white; }
   section#save-a-mate .col-md-12 p {
     max-width: 900px;
     margin: 0 auto 10px;
@@ -302,13 +322,20 @@ section {
     background: url(../img/rope_border_bottom.png) no-repeat center center; }
   section#news .container .news-box-cont {
     *zoom: 1;
-    padding-bottom: 140px; }
+    padding-bottom: 140px;
+    margin: 0 auto; }
     section#news .container .news-box-cont:before,
     section#news .container .news-box-cont:after {
       content: " ";
       display: table; }
     section#news .container .news-box-cont:after {
       clear: both; }
+    @media only screen and (max-width: 1024px) {
+      section#news .container .news-box-cont {
+        max-width: 640px; } }
+    @media only screen and (max-width: 480px) {
+      section#news .container .news-box-cont {
+        max-width: 320px; } }
     section#news .container .news-box-cont .news-box {
       background: rgba(100, 0, 0, 0.1);
       width: 360px;
@@ -348,6 +375,30 @@ section {
             height: 132px;
             top: 84px;
             left: 82.5px; } }
+  section#news .container .join-the-movement .social-button {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 20px auto; }
+    section#news .container .join-the-movement .social-button i {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      text-align: center; }
+    section#news .container .join-the-movement .social-button.social-fb {
+      background: #354f87; }
+    section#news .container .join-the-movement .social-button.social-twit {
+      background: #019cd0; }
+    section#news .container .join-the-movement .social-button.social-insta {
+      background: #bab39d; }
+    section#news .container .join-the-movement .social-button.social-youtube {
+      background: #e15955; }
+    section#news .container .join-the-movement .social-button.social-tumblr {
+      background: #48738f; }
+    section#news .container .join-the-movement .social-button i {
+      color: white; }
   section#news .container .join-the-movement .col-md-12 {
     padding-bottom: 30px; }
   section#news .container .join-the-movement .input-group {
