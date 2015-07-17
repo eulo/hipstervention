@@ -1,44 +1,57 @@
-﻿{"frames": {
+{"frames": [
 
-
-"GlobalEffects_02.png":
 {
-	"frame": {"x":212,"y":0,"w":212,"h":249},
+	"filename": "GlobalEffects_01.png",
+	"frame": {"x":2,"y":2,"w":212,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
-	"sourceSize": {"w":212,"h":249}
+	"sourceSize": {"w":212,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"GlobalEffects_03.png":
 {
-	"frame": {"x":0,"y":249,"w":212,"h":249},
+	"filename": "GlobalEffects_02.png",
+	"frame": {"x":216,"y":2,"w":212,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
-	"sourceSize": {"w":212,"h":249}
+	"sourceSize": {"w":212,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"GlobalEffects_04.png":
 {
-	"frame": {"x":212,"y":249,"w":212,"h":249},
+	"filename": "GlobalEffects_03.png",
+	"frame": {"x":430,"y":2,"w":212,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
-	"sourceSize": {"w":212,"h":249}
+	"sourceSize": {"w":212,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"GlobalEffects_05.png":
 {
-	"frame": {"x":0,"y":498,"w":212,"h":249},
+	"filename": "GlobalEffects_04.png",
+	"frame": {"x":644,"y":2,"w":212,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
-	"sourceSize": {"w":212,"h":249}
-}},
+	"sourceSize": {"w":212,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "GlobalEffects_05.png",
+	"frame": {"x":858,"y":2,"w":212,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
+	"sourceSize": {"w":212,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
 	"image": "GlobalEffects_Menu.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":1024},
-	"scale": "1"
+	"size": {"w":1072,"h":253},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3e1ce5170e0cabb4ee49c55d49f7fe74:d4e6cf1e80a7024f5f6136318b2e6fa3:72573640f4e7e234b4f9d23342c048ee$"
 }
 }

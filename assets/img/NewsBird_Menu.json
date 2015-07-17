@@ -1,44 +1,57 @@
-﻿{"frames": {
+{"frames": [
 
-
-"NewsBird_02.png":
 {
-	"frame": {"x":219,"y":0,"w":219,"h":232},
+	"filename": "NewsBird_01.png",
+	"frame": {"x":2,"y":2,"w":219,"h":232},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
-	"sourceSize": {"w":219,"h":232}
+	"sourceSize": {"w":219,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"NewsBird_03.png":
 {
-	"frame": {"x":0,"y":232,"w":219,"h":232},
+	"filename": "NewsBird_02.png",
+	"frame": {"x":223,"y":2,"w":219,"h":232},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
-	"sourceSize": {"w":219,"h":232}
+	"sourceSize": {"w":219,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"NewsBird_04.png":
 {
-	"frame": {"x":219,"y":232,"w":219,"h":232},
+	"filename": "NewsBird_03.png",
+	"frame": {"x":444,"y":2,"w":219,"h":232},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
-	"sourceSize": {"w":219,"h":232}
+	"sourceSize": {"w":219,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"NewsBird_05.png":
 {
-	"frame": {"x":0,"y":464,"w":219,"h":232},
+	"filename": "NewsBird_04.png",
+	"frame": {"x":665,"y":2,"w":219,"h":232},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
-	"sourceSize": {"w":219,"h":232}
-}},
+	"sourceSize": {"w":219,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NewsBird_05.png",
+	"frame": {"x":886,"y":2,"w":219,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
+	"sourceSize": {"w":219,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
 	"image": "NewsBird_Menu.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":1024},
-	"scale": "1"
+	"size": {"w":1107,"h":236},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6e75f8e408ffd6bee0e531fa190ab228:068906c94ba89afb4b4d1d05caa71a2b:6e3de2920612e27e686c41760d75498c$"
 }
 }

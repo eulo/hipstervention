@@ -2,51 +2,30 @@
 
 {
 	"filename": "04_NewsBird_Banner_00.png",
-	"frame": {"x":1878,"y":682,"w":936,"h":338},
+	"frame": {"x":2,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
-},
-{
-	"filename": "04_NewsBird_Banner_01.png",
-	"frame": {"x":2816,"y":342,"w":936,"h":338},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "04_NewsBird_Banner_02.png",
-	"frame": {"x":1878,"y":342,"w":936,"h":338},
+	"frame": {"x":940,"y":2,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
-},
-{
-	"filename": "04_NewsBird_Banner_03.png",
-	"frame": {"x":2816,"y":2,"w":936,"h":338},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "04_NewsBird_Banner_04.png",
-	"frame": {"x":1878,"y":2,"w":936,"h":338},
+	"frame": {"x":2,"y":342,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
-},
-{
-	"filename": "04_NewsBird_Banner_05.png",
-	"frame": {"x":940,"y":682,"w":936,"h":338},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "04_NewsBird_Banner_06.png",
@@ -54,15 +33,8 @@
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
-},
-{
-	"filename": "04_NewsBird_Banner_07.png",
-	"frame": {"x":940,"y":2,"w":936,"h":338},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "04_NewsBird_Banner_08.png",
@@ -70,31 +42,25 @@
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
-},
-{
-	"filename": "04_NewsBird_Banner_09.png",
-	"frame": {"x":2,"y":342,"w":936,"h":338},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "04_NewsBird_Banner_10.png",
-	"frame": {"x":2,"y":2,"w":936,"h":338},
+	"frame": {"x":940,"y":682,"w":936,"h":338},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":936,"h":338},
-	"sourceSize": {"w":936,"h":338}
+	"sourceSize": {"w":936,"h":338},
+	"pivot": {"x":0.5,"y":0.5}
 }],
 "meta": {
-	"app": "http://www.codeandweb.com/texturepacker ",
+	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "04_NewsBird_Banner.png",
 	"format": "RGBA8888",
-	"size": {"w":3754,"h":1022},
+	"size": {"w":1878,"h":1022},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:d8e3ac221b1db35e18901bc2ac31a17d:1/1$"
+	"smartupdate": "$TexturePacker:SmartUpdate:7e3bca7475e5f68577fc834bd229b275:37e70f77ff61ff5a5c0914c3fa5d229f:063dc2ab55f0cb7fb8599b713fcbfaf0$"
 }
 }

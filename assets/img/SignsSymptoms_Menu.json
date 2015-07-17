@@ -1,43 +1,57 @@
-﻿{"frames": {
+{"frames": [
 
-"SignsSymptoms_02.png":
 {
-	"frame": {"x":210,"y":0,"w":210,"h":249},
+	"filename": "SignsSymptoms_01.png",
+	"frame": {"x":2,"y":2,"w":210,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
-	"sourceSize": {"w":210,"h":249}
+	"sourceSize": {"w":210,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SignsSymptoms_03.png":
 {
-	"frame": {"x":0,"y":249,"w":210,"h":249},
+	"filename": "SignsSymptoms_02.png",
+	"frame": {"x":214,"y":2,"w":210,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
-	"sourceSize": {"w":210,"h":249}
+	"sourceSize": {"w":210,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SignsSymptoms_04.png":
 {
-	"frame": {"x":210,"y":249,"w":210,"h":249},
+	"filename": "SignsSymptoms_03.png",
+	"frame": {"x":426,"y":2,"w":210,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
-	"sourceSize": {"w":210,"h":249}
+	"sourceSize": {"w":210,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SignsSymptoms_05.png":
 {
-	"frame": {"x":0,"y":498,"w":210,"h":249},
+	"filename": "SignsSymptoms_04.png",
+	"frame": {"x":638,"y":2,"w":210,"h":249},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
-	"sourceSize": {"w":210,"h":249}
-}},
+	"sourceSize": {"w":210,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SignsSymptoms_05.png",
+	"frame": {"x":850,"y":2,"w":210,"h":249},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":249},
+	"sourceSize": {"w":210,"h":249},
+	"pivot": {"x":0.5,"y":0.5}
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
 	"image": "SignsSymptoms_Menu.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":1024},
-	"scale": "1"
+	"size": {"w":1062,"h":253},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f8e4cedfe062de4063d5fe6aeaf3659a:15287b05c5b948eac4a0740ac7225031:8adedc606d0ae118dd6a97cf82a76a83$"
 }
 }

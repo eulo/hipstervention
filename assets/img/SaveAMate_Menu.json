@@ -1,44 +1,57 @@
-﻿{"frames": {
+{"frames": [
 
-
-"SaveAMate_02.png":
 {
-	"frame": {"x":194,"y":0,"w":194,"h":273},
+	"filename": "SaveAMate_01.png",
+	"frame": {"x":2,"y":2,"w":194,"h":273},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
-	"sourceSize": {"w":194,"h":273}
+	"sourceSize": {"w":194,"h":273},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SaveAMate_03.png":
 {
-	"frame": {"x":0,"y":273,"w":194,"h":273},
+	"filename": "SaveAMate_02.png",
+	"frame": {"x":2,"y":277,"w":194,"h":273},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
-	"sourceSize": {"w":194,"h":273}
+	"sourceSize": {"w":194,"h":273},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SaveAMate_04.png":
 {
-	"frame": {"x":194,"y":273,"w":194,"h":273},
+	"filename": "SaveAMate_03.png",
+	"frame": {"x":2,"y":552,"w":194,"h":273},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
-	"sourceSize": {"w":194,"h":273}
+	"sourceSize": {"w":194,"h":273},
+	"pivot": {"x":0.5,"y":0.5}
 },
-"SaveAMate_05.png":
 {
-	"frame": {"x":0,"y":546,"w":194,"h":273},
+	"filename": "SaveAMate_04.png",
+	"frame": {"x":2,"y":827,"w":194,"h":273},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
-	"sourceSize": {"w":194,"h":273}
-}},
+	"sourceSize": {"w":194,"h":273},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "SaveAMate_05.png",
+	"frame": {"x":2,"y":1102,"w":194,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
+	"sourceSize": {"w":194,"h":273},
+	"pivot": {"x":0.5,"y":0.5}
+}],
 "meta": {
-	"app": "Adobe Flash Professional",
-	"version": "15.0.0.173",
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
 	"image": "SaveAMate_Menu.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":1024},
-	"scale": "1"
+	"size": {"w":198,"h":1377},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a4a2e0872e38112ef1156c4fc201273d:a902346b2d7d47efb3e39b1ef28c05c0:7f79ed8c4da531c7185325e6936dd25b$"
 }
 }
