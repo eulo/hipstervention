@@ -398,6 +398,9 @@ section#global-effects .fixie-graph {
     margin-bottom: -100px; }
   section#hipstervention .animation.beard-slap {
     margin-bottom: -170px; }
+    @media (max-width: 480px) {
+      section#hipstervention .animation.beard-slap {
+        margin-bottom: 0; } }
   section#hipstervention p {
     margin-left: 65px; }
   section#hipstervention .star-border {
@@ -406,6 +409,11 @@ section#global-effects .fixie-graph {
     height: 25px;
     margin: 10px auto 0;
     background-position: 60px 0; }
+  section#save-a-mate h2 {
+    margin: -210px 0; }
+    @media (max-width: 480px) {
+      section#save-a-mate h2 {
+        margin: 0; } }
   section#save-a-mate .row {
     padding-bottom: 80px; }
     @media only screen and (max-width: 1024px) {
