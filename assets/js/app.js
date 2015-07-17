@@ -10816,36 +10816,33 @@ module.exports = Animate = (function() {
     return $.get(this.json_src, (function(_this) {
       return function(res) {
         _this.data = res.frames;
-        return $.get(_this.img_src, function() {
-          _this.loaded = true;
-          _this.setup();
+        _this.img_obj = new Image();
+        _this.img_obj.onload = function() {
+          self.loaded = true;
+          self.setup();
           if (callback) {
             return callback();
           }
-        });
+        };
+        return _this.img_obj.src = _this.img_src;
       };
     })(this));
   };
 
   Animate.prototype.setup = function() {
-    var dim, self;
+    var dim;
     dim = this.getFirst(this.data);
     if (this.noAni) {
-      this.img_obj = new Image();
-      self = this;
-      this.img_obj.onload = function() {
-        self.$div.css({
-          backgroundImage: "url(" + self.img_src + ")",
-          width: this.width,
-          height: this.height,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center"
-        });
-        return self.$div.css({
-          marginLeft: (self.$el.width() - self.$div.width()) / 2 + 'px'
-        });
-      };
-      this.img_obj.src = this.img_src;
+      this.$div.css({
+        backgroundImage: "url(" + this.img_src + ")",
+        width: this.img_obj.width,
+        height: this.img_obj.height,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center"
+      });
+      this.$div.css({
+        marginLeft: (this.$el.width() - this.$div.width()) / 2 + 'px'
+      });
     } else {
       this.$div.css({
         backgroundImage: "url(" + this.img_src + ")",

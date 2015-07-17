@@ -33,31 +33,27 @@ class Animate
 
     $.get @json_src, (res) =>
       @data = res.frames
-      $.get @img_src, () =>
-
-        @loaded = true
-        @setup()
+      @img_obj = new Image()
+      @img_obj.onload = ->
+        self.loaded = true
+        self.setup()
         if callback
           callback()
+      @img_obj.src = @img_src
 
   setup: () =>
     dim = @getFirst @data
 
     if @noAni
-      @img_obj = new Image()
-      self = @
-      @img_obj.onload = ->
-        self.$div.css
-          backgroundImage: "url(#{self.img_src})"
-          width: this.width
-          height: this.height
-          backgroundRepeat: "no-repeat"
-          backgroundPosition: "center"
+      @$div.css
+        backgroundImage: "url(#{@img_src})"
+        width: @img_obj.width
+        height: @img_obj.height
+        backgroundRepeat: "no-repeat"
+        backgroundPosition: "center"
 
-        self.$div.css
-          marginLeft: (self.$el.width() - self.$div.width()) / 2 + 'px'
-
-      @img_obj.src = @img_src
+      @$div.css
+        marginLeft: (@$el.width() - @$div.width()) / 2 + 'px'
 
     else
       @$div.css
