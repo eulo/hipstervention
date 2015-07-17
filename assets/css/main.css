@@ -64,9 +64,9 @@ header {
     text-indent: -9999px;
     height: 227px;
     opacity: 0;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    transition: 0.5s all; }
+    -webkit-transition: 1.5s all;
+    -moz-transition: 1.5s all;
+    transition: 1.5s all; }
     @media only screen and (max-width: 768px) {
       header h1 {
         display: none; } }
@@ -81,10 +81,10 @@ header {
       display: block;
       text-indent: -9999px; }
       header .beard-nav a.animation.menu-1 {
-        left: -510px; }
-      header .beard-nav a.animation.menu-2 {
         left: -450px;
         top: 200px; }
+      header .beard-nav a.animation.menu-2 {
+        left: -510px; }
       header .beard-nav a.animation.menu-3 {
         left: -140px;
         top: 330px; }
@@ -215,10 +215,6 @@ section {
     transition: 0.5s all; }
     section .animation > div {
       margin: 0 auto; }
-  section#global-effects:before {
-    height: 82px;
-    background: url(../img/rope_border_top.png) no-repeat center center;
-    margin-top: 40px; }
   section#global-effects h2 .animation {
     /*
         @include tablet-portrait-and-below {
@@ -294,6 +290,10 @@ section#global-effects .fixie-graph {
     background-position: center -157px;
     height: 161px;
     margin-top: 210px; }
+  section#signs-and-symptoms:before {
+    height: 82px;
+    background: url(../img/rope_border_top.png) no-repeat center center;
+    margin-top: 40px; }
   section#signs-and-symptoms h2 {
     margin: -220px 0; }
     @media only screen and (max-width: 480px) {

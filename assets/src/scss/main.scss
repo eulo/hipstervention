@@ -50,9 +50,9 @@ header {
     text-indent: -9999px;
     height: 227px;
     opacity: 0;
-    -webkit-transition:0.5s all;
-    -moz-transition:0.5s all;
-    transition:0.5s all;
+    -webkit-transition:1.5s all;
+    -moz-transition:1.5s all;
+    transition:1.5s all;
     @include tablet-portrait-and-below {
       display: none;
     }
@@ -71,11 +71,11 @@ header {
       text-indent: -9999px;
 
       &.menu-1 {
-        left: -510px;
-      }
-      &.menu-2 {
         left: -450px;
         top: 200px;
+      }
+      &.menu-2 {
+        left: -510px;
       }
       &.menu-3 {
         left: -140px;
@@ -231,11 +231,6 @@ section {
 
   &#global-effects {
 
-    &:before {
-      height: 82px;
-      background: url(../img/rope_border_top.png) no-repeat center center;
-      margin-top: 40px;
-    }
 
 
     h2 {
@@ -339,6 +334,12 @@ section {
         height: 161px;
         margin-top: 210px;
       }
+    }
+
+    &:before {
+      height: 82px;
+      background: url(../img/rope_border_top.png) no-repeat center center;
+      margin-top: 40px;
     }
 
     h2 {
