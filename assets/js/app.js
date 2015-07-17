@@ -11050,6 +11050,7 @@ ani_cb = function() {
 ani_arr[i].load(ani_cb);
 
 throttle_scroll = _.throttle(function() {
+  var scrollTop;
   _.each(elements, function(el, i, arr) {
     if (el.isInView()) {
       return el.start();
@@ -11057,9 +11058,18 @@ throttle_scroll = _.throttle(function() {
       return el.stop();
     }
   });
-  return $('.button-back-to-top').css({
-    opacity: $(window).scrollTop() > 1000 ? 1 : 0
+  scrollTop = $(window).scrollTop();
+  $('.button-back-to-top').css({
+    opacity: scrollTop > 1000 ? 1 : 0
   });
+  if (scrollTop > 838) {
+    return $('header nav').css({
+      position: 'fixed',
+      top: 0
+    });
+  } else {
+    return $('header nav').attr('style', '');
+  }
 }, 1000);
 
 $(window).scroll(throttle_scroll);

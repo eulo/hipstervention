@@ -70,8 +70,15 @@ throttle_scroll = _.throttle ()->
     else
       el.stop()
 
+  scrollTop =  $(window).scrollTop()
   $('.button-back-to-top').css
-    opacity: if $(window).scrollTop() > 1000 then 1 else 0
+    opacity: if scrollTop  > 1000 then 1 else 0
+  if scrollTop > 838
+    $('header nav').css
+      position: 'fixed'
+      top: 0
+  else
+    $('header nav').attr('style', '')
 , 1000
 $(window).scroll throttle_scroll
 
