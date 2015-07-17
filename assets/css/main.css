@@ -292,19 +292,20 @@ section#global-effects .barber-graph {
       position: absolute;
       left: 220px; }
   section#global-effects .pants-graph {
-    margin: 50px auto 0;
+    margin: 60px auto 0;
     background: url(../img/pants_graph.png) no-repeat;
     width: 539px;
     height: 424px;
     background-size: contain;
     max-width: 100%; }
-
-section#global-effects .pants-graph {
-  /*
+    @media (max-width: 480px) {
+      section#global-effects .pants-graph {
+        margin: 0 auto;
+        /*
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         margin-left: -20%;
-        */ }
+        */ } }
   section#global-effects .graph-only {
     margin: 40px auto 0;
     background: url(../img/graph_only.png) no-repeat;
@@ -606,7 +607,7 @@ section#global-effects .fixie-graph {
   section .container > .row > .col-md-12, section .container > .row > .col-md-6 {
     padding-bottom: 60px; }
     section .container > .row > .col-md-12 h3, section .container > .row > .col-md-6 h3 {
-      font-size: 59px; }
+      font-size: 54px; }
   section .container > .row .col-md-4 {
     padding-bottom: 60px; }
     section .container > .row .col-md-4 > img {
