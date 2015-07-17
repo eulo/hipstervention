@@ -11050,12 +11050,15 @@ ani_cb = function() {
 ani_arr[i].load(ani_cb);
 
 throttle_scroll = _.throttle(function() {
-  return _.each(elements, function(el, i, arr) {
+  _.each(elements, function(el, i, arr) {
     if (el.isInView()) {
       return el.start();
     } else {
       return el.stop();
     }
+  });
+  return $('.button-back-to-top').css({
+    opacity: $(window).scrollTop() > 1000 ? 1 : 0
   });
 }, 1000);
 

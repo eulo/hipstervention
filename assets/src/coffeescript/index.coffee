@@ -69,6 +69,9 @@ throttle_scroll = _.throttle ()->
       el.start()
     else
       el.stop()
+
+  $('.button-back-to-top').css
+    opacity: if $(window).scrollTop() > 1000 then 1 else 0
 , 1000
 $(window).scroll throttle_scroll
 
