@@ -121,10 +121,11 @@ header {
       display: block;
       text-indent: -9999px; }
       header .beard-nav a.animation.menu-1 {
-        left: -450px;
-        top: 200px; }
+        left: -390px;
+        top: 240px; }
       header .beard-nav a.animation.menu-2 {
-        left: -510px; }
+        left: -520px;
+        top: 40px; }
       header .beard-nav a.animation.menu-3 {
         left: -140px;
         top: 330px; }
