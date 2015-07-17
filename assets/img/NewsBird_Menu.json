@@ -1,13 +1,6 @@
 ﻿{"frames": {
 
-"NewsBird_01.png":
-{
-	"frame": {"x":0,"y":0,"w":219,"h":232},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":232},
-	"sourceSize": {"w":219,"h":232}
-},
+
 "NewsBird_02.png":
 {
 	"frame": {"x":219,"y":0,"w":219,"h":232},

@@ -1,13 +1,6 @@
 ﻿{"frames": {
 
-"GlobalEffects_01.png":
-{
-	"frame": {"x":0,"y":0,"w":212,"h":249},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":249},
-	"sourceSize": {"w":212,"h":249}
-},
+
 "GlobalEffects_02.png":
 {
 	"frame": {"x":212,"y":0,"w":212,"h":249},

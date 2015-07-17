@@ -1,13 +1,6 @@
 ﻿{"frames": {
 
-"SaveAMate_01.png":
-{
-	"frame": {"x":0,"y":0,"w":194,"h":273},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":273},
-	"sourceSize": {"w":194,"h":273}
-},
+
 "SaveAMate_02.png":
 {
 	"frame": {"x":194,"y":0,"w":194,"h":273},
