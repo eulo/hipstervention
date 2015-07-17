@@ -1,11 +1,12 @@
 # index
 $ = require 'jquery'
 window.$ = window.jQuery = $
-require 'bootstrap'
+#require 'bootstrap'
 _ = require 'underscore'
 Animate = require './animate'
 
 # Modal Video
+###
 $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
   $button = $(event.relatedTarget)
   url = $button.data 'url'
@@ -13,6 +14,7 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
   $modal = $(this)
   $cont = $modal.find('.modal-content').empty()
   $cont.html iframe
+###
 
 # Main Logo fadeIn
 $.get('assets/img/main_logo.png').done ()->

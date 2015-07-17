@@ -10,6 +10,7 @@ class Animate
   fps: 10
   interval: null
   offscreenDiff: 100
+  noAni: false
 
   constructor: ($el, load_flag) ->
     @$el = $el
@@ -23,12 +24,17 @@ class Animate
     @img_src = @$el.data('img')
     @json_src = @$el.data('json')
     if $(window).width() <= 480
-      @img_src = @img_src.replace('.png', '_mobile.png')
+      if @$el.parent()[0].nodeName.toLowerCase() == 'h2'
+        @noAni = true
+        @img_src = @img_src.replace('.png', '_still.png')
+      else
+        @img_src = @img_src.replace('.png', '_mobile.png')
       @json_src = @json_src.replace('.json', '_mobile.json')
 
     $.get @json_src, (res) =>
       @data = res.frames
-      $.get @$img_src, () =>
+      $.get @img_src, () =>
+
         @loaded = true
         @setup()
         if callback
@@ -36,16 +42,37 @@ class Animate
 
   setup: () =>
     dim = @getFirst @data
-    @$div.css
-      backgroundImage: "url(#{@img_src})"
-      width: dim.frame.w
-      height: dim.frame.h
-    @$div.css
-      marginLeft: (@$el.width() - @$div.width()) / 2 + 'px'
+
+    if @noAni
+      @img_obj = new Image()
+      self = @
+      @img_obj.onload = ->
+        self.$div.css
+          backgroundImage: "url(#{self.img_src})"
+          width: this.width
+          height: this.height
+          backgroundRepeat: "no-repeat"
+          backgroundPosition: "center"
+
+        self.$div.css
+          marginLeft: (self.$el.width() - self.$div.width()) / 2 + 'px'
+
+      @img_obj.src = @img_src
+
+    else
+      @$div.css
+        backgroundImage: "url(#{@img_src})"
+        width: dim.frame.w
+        height: dim.frame.h
+
+    if !@noAni
+      @$div.css
+        marginLeft: (@$el.width() - @$div.width()) / 2 + 'px'
+
     @keys = _.keys @data
 
   start: () =>
-    if !@loaded || @playing
+    if !@loaded || @playing || @noAni
       return
     @playing = true
     self = @

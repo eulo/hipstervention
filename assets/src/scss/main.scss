@@ -177,15 +177,17 @@ section {
 
   .container {
     &:before {
-      background-image: url(../img/border-flowers.png);
-      background-repeat: no-repeat;
-      content: ' ';
-      height: 157px;
-      display: block;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      background-position: center 0;
+      @include desktop-only {
+        background-image: url(../img/border-flowers.png);
+        background-repeat: no-repeat;
+        content: ' ';
+        height: 157px;
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background-position: center 0;
+     }
     }
     &:after {
 
@@ -330,9 +332,11 @@ section {
 
     .container {
       &:before {
-        background-position: center -157px;
-        height: 161px;
-        margin-top: 210px;
+        @include desktop-only {
+          background-position: center -157px;
+          height: 161px;
+          margin-top: 210px;
+        }
       }
     }
 
@@ -378,9 +382,11 @@ section {
 
     .container {
       &:before {
-        background-position: center -321px;
-        height: 205px;
-        margin-top: 60px;
+        @include desktop-only {
+          background-position: center -321px;
+          height: 205px;
+          margin-top: 60px;
+        }
       }
     }
 
@@ -545,21 +551,25 @@ section {
 
     .container {
       &:before {
-        background-position: center -157px;
-        height: 161px;
-        margin-top: 70px;
+        @include desktop-only {
+          background-position: center -157px;
+          height: 161px;
+          margin-top: 70px;
+        }
       }
       &:after {
-        background-image: url(../img/border-flowers.png);
-        background-repeat: no-repeat;
-        content: ' ';
-        height: 202px;
-        display: block;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        background-position: center -524px;
-        margin-top: -140px;
+        @include desktop-only {
+          background-image: url(../img/border-flowers.png);
+          background-repeat: no-repeat;
+          content: ' ';
+          height: 202px;
+          display: block;
+          position: absolute;
+          width: 100%;
+          left: 0;
+          background-position: center -524px;
+          margin-top: -140px;
+        }
       }
     }
 
