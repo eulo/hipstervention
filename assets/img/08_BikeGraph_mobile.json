@@ -1,0 +1,912 @@
+{"frames": [
+
+{
+	"filename": "08_BikeGraph_00.png",
+	"frame": {"x":2,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_01.png",
+	"frame": {"x":2,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_02.png",
+	"frame": {"x":2,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_03.png",
+	"frame": {"x":2,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_04.png",
+	"frame": {"x":2,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_05.png",
+	"frame": {"x":2,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_06.png",
+	"frame": {"x":2,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_07.png",
+	"frame": {"x":2,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_08.png",
+	"frame": {"x":2,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_09.png",
+	"frame": {"x":328,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_10.png",
+	"frame": {"x":328,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_11.png",
+	"frame": {"x":328,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_12.png",
+	"frame": {"x":328,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_13.png",
+	"frame": {"x":328,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_14.png",
+	"frame": {"x":328,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_15.png",
+	"frame": {"x":328,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_16.png",
+	"frame": {"x":328,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_17.png",
+	"frame": {"x":328,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_18.png",
+	"frame": {"x":654,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_19.png",
+	"frame": {"x":654,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_20.png",
+	"frame": {"x":654,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_21.png",
+	"frame": {"x":654,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_22.png",
+	"frame": {"x":654,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_23.png",
+	"frame": {"x":654,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_24.png",
+	"frame": {"x":654,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_25.png",
+	"frame": {"x":654,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_26.png",
+	"frame": {"x":654,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_27.png",
+	"frame": {"x":980,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_28.png",
+	"frame": {"x":1306,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_29.png",
+	"frame": {"x":1632,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_30.png",
+	"frame": {"x":1958,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_31.png",
+	"frame": {"x":2284,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_32.png",
+	"frame": {"x":2610,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_33.png",
+	"frame": {"x":2936,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_34.png",
+	"frame": {"x":3262,"y":2,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_35.png",
+	"frame": {"x":980,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_36.png",
+	"frame": {"x":980,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_37.png",
+	"frame": {"x":980,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_38.png",
+	"frame": {"x":980,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_39.png",
+	"frame": {"x":980,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_40.png",
+	"frame": {"x":980,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_41.png",
+	"frame": {"x":980,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_42.png",
+	"frame": {"x":980,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_43.png",
+	"frame": {"x":1306,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_44.png",
+	"frame": {"x":1632,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_45.png",
+	"frame": {"x":1958,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_46.png",
+	"frame": {"x":2284,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_47.png",
+	"frame": {"x":2610,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_48.png",
+	"frame": {"x":2936,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_49.png",
+	"frame": {"x":3262,"y":328,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_50.png",
+	"frame": {"x":1306,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_51.png",
+	"frame": {"x":1306,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_52.png",
+	"frame": {"x":1306,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_53.png",
+	"frame": {"x":1306,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_54.png",
+	"frame": {"x":1306,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_55.png",
+	"frame": {"x":1306,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_56.png",
+	"frame": {"x":1306,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_57.png",
+	"frame": {"x":1632,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_58.png",
+	"frame": {"x":1958,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_59.png",
+	"frame": {"x":2284,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_60.png",
+	"frame": {"x":2610,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_61.png",
+	"frame": {"x":2936,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_62.png",
+	"frame": {"x":3262,"y":654,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_63.png",
+	"frame": {"x":1632,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_64.png",
+	"frame": {"x":1632,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_65.png",
+	"frame": {"x":1632,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_66.png",
+	"frame": {"x":1632,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_67.png",
+	"frame": {"x":1632,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_68.png",
+	"frame": {"x":1632,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_69.png",
+	"frame": {"x":1958,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_70.png",
+	"frame": {"x":2284,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_71.png",
+	"frame": {"x":2610,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_72.png",
+	"frame": {"x":2936,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_73.png",
+	"frame": {"x":3262,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_74.png",
+	"frame": {"x":1958,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_75.png",
+	"frame": {"x":1958,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_76.png",
+	"frame": {"x":1958,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_77.png",
+	"frame": {"x":3262,"y":980,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_78.png",
+	"frame": {"x":1958,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_79.png",
+	"frame": {"x":1958,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_80.png",
+	"frame": {"x":2284,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_81.png",
+	"frame": {"x":2610,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_82.png",
+	"frame": {"x":2936,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_83.png",
+	"frame": {"x":3262,"y":1306,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_84.png",
+	"frame": {"x":2284,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_85.png",
+	"frame": {"x":2284,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_86.png",
+	"frame": {"x":2284,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_87.png",
+	"frame": {"x":2284,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_88.png",
+	"frame": {"x":2610,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_89.png",
+	"frame": {"x":2936,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_90.png",
+	"frame": {"x":3262,"y":1632,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_91.png",
+	"frame": {"x":2610,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_92.png",
+	"frame": {"x":2610,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_93.png",
+	"frame": {"x":2610,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_94.png",
+	"frame": {"x":2936,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_95.png",
+	"frame": {"x":3262,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_96.png",
+	"frame": {"x":2936,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_97.png",
+	"frame": {"x":2936,"y":2610,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_98.png",
+	"frame": {"x":2936,"y":1958,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "08_BikeGraph_99.png",
+	"frame": {"x":3262,"y":2284,"w":324,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":324},
+	"sourceSize": {"w":324,"h":324},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "08_BikeGraph.png",
+	"format": "RGBA8888",
+	"size": {"w":3588,"h":2936},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:c648a8ef2e1eef43a7c0332b1a39744c:2ff480600a3a87ca2bcf55fd20150a91:529933086dcfa2a5de2593702de85ff6$"
+}
+}

@@ -1,0 +1,309 @@
+{"frames": [
+
+{
+	"filename": "11_EyeRoll_00.png",
+	"frame": {"x":2,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_01.png",
+	"frame": {"x":2,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_02.png",
+	"frame": {"x":200,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_03.png",
+	"frame": {"x":200,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_04.png",
+	"frame": {"x":398,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_05.png",
+	"frame": {"x":398,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_06.png",
+	"frame": {"x":596,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_07.png",
+	"frame": {"x":596,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_08.png",
+	"frame": {"x":794,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_09.png",
+	"frame": {"x":794,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_10.png",
+	"frame": {"x":992,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_11.png",
+	"frame": {"x":992,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_12.png",
+	"frame": {"x":1190,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_13.png",
+	"frame": {"x":1190,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_14.png",
+	"frame": {"x":1388,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_15.png",
+	"frame": {"x":1388,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_16.png",
+	"frame": {"x":1586,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_17.png",
+	"frame": {"x":1586,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_18.png",
+	"frame": {"x":1784,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_19.png",
+	"frame": {"x":1784,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_20.png",
+	"frame": {"x":1982,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_21.png",
+	"frame": {"x":1982,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_22.png",
+	"frame": {"x":2180,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_23.png",
+	"frame": {"x":2180,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_24.png",
+	"frame": {"x":2378,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_25.png",
+	"frame": {"x":2378,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_26.png",
+	"frame": {"x":2576,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_27.png",
+	"frame": {"x":2576,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_28.png",
+	"frame": {"x":2774,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_29.png",
+	"frame": {"x":2774,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_30.png",
+	"frame": {"x":2972,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_31.png",
+	"frame": {"x":2972,"y":200,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "11_EyeRoll_32.png",
+	"frame": {"x":3170,"y":2,"w":196,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":196},
+	"sourceSize": {"w":196,"h":196},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "11_EyeRoll.png",
+	"format": "RGBA8888",
+	"size": {"w":3368,"h":398},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:7f8df350f092702aa17f080202f45f9f:008cae41191f251d5807f76bb2c36e21:9c03e45723b05c81a190cb0a4b702cf9$"
+}
+}

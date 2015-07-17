@@ -13166,10 +13166,15 @@ module.exports = Animate = (function() {
     var self;
     self = this;
     this.img_src = this.$el.data('img');
-    return $.get(this.$el.data('json'), (function(_this) {
+    this.json_src = this.$el.data('json');
+    if ($(window).width() <= 480) {
+      this.img_src = this.img_src.replace('.png', '_mobile.png');
+      this.json_src = this.json_src.replace('.json', '_mobile.json');
+    }
+    return $.get(this.json_src, (function(_this) {
       return function(res) {
         _this.data = res.frames;
-        return $.get(_this.$el.data('img'), function() {
+        return $.get(_this.$img_src, function() {
           _this.loaded = true;
           _this.setup();
           if (callback) {

@@ -199,6 +199,7 @@ section {
     transition:0.5s all;
 
     .animation {
+      /*
       @include tablet-portrait-and-below {
         -webkit-transform: scale(0.55, 0.55);
         transform: scale(0.55, 0.55);
@@ -211,6 +212,7 @@ section {
         -webkit-transform: scale(0.3, 0.3);
         transform: scale(0.3, 0.3);
       }
+      */
     }
   }
 
@@ -242,6 +244,7 @@ section {
         }
       }
       .animation {
+        /*
         @include tablet-portrait-and-below {
           -webkit-transform: scale(0.55, 0.55);
           transform: scale(0.55, 0.55);
@@ -254,6 +257,7 @@ section {
           -webkit-transform: scale(0.55, 0.55);
           transform: scale(0.55, 0.55);
         }
+        */
       }
     }
 
@@ -264,11 +268,15 @@ section {
       width: 519px;
       height: 536px;
       position: relative;
+      background-size: contain;
+      max-width: 100%;
 
       @include mobile-only {
+        /*
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         margin-left: -30%;
+        */
       }
       .animation {
         position: absolute;
@@ -281,10 +289,15 @@ section {
       width: 539px;
       height: 424px;
 
+      background-size: contain;
+      max-width: 100%;
+
       @include mobile-only {
+        /*
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         margin-left: -20%;
+        */
       }
     }
     .graph-only {
@@ -293,11 +306,15 @@ section {
       width: 517px;
       height: 428px;
       position: relative;
+      background-size: contain;
+      max-width: 100%;
 
       @include mobile-only {
+        /*
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         left: -30%;
+        */
       }
       .animation {
         position: absolute;
@@ -306,8 +323,10 @@ section {
     }
     .fixie-graph {
       @include mobile-only {
+        /*
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
+        */
       }
     }
   }
@@ -324,6 +343,9 @@ section {
 
     h2 {
       margin: -220px 0;
+      @include mobile-landscape-and-below {
+          margin: 0;
+      }
       .animation {
         div {
         }
@@ -333,9 +355,15 @@ section {
     .row {
       .animation {
         min-height: 500px;
+        @include mobile-landscape-and-below {
+          min-height: initial;
+        }
       }
       .col-md-6 {
         height: 750px;
+        @include mobile-landscape-and-below {
+          height: auto;
+        }
       }
       @include tablet-landscape-and-below {
         h3 {
@@ -361,6 +389,9 @@ section {
         @include tablet-landscape-and-below {
           margin: -70px auto -230px;
         }
+        @include mobile-landscape-and-below {
+          margin: 0;
+        }
         div {
         }
       }
@@ -383,9 +414,11 @@ section {
         padding-bottom: 0;
         @include tablet-landscape-and-below {
           .animation {
+            /*
             -webkit-transform: scale(0.75,0.75);
             transform: scale(0.75,0.75);
             margin: -140px auto;
+            */
           }
           .ht-heading {
             width: 100%;
@@ -537,6 +570,7 @@ section {
       margin-top: 26px;
       background: url(../img/rope_border_bottom.png) no-repeat center center;
       margin-bottom: 40px;
+      z-index: -1; // tmp;
     }
 
     h2 {

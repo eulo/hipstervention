@@ -21,9 +21,14 @@ class Animate
   load: (callback) =>
     self = @
     @img_src = @$el.data('img')
-    $.get @$el.data('json'), (res) =>
+    @json_src = @$el.data('json')
+    if $(window).width() <= 480
+      @img_src = @img_src.replace('.png', '_mobile.png')
+      @json_src = @json_src.replace('.json', '_mobile.json')
+
+    $.get @json_src, (res) =>
       @data = res.frames
-      $.get @$el.data('img'), () =>
+      $.get @$img_src, () =>
         @loaded = true
         @setup()
         if callback
