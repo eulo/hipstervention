@@ -53,7 +53,6 @@ _.each menu, (el, i, arr) ->
 
 # Load them
 i = 0
-
 ani_arr = elements.concat(menu)
 ani_cb = () ->
   if i+1 < ani_arr.length

@@ -51,8 +51,8 @@ footer {
   height:108px;
   width: 180px;
   position: fixed;
-  top:50%;
-  right:0;
+  bottom: 10px;
+  right:10px;
   opacity: 0;
   -webkit-transition:1.5s all;
   -moz-transition:1.5s all;
@@ -94,11 +94,66 @@ header {
     }
   }
 
+  .beard-nav-mobile {
+    position: relative;
+    left: 50%;
+    height: 100%;
+    @include tablet-landscape-and-up {
+      display: none;
+    }
+    @include mobile-portrait-and-below {
+      a {
+        transform: scale(0.75);
+      }
+    }
+    a {
+      position: absolute;
+      display: block;
+      background-size: cover;
+
+      &.menu-1 {
+        background-image: url(../img/beard_nav_mobile_signs.png);
+        width: 116px;
+        height: 132px;
+        left: -46%;
+        top: 36%;
+      }
+      &.menu-2 {
+        background-image: url(../img/beard_nav_mobile_effects.png);
+        width: 123px;
+        height: 141px;
+        left: -45%;
+        top: 56%;
+      }
+      &.menu-3 {
+        background-image: url(../img/beard_nav_mobile_host.png);
+        width: 139px;
+        height: 169px;
+        left: -16%;
+        top: 69%;
+      }
+      &.menu-4 {
+        background-image: url(../img/beard_nav_mobile_save.png);
+        width: 106px;
+        height: 148px;
+        top: 55%;
+        left: 15%;
+      }
+      &.menu-5 {
+        background-image: url(../img/beard_nav_mobile_news.png);
+        width: 123px;
+        height: 130px;
+        top: 35%;
+        left: 18%;
+      }
+    }
+  }
+
   .beard-nav {
     position: relative;
     left: 50%;
     @include tablet-portrait-and-below {
-        display:none;
+      display:none;
     }
 
     a.animation {
@@ -216,7 +271,7 @@ section {
 
   .container {
     &:before {
-      @include desktop-only {
+      @include desktop-and-up {
         background-image: url(../img/border-flowers.png);
         background-repeat: no-repeat;
         content: ' ';
@@ -276,24 +331,12 @@ section {
 
     h2 {
       .animation {
+        margin: -100px 0;
+        @include mobile-landscape-and-below {
+          margin: 0;
+        }
         div {
         }
-      }
-      .animation {
-        /*
-        @include tablet-portrait-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        @include mobile-landscape-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        @include mobile-portrait-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        */
       }
     }
 
@@ -387,11 +430,12 @@ section {
     }
 
     h2 {
-      margin: -220px 0;
-      @include mobile-landscape-and-below {
-          margin: 0;
-      }
+
       .animation {
+        margin: -220px 0;
+        @include mobile-landscape-and-below {
+          margin: 0;
+        }
         div {
         }
       }
@@ -502,6 +546,9 @@ section {
 
     p {
       margin-left: 65px;
+      @include tablet-portrait-and-below {
+        margin-left:0;
+      }
     }
 
     .star-border {

@@ -75,8 +75,8 @@ footer {
   height: 108px;
   width: 180px;
   position: fixed;
-  top: 50%;
-  right: 0;
+  bottom: 10px;
+  right: 10px;
   opacity: 0;
   -webkit-transition: 1.5s all;
   -moz-transition: 1.5s all;
@@ -110,6 +110,50 @@ header {
     @media only screen and (max-width: 768px) {
       header h1 {
         display: none; } }
+  header .beard-nav-mobile {
+    position: relative;
+    left: 50%;
+    height: 100%; }
+    @media only screen and (min-width: 769px) {
+      header .beard-nav-mobile {
+        display: none; } }
+    @media (max-width: 320px) {
+      header .beard-nav-mobile a {
+        transform: scale(0.75); } }
+    header .beard-nav-mobile a {
+      position: absolute;
+      display: block;
+      background-size: cover; }
+      header .beard-nav-mobile a.menu-1 {
+        background-image: url(../img/beard_nav_mobile_signs.png);
+        width: 116px;
+        height: 132px;
+        left: -46%;
+        top: 36%; }
+      header .beard-nav-mobile a.menu-2 {
+        background-image: url(../img/beard_nav_mobile_effects.png);
+        width: 123px;
+        height: 141px;
+        left: -45%;
+        top: 56%; }
+      header .beard-nav-mobile a.menu-3 {
+        background-image: url(../img/beard_nav_mobile_host.png);
+        width: 139px;
+        height: 169px;
+        left: -16%;
+        top: 69%; }
+      header .beard-nav-mobile a.menu-4 {
+        background-image: url(../img/beard_nav_mobile_save.png);
+        width: 106px;
+        height: 148px;
+        top: 55%;
+        left: 15%; }
+      header .beard-nav-mobile a.menu-5 {
+        background-image: url(../img/beard_nav_mobile_news.png);
+        width: 123px;
+        height: 130px;
+        top: 35%;
+        left: 18%; }
   header .beard-nav {
     position: relative;
     left: 50%; }
@@ -209,7 +253,7 @@ section {
     content: ' ';
     background: url(../img/rope_border_middle.png) no-repeat center center;
     padding: 90px 0 60px; }
-  @media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  @media only screen and (min-width: 1025px) {
     section .container:before {
       background-image: url(../img/border-flowers.png);
       background-repeat: no-repeat;
@@ -260,20 +304,10 @@ section {
     section .animation > div {
       margin: 0 auto; }
   section#global-effects h2 .animation {
-    /*
-        @include tablet-portrait-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        @include mobile-landscape-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        @include mobile-portrait-and-below {
-          -webkit-transform: scale(0.55, 0.55);
-          transform: scale(0.55, 0.55);
-        }
-        */ }
+    margin: -100px 0; }
+    @media only screen and (max-width: 480px) {
+      section#global-effects h2 .animation {
+        margin: 0; } }
   section#global-effects .barber-graph {
     margin: 110px auto 0;
     background: url(../img/barber_graph.png) no-repeat;
@@ -340,10 +374,10 @@ section#global-effects .fixie-graph {
     height: 82px;
     background: url(../img/rope_border_top.png) no-repeat center center;
     margin-top: 40px; }
-  section#signs-and-symptoms h2 {
+  section#signs-and-symptoms h2 .animation {
     margin: -220px 0; }
     @media only screen and (max-width: 480px) {
-      section#signs-and-symptoms h2 {
+      section#signs-and-symptoms h2 .animation {
         margin: 0; } }
   section#signs-and-symptoms .row .animation {
     min-height: 500px; }
@@ -405,6 +439,9 @@ section#global-effects .fixie-graph {
         margin-bottom: 0; } }
   section#hipstervention p {
     margin-left: 65px; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention p {
+        margin-left: 0; } }
   section#hipstervention .star-border {
     background: url(../img/star-border.png) no-repeat;
     width: 226px;
