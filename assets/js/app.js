@@ -10976,7 +10976,7 @@ module.exports = Animate = (function() {
 
 
 },{"./../../bower_components/underscore/underscore.js":2}],4:[function(require,module,exports){
-var $, Animate, _, ani_arr, ani_cb, elements, i, menu, throttle_resize, throttle_scroll;
+var $, Animate, _, ani_arr, ani_cb, elements, i, menu, menu_state, throttle_resize, throttle_scroll;
 
 $ = require("./../../bower_components/jquery/dist/jquery.js");
 
@@ -11010,6 +11010,19 @@ $('.share-fb').click(function(event) {
       method: 'share',
       href: 'http://thehipstervention.com/'
     }, function(response) {});
+  }
+});
+
+menu_state = false;
+
+$('.open-menu').click(function(event) {
+  event.preventDefault();
+  if (menu_state) {
+    menu_state = false;
+    return $('nav').height(64);
+  } else {
+    menu_state = true;
+    return $('nav').height(471);
   }
 });
 

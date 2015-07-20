@@ -118,9 +118,6 @@ header {
     @media only screen and (min-width: 769px) {
       header .beard-nav-mobile {
         display: none; } }
-    @media (max-width: 320px) {
-      header .beard-nav-mobile {
-        display: none; } }
     header .beard-nav-mobile a {
       position: absolute;
       display: block;
@@ -155,6 +152,19 @@ header {
         height: 130px;
         top: 35%;
         left: 18%; }
+    @media only screen and (max-width: 480px) {
+      header .beard-nav-mobile {
+        transform: scale(0.75); }
+        header .beard-nav-mobile a.menu-1 {
+          left: -80%; }
+        header .beard-nav-mobile a.menu-2 {
+          left: -68%; }
+        header .beard-nav-mobile a.menu-3 {
+          left: -35%; }
+        header .beard-nav-mobile a.menu-4 {
+          left: 5%; }
+        header .beard-nav-mobile a.menu-5 {
+          left: 16%; } }
   header .beard-nav {
     position: relative;
     left: 50%; }
@@ -188,14 +198,10 @@ header {
     border-bottom: 3px solid black;
     width: 100%;
     overflow: hidden;
-    z-index: 3; }
-    @media only screen and (max-width: 768px) {
-      header nav {
-        top: 0;
-        position: fixed;
-        z-index: 10; }
-        header nav ul {
-          padding: 0; } }
+    z-index: 3;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all; }
     header nav ul li {
       display: inline; }
       header nav ul li a {
@@ -213,6 +219,8 @@ header {
             font-size: 15px; }
             header nav ul li a.logo {
               padding: 0 10px; } }
+        header nav ul li a.open-menu {
+          display: none; }
         header nav ul li a.logo {
           padding-right: 80px; }
           @media only screen and (max-width: 768px) {
@@ -225,6 +233,34 @@ header {
         header nav ul li a:hover {
           text-decoration: none;
           color: white; }
+    @media only screen and (max-width: 768px) {
+      header nav {
+        top: 0;
+        position: fixed;
+        z-index: 10;
+        border-bottom: none;
+        background: rgba(0, 0, 0, 0.7); }
+        header nav ul {
+          padding: 0; }
+          header nav ul li {
+            display: block;
+            border-bottom: 3px solid black; }
+            header nav ul li:last-child {
+              border-bottom: none; }
+            header nav ul li a {
+              color: white;
+              padding-left: 30px; }
+              header nav ul li a.open-menu {
+                padding: 0 10px;
+                display: block;
+                float: right;
+                top: 0;
+                position: absolute;
+                right: 10px;
+                font-size: 32px;
+                cursor: pointer; }
+              header nav ul li a.social-nav-link {
+                padding: 0 30px; } }
 
 section {
   overflow: hidden;

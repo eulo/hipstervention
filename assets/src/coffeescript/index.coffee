@@ -30,6 +30,16 @@ $('.share-fb').click (event)->
       href: 'http://thehipstervention.com/'
     , (response) ->
 
+# Mobile menu
+menu_state = false
+$('.open-menu').click (event) ->
+  event.preventDefault()
+  if menu_state
+    menu_state = false
+    $('nav').height 64
+  else
+    menu_state = true
+    $('nav').height 471
 
 
 # Animation handle

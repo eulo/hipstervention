@@ -102,9 +102,7 @@ header {
     @include tablet-landscape-and-up {
       display: none;
     }
-    @include mobile-portrait-and-below {
-        display: none;
-    }
+
     a {
       position: absolute;
       display: block;
@@ -144,6 +142,26 @@ header {
         height: 130px;
         top: 35%;
         left: 18%;
+      }
+    }
+    @include mobile-landscape-and-below {
+      transform: scale(0.75);
+      a {
+        &.menu-1 {
+          left: -80%;
+        }
+        &.menu-2 {
+          left: -68%;
+        }
+        &.menu-3 {
+          left: -35%;
+        }
+        &.menu-4 {
+          left: 5%;
+        }
+        &.menu-5 {
+          left: 16%;
+        }
       }
     }
   }
@@ -192,15 +210,9 @@ header {
     width: 100%;
     overflow: hidden;
     z-index:3 ;
-    @include tablet-portrait-and-below {
-      top: 0;
-      position: fixed;
-      z-index: 10;
-
-      ul {
-        padding:0;
-      }
-    }
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    transition:0.5s all;
 
     ul {
       li {
@@ -223,6 +235,10 @@ header {
             }
           }
 
+          &.open-menu {
+            display: none;
+          }
+
           &.logo {
             padding-right: 80px;
             @include tablet-portrait-and-below {
@@ -242,6 +258,44 @@ header {
         }
       }
     }
+
+    @include tablet-portrait-and-below {
+      top: 0;
+      position: fixed;
+      z-index: 10;
+      border-bottom: none;
+      background: rgba(0,0,0,0.7);
+
+      ul {
+        padding:0;
+        li {
+          display: block;
+          border-bottom: 3px solid black;
+          &:last-child {
+            border-bottom: none;
+          }
+
+          a {
+            color: white;
+            padding-left: 30px;
+            &.open-menu {
+              padding: 0 10px;
+              display: block;
+              float: right;
+              top: 0;
+              position: absolute;
+              right: 10px;
+              font-size: 32px;
+              cursor: pointer;
+            }
+            &.social-nav-link {
+              padding: 0 30px;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
 
