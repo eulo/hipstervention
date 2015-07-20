@@ -118,8 +118,8 @@ header {
       header .beard-nav-mobile {
         display: none; } }
     @media (max-width: 320px) {
-      header .beard-nav-mobile a {
-        transform: scale(0.75); } }
+      header .beard-nav-mobile {
+        display: none; } }
     header .beard-nav-mobile a {
       position: absolute;
       display: block;
@@ -204,6 +204,8 @@ header {
         font-size: 22px;
         line-height: 64px;
         padding: 0 30px; }
+        header nav ul li a.social-nav-link {
+          padding: 0 5px; }
         @media only screen and (max-width: 1382px) {
           header nav ul li a {
             padding: 0 10px;
@@ -430,8 +432,14 @@ section#global-effects .fixie-graph {
         margin-left: 10%; } }
   section#hipstervention .animation.bear-trap div {
     margin-bottom: -150px; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention .animation.bear-trap div {
+        margin-bottom: 0; } }
   section#hipstervention .animation.tears-glass div {
     margin-bottom: -100px; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention .animation.tears-glass div {
+        margin-bottom: 0; } }
   section#hipstervention .animation.beard-slap {
     margin-bottom: -170px; }
     @media (max-width: 480px) {
@@ -448,6 +456,9 @@ section#global-effects .fixie-graph {
     height: 25px;
     margin: 10px auto 0;
     background-position: 60px 0; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention .star-border {
+        background-position: center; } }
   section#save-a-mate h2 {
     margin: -210px 0; }
     @media (max-width: 480px) {

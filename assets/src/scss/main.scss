@@ -102,9 +102,7 @@ header {
       display: none;
     }
     @include mobile-portrait-and-below {
-      a {
-        transform: scale(0.75);
-      }
+        display: none;
     }
     a {
       position: absolute;
@@ -213,6 +211,9 @@ header {
           font-size: 22px;
           line-height: 64px;
           padding: 0 30px;
+          &.social-nav-link {
+              padding: 0 5px;
+          }
           @include desktop-and-below {
             padding: 0 10px;
             font-size: 15px;
@@ -529,11 +530,17 @@ section {
       &.bear-trap {
         div {
           margin-bottom: -150px;
+          @include tablet-portrait-and-below {
+            margin-bottom:0;
+          }
         }
       }
       &.tears-glass {
         div {
           margin-bottom: -100px;
+          @include tablet-portrait-and-below {
+            margin-bottom:0;
+          }
         }
       }
       &.beard-slap {
@@ -557,6 +564,9 @@ section {
       height: 25px;
       margin: 10px auto 0;
       background-position: 60px 0;
+      @include tablet-portrait-and-below {
+        background-position:center;
+      }
     }
   }
 
