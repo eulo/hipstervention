@@ -485,6 +485,7 @@ section {
       margin-top: 40px;
     }
 
+
     h2 {
 
       .animation {
@@ -615,13 +616,15 @@ section {
     .shame-row {
       .shame-right {
         float: right;
-        @include tablet-portrait-and-below {
+
+        @media only screen and (max-width : $mq-tablet-portrait - 1) {
           float: none;
         }
       }
       .shame-left {
         float: left;
-        @include tablet-portrait-and-below {
+
+        @media only screen and (max-width : $mq-tablet-portrait - 1) {
           float: none;
         }
       }

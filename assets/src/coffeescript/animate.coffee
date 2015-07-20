@@ -15,7 +15,6 @@ class Animate
   constructor: ($el, load_flag) ->
     @$el = $el
     @$div = $ '<div>'
-    @$el.append @$div
     if load_flag
       @load()
 
@@ -43,6 +42,8 @@ class Animate
 
   setup: () =>
     dim = @getFirst @data
+    @$el.empty()
+    @$el.append @$div
 
     if @noAni
       @$div.css

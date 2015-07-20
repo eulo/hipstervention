@@ -486,12 +486,12 @@ section#global-effects .fixie-graph {
         margin-left: 0; } }
   section#hipstervention .shame-row .shame-right {
     float: right; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       section#hipstervention .shame-row .shame-right {
         float: none; } }
   section#hipstervention .shame-row .shame-left {
     float: left; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       section#hipstervention .shame-row .shame-left {
         float: none; } }
   section#hipstervention .star-border {

@@ -10793,7 +10793,6 @@ module.exports = Animate = (function() {
     this.load = bind(this.load, this);
     this.$el = $el;
     this.$div = $('<div>');
-    this.$el.append(this.$div);
     if (load_flag) {
       this.load();
     }
@@ -10832,6 +10831,8 @@ module.exports = Animate = (function() {
   Animate.prototype.setup = function() {
     var dim;
     dim = this.getFirst(this.data);
+    this.$el.empty();
+    this.$el.append(this.$div);
     if (this.noAni) {
       this.$div.css({
         backgroundImage: "url(" + this.img_src + ")",
