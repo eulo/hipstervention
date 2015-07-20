@@ -480,7 +480,6 @@ section {
       margin: -80px 0;
       .animation {
         @include tablet-landscape-and-below {
-          margin: -70px auto -230px;
         }
         @include mobile-landscape-and-below {
           margin: 0;
@@ -556,6 +555,21 @@ section {
       margin-left: 65px;
       @include tablet-portrait-and-below {
         margin-left:0;
+      }
+    }
+
+    .shame-row {
+      .shame-right {
+        float: right;
+        @include tablet-portrait-and-below {
+          float: none;
+        }
+      }
+      .shame-left {
+        float: left;
+        @include tablet-portrait-and-below {
+          float: none;
+        }
       }
     }
 
@@ -718,6 +732,8 @@ section {
           float: left;
           padding: 60px 30px 60px 60px;
           margin: 10px;
+
+
           &.news-insta {
             padding:0;
           }
@@ -756,6 +772,7 @@ section {
           @include tablet-landscape-and-below {
             width: 300px;
             height: 300px;
+
             p {
               font-size: 14px;
             }
@@ -772,6 +789,11 @@ section {
               }
             }
 
+          }
+          @include tablet-portrait-and-below {
+            width: 48%;
+            margin: 1%;
+            background: none;
           }
         }
       }

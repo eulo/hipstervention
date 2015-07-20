@@ -402,9 +402,6 @@ section#global-effects .fixie-graph {
       margin-top: 60px; } }
   section#hipstervention h2 {
     margin: -80px 0; }
-    @media only screen and (max-width: 1024px) {
-      section#hipstervention h2 .animation {
-        margin: -70px auto -230px; } }
     @media only screen and (max-width: 480px) {
       section#hipstervention h2 .animation {
         margin: 0; } }
@@ -451,6 +448,16 @@ section#global-effects .fixie-graph {
     @media only screen and (max-width: 768px) {
       section#hipstervention p {
         margin-left: 0; } }
+  section#hipstervention .shame-row .shame-right {
+    float: right; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention .shame-row .shame-right {
+        float: none; } }
+  section#hipstervention .shame-row .shame-left {
+    float: left; }
+    @media only screen and (max-width: 768px) {
+      section#hipstervention .shame-row .shame-left {
+        float: none; } }
   section#hipstervention .star-border {
     background: url(../img/star-border.png) no-repeat;
     width: 226px;
@@ -594,6 +601,11 @@ section#global-effects .fixie-graph {
             height: 132px;
             top: 84px;
             left: 82.5px; } }
+      @media only screen and (max-width: 768px) {
+        section#news .container .news-box-cont .news-box {
+          width: 48%;
+          margin: 1%;
+          background: none; } }
   section#news .container .join-the-movement .social-container {
     *zoom: 1;
     width: 350px;
