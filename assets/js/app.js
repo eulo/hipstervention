@@ -11073,7 +11073,7 @@ throttle_scroll = _.throttle(function() {
     }
   });
   scrollTop = $(window).scrollTop();
-  $('.button-back-to-top').css({
+  $('.back-to-top-cont').css({
     opacity: scrollTop > 1000 ? 1 : 0
   });
   if (scrollTop > 838) {

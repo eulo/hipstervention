@@ -68,23 +68,27 @@ footer {
 .shareaholic-canvas {
   margin-top: 18px; }
 
-.button-back-to-top {
-  display: block;
-  background-image: url(../img/button_back_to_top.png);
-  background-repeat: no-repeat;
-  height: 108px;
-  width: 180px;
+.back-to-top-cont {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  opacity: 0;
+  left: 50%;
+  bottom: 0;
   z-index: 10;
+  opacity: 0;
   -webkit-transition: 1.5s all;
   -moz-transition: 1.5s all;
   transition: 1.5s all; }
   @media only screen and (max-width: 1024px) {
-    .button-back-to-top {
+    .back-to-top-cont {
       display: none; } }
+  .back-to-top-cont .back-to-top-button {
+    display: block;
+    background-image: url(../img/button_back_to_top.png);
+    background-repeat: no-repeat;
+    height: 108px;
+    width: 180px;
+    left: -90px;
+    position: absolute;
+    bottom: 10px; }
 
 header {
   background: url(../img/big_beard_bg_01.jpg) top center no-repeat;
