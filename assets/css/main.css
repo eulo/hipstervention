@@ -118,7 +118,8 @@ header {
         display: none; } }
   header .beard-nav-mobile {
     position: relative;
-    margin-top: 85%; }
+    margin-top: 95%;
+    overflow: hidden; }
     @media only screen and (min-width: 769px) {
       header .beard-nav-mobile {
         display: none; } }
@@ -139,7 +140,7 @@ header {
       header .beard-nav-mobile a.menu-3 {
         background-image: url(../img/beard_nav_mobile_host.png);
         width: 139px;
-        height: 169px;
+        height: 260px;
         background-position: 0 80px; }
       header .beard-nav-mobile a.menu-4 {
         background-image: url(../img/beard_nav_mobile_save.png);

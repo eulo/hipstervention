@@ -108,10 +108,11 @@ header {
 
   .beard-nav-mobile {
     position: relative;
-    margin-top: 85%;
+    margin-top: 95%;
     @include tablet-landscape-and-up {
       display: none;
     }
+    overflow: hidden;
 
     a {
       display: block;
@@ -133,7 +134,7 @@ header {
       &.menu-3 {
         background-image: url(../img/beard_nav_mobile_host.png);
         width: 139px;
-        height: 169px;
+        height: 260px;
         background-position: 0 80px;
       }
       &.menu-4 {
