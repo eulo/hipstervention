@@ -71,6 +71,7 @@ header {
   @include tablet-portrait-and-below {
     position: static;
     background-image: url(../img/guy-with-beard_mobile.jpg);
+    border-bottom: 3px solid black;
     -webkit-background-size: contain;
        -moz-background-size: contain;
          -o-background-size: contain;
@@ -97,16 +98,16 @@ header {
 
   .beard-nav-mobile {
     position: relative;
-    left: 50%;
-    height: 100%;
+    margin-top: 100%;
     @include tablet-landscape-and-up {
       display: none;
     }
 
     a {
-      position: absolute;
       display: block;
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: table-cell;
 
       &.menu-1 {
         background-image: url(../img/beard_nav_mobile_signs.png);
@@ -144,26 +145,7 @@ header {
         left: 18%;
       }
     }
-    @include mobile-landscape-and-below {
-      transform: scale(0.75);
-      a {
-        &.menu-1 {
-          left: -80%;
-        }
-        &.menu-2 {
-          left: -68%;
-        }
-        &.menu-3 {
-          left: -35%;
-        }
-        &.menu-4 {
-          left: 5%;
-        }
-        &.menu-5 {
-          left: 16%;
-        }
-      }
-    }
+
   }
 
   .beard-nav {
@@ -278,6 +260,8 @@ header {
           a {
             color: white;
             padding-left: 30px;
+            font-size: 24px;
+
             &.open-menu {
               padding: 0 10px;
               display: block;
@@ -349,6 +333,12 @@ section {
     -webkit-transition:0.5s all;
     -moz-transition:0.5s all;
     transition:0.5s all;
+
+    @include mobile-landscape-and-below {
+      .animation div {
+        background-size: contain;
+      }
+    }
 
     .animation {
       /*
@@ -501,6 +491,9 @@ section {
     .row {
       .animation {
         min-height: 500px;
+        &.old-school-animation {
+          transform: scale(0.85);
+        }
         @include mobile-landscape-and-below {
           min-height: initial;
         }

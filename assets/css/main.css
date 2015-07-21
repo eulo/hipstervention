@@ -95,6 +95,7 @@ header {
     header {
       position: static;
       background-image: url(../img/guy-with-beard_mobile.jpg);
+      border-bottom: 3px solid black;
       -webkit-background-size: contain;
       -moz-background-size: contain;
       -o-background-size: contain;
@@ -113,15 +114,15 @@ header {
         display: none; } }
   header .beard-nav-mobile {
     position: relative;
-    left: 50%;
-    height: 100%; }
+    margin-top: 100%; }
     @media only screen and (min-width: 769px) {
       header .beard-nav-mobile {
         display: none; } }
     header .beard-nav-mobile a {
-      position: absolute;
       display: block;
-      background-size: cover; }
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: table-cell; }
       header .beard-nav-mobile a.menu-1 {
         background-image: url(../img/beard_nav_mobile_signs.png);
         width: 116px;
@@ -152,19 +153,6 @@ header {
         height: 130px;
         top: 35%;
         left: 18%; }
-    @media only screen and (max-width: 480px) {
-      header .beard-nav-mobile {
-        transform: scale(0.75); }
-        header .beard-nav-mobile a.menu-1 {
-          left: -80%; }
-        header .beard-nav-mobile a.menu-2 {
-          left: -68%; }
-        header .beard-nav-mobile a.menu-3 {
-          left: -35%; }
-        header .beard-nav-mobile a.menu-4 {
-          left: 5%; }
-        header .beard-nav-mobile a.menu-5 {
-          left: 16%; } }
   header .beard-nav {
     position: relative;
     left: 50%; }
@@ -249,7 +237,8 @@ header {
               border-bottom: none; }
             header nav ul li a {
               color: white;
-              padding-left: 30px; }
+              padding-left: 30px;
+              font-size: 24px; }
               header nav ul li a.open-menu {
                 padding: 0 10px;
                 display: block;
@@ -308,6 +297,9 @@ section {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all; }
+    @media only screen and (max-width: 480px) {
+      section h2 .animation div {
+        background-size: contain; } }
     section h2 .animation {
       /*
       @include tablet-portrait-and-below {
@@ -420,6 +412,8 @@ section#global-effects .fixie-graph {
         margin: 0; } }
   section#signs-and-symptoms .row .animation {
     min-height: 500px; }
+    section#signs-and-symptoms .row .animation.old-school-animation {
+      transform: scale(0.85); }
     @media only screen and (max-width: 480px) {
       section#signs-and-symptoms .row .animation {
         min-height: initial; } }

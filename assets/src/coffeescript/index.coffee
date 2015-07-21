@@ -69,8 +69,6 @@ ani_cb = () ->
     ani_arr[++i].load ani_cb
 ani_arr[i].load ani_cb
 
-
-
 # scroll event
 throttle_scroll = _.throttle ()->
   _.each elements, (el, i, arr) ->
