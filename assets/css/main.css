@@ -236,7 +236,8 @@ header {
           padding: 0; }
           header nav ul li {
             display: block;
-            border-bottom: 3px solid black; }
+            border-bottom: 3px solid black;
+            text-align: center; }
             header nav ul li:last-child {
               border-bottom: none; }
             header nav ul li a {
@@ -253,9 +254,7 @@ header {
                 font-size: 32px;
                 cursor: pointer; }
               header nav ul li a.social-nav-link {
-                padding: 0 15px; }
-                header nav ul li a.social-nav-link:first-child {
-                  padding-left: 30px; } }
+                padding: 0 15px; } }
 
 section {
   overflow: hidden;

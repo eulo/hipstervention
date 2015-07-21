@@ -263,6 +263,7 @@ header {
         li {
           display: block;
           border-bottom: 3px solid black;
+          text-align: center;
           &:last-child {
             border-bottom: none;
           }
@@ -285,7 +286,7 @@ header {
             &.social-nav-link {
               padding: 0 15px;
               &:first-child {
-                padding-left:30px;
+                //padding-left:30px;
               }
             }
           }
