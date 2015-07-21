@@ -403,11 +403,11 @@ section#global-effects .fixie-graph {
         -webkit-transform: scale(0.5, 0.5);
         transform: scale(0.5, 0.5);
         */ }
-  @media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  @media only screen and (min-width: 1025px) {
     section#signs-and-symptoms .container:before {
       background-position: center -157px;
       height: 161px;
-      margin-top: 210px; } }
+      margin-top: -50px; } }
   section#signs-and-symptoms:before {
     height: 82px;
     background: url(../img/rope_border_top.png) no-repeat center center;
@@ -435,7 +435,7 @@ section#global-effects .fixie-graph {
   @media only screen and (max-width: 480px) {
     section#signs-and-symptoms .row h3 {
       font-size: 30px; } }
-  @media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  @media only screen and (min-width: 1025px) {
     section#hipstervention .container:before {
       background-position: center -321px;
       height: 205px;
@@ -558,7 +558,7 @@ section#global-effects .fixie-graph {
     @media only screen and (max-width: 1024px) {
       section#save-a-mate .download-link {
         margin: 0 auto; } }
-  @media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  @media only screen and (min-width: 1025px) {
     section#news .container:before {
       background-position: center -157px;
       height: 161px;

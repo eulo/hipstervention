@@ -482,10 +482,10 @@ section {
 
     .container {
       &:before {
-        @include desktop-only {
+        @include desktop-and-up {
           background-position: center -157px;
           height: 161px;
-          margin-top: 210px;
+          margin-top: -50px;
         }
       }
     }
@@ -542,7 +542,7 @@ section {
 
     .container {
       &:before {
-        @include desktop-only {
+        @include desktop-and-up {
           background-position: center -321px;
           height: 205px;
           margin-top: 60px;
@@ -747,7 +747,7 @@ section {
 
     .container {
       &:before {
-        @include desktop-only {
+        @include desktop-and-up {
           background-position: center -157px;
           height: 161px;
           margin-top: 70px;
