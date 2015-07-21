@@ -512,6 +512,9 @@ section#global-effects .fixie-graph {
     @media (max-width: 480px) {
       section#save-a-mate h2 {
         margin: 0; } }
+  @media only screen and (min-width: 1025px) {
+    section#save-a-mate .container:before {
+      margin-top: 190px; } }
   section#save-a-mate .row {
     padding-bottom: 80px; }
     @media only screen and (max-width: 1024px) {
@@ -563,7 +566,7 @@ section#global-effects .fixie-graph {
       background-position: center -157px;
       height: 161px;
       margin-top: 70px; } }
-  @media only screen and (min-width: 1025px) and (max-width: 1382px) {
+  @media only screen and (min-width: 1025px) {
     section#news .container:after {
       background-image: url(../img/border-flowers.png);
       background-repeat: no-repeat;

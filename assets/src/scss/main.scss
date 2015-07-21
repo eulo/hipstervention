@@ -675,6 +675,14 @@ section {
       }
     }
 
+    .container {
+      &:before {
+        @include desktop-and-up {
+          margin-top: 190px;
+        }
+      }
+    }
+
     .row {
       padding-bottom: 80px;
       @include tablet-landscape-and-below {
@@ -754,7 +762,7 @@ section {
         }
       }
       &:after {
-        @include desktop-only {
+        @include desktop-and-up {
           background-image: url(../img/border-flowers.png);
           background-repeat: no-repeat;
           content: ' ';
