@@ -118,7 +118,7 @@ header {
         display: none; } }
   header .beard-nav-mobile {
     position: relative;
-    margin-top: 100%; }
+    margin-top: 85%; }
     @media only screen and (min-width: 769px) {
       header .beard-nav-mobile {
         display: none; } }
@@ -130,33 +130,26 @@ header {
       header .beard-nav-mobile a.menu-1 {
         background-image: url(../img/beard_nav_mobile_signs.png);
         width: 116px;
-        height: 132px;
-        left: -46%;
-        top: 36%; }
+        height: 132px; }
       header .beard-nav-mobile a.menu-2 {
         background-image: url(../img/beard_nav_mobile_effects.png);
         width: 123px;
         height: 141px;
-        left: -45%;
-        top: 56%; }
+        background-position: 0 40px; }
       header .beard-nav-mobile a.menu-3 {
         background-image: url(../img/beard_nav_mobile_host.png);
         width: 139px;
         height: 169px;
-        left: -16%;
-        top: 69%; }
+        background-position: 0 80px; }
       header .beard-nav-mobile a.menu-4 {
         background-image: url(../img/beard_nav_mobile_save.png);
         width: 106px;
         height: 148px;
-        top: 55%;
-        left: 15%; }
+        background-position: 0 40px; }
       header .beard-nav-mobile a.menu-5 {
         background-image: url(../img/beard_nav_mobile_news.png);
         width: 123px;
-        height: 130px;
-        top: 35%;
-        left: 18%; }
+        height: 130px; }
   header .beard-nav {
     position: relative;
     left: 50%; }
