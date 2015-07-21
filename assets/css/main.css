@@ -242,7 +242,7 @@ header {
             header nav ul li a {
               color: white;
               padding-left: 30px;
-              font-size: 24px; }
+              font-size: 18px; }
               header nav ul li a.open-menu {
                 padding: 0 10px;
                 display: block;
@@ -253,7 +253,9 @@ header {
                 font-size: 32px;
                 cursor: pointer; }
               header nav ul li a.social-nav-link {
-                padding: 0 30px; } }
+                padding: 0 15px; }
+                header nav ul li a.social-nav-link:first-child {
+                  padding-left: 30px; } }
 
 section {
   overflow: hidden;
@@ -343,6 +345,12 @@ section {
     @media only screen and (max-width: 480px) {
       section#global-effects h2 .animation {
         margin: 0; } }
+  @media only screen and (max-width: 1024px) {
+    section#global-effects h3 {
+      font-size: 42px; } }
+  @media only screen and (max-width: 480px) {
+    section#global-effects h3 {
+      font-size: 30px; } }
   section#global-effects .barber-graph {
     margin: 110px auto 0;
     background: url(../img/barber_graph.png) no-repeat;
@@ -351,16 +359,12 @@ section {
     position: relative;
     background-size: contain;
     max-width: 100%; }
-
-section#global-effects .barber-graph {
-  /*
-        -webkit-transform: scale(0.5, 0.5);
-        transform: scale(0.5, 0.5);
-        margin-left: -30%;
-        */ }
     section#global-effects .barber-graph .animation {
       position: absolute;
       left: 220px; }
+      @media (max-width: 480px) {
+        section#global-effects .barber-graph .animation {
+          left: 150px; } }
   section#global-effects .pants-graph {
     margin: 60px auto 0;
     background: url(../img/pants_graph.png) no-repeat;
@@ -429,6 +433,9 @@ section#global-effects .fixie-graph {
   @media only screen and (max-width: 1024px) {
     section#signs-and-symptoms .row h3 {
       font-size: 42px; } }
+  @media only screen and (max-width: 480px) {
+    section#signs-and-symptoms .row h3 {
+      font-size: 30px; } }
   @media only screen and (min-width: 1025px) and (max-width: 1382px) {
     section#hipstervention .container:before {
       background-position: center -321px;

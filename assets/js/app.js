@@ -11094,11 +11094,12 @@ throttle_resize = _.throttle(function() {
   } else {
     $('header').height(1076 / 640 * $(window).width());
   }
-  return $('.animation:visible').each(function() {
+  $('.animation:visible').each(function() {
     return $(this).find('div').css({
       marginLeft: ($(this).width() - $(this).find('div').width()) / 2 + 'px'
     });
   });
+  return $('.news-box').height($('.news-box').width());
 
   /*
   $('h2').each ()->

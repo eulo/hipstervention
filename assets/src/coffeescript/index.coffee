@@ -98,6 +98,7 @@ throttle_resize = _.throttle ()->
   $('.animation:visible').each () ->
     $(this).find('div').css
       marginLeft: ($(this).width() - $(this).find('div').width()) / 2 + 'px'
+  $('.news-box').height $('.news-box').width()
   ###
   $('h2').each ()->
     diff = ($(this).height() - $(this).find('.animation').height()) / 2
