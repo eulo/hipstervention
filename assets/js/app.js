@@ -10777,7 +10777,7 @@ module.exports = Animate = (function() {
 
   Animate.prototype.keys = [];
 
-  Animate.prototype.fps = 10;
+  Animate.prototype.fps = 8;
 
   Animate.prototype.interval = null;
 

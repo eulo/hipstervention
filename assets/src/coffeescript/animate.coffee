@@ -7,7 +7,7 @@ class Animate
   playing: false
   frame: null
   keys: []
-  fps: 10
+  fps: 8
   interval: null
   offscreenDiff: 100
   noAni: false
