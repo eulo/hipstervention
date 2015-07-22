@@ -32,7 +32,8 @@ footer {
   background: -ms-radial-gradient(center, ellipse cover, rgba(221,180,109,0) 0%,rgba(221,180,109,0) 53%,rgba(221,180,109,1) 100%); /* IE10+ */
   background: radial-gradient(ellipse at center, rgba(221,180,109,0) 0%,rgba(221,180,109,0) 53%,rgba(221,180,109,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d99359', endColorstr='#bfd99359',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  padding: 100px 0;
+  padding: 100px 0 200px;
+
   img {
     margin: 0 auto;
     width: 250px;
@@ -345,6 +346,8 @@ section {
     @include mobile-landscape-and-below {
       .animation div {
         background-size: contain;
+        width: 100% !important;
+        margin: auto !important;
       }
     }
 
@@ -563,6 +566,9 @@ section {
 
       &.ht-heading-01 {
         margin-top: 170px;
+        @include mobile-landscape-and-below {
+          margin-top: 100px;
+        }
       }
       &.ht-heading-03 {
         margin-top: 190px;
@@ -887,6 +893,9 @@ section {
           @include clearfix;
           width: 350px;
           margin: 0 auto;
+          @include mobile-landscape-and-below {
+            width: 250px;
+          }
         }
         .social-button {
           display: block;
@@ -897,11 +906,23 @@ section {
           margin: 20px 5px;
           float:left;
 
+
           i {
             height: 60px;
             width: 60px;
             line-height: 60px;
             text-align: center;
+          }
+          @include mobile-landscape-and-below {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            i {
+              font-size: 1.5em;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+            }
           }
           &.social-fb {
             background: $fb-blue;

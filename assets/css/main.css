@@ -59,7 +59,7 @@ footer {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d99359', endColorstr='#bfd99359',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  padding: 100px 0; }
+  padding: 100px 0 200px; }
   footer img {
     margin: 0 auto;
     width: 250px;
@@ -298,7 +298,9 @@ section {
     transition: 0.5s all; }
     @media only screen and (max-width: 480px) {
       section h2 .animation div {
-        background-size: contain; } }
+        background-size: contain;
+        width: 100% !important;
+        margin: auto !important; } }
     section h2 .animation {
       /*
       @include tablet-portrait-and-below {
@@ -444,6 +446,9 @@ section#global-effects .fixie-graph {
     display: block; }
     section#hipstervention .ht-heading.ht-heading-01 {
       margin-top: 170px; }
+      @media only screen and (max-width: 480px) {
+        section#hipstervention .ht-heading.ht-heading-01 {
+          margin-top: 100px; } }
     section#hipstervention .ht-heading.ht-heading-03 {
       margin-top: 190px; }
   section#hipstervention .row .col-md-6 {
@@ -653,6 +658,9 @@ section#global-effects .fixie-graph {
       display: table; }
     section#news .container .join-the-movement .social-container:after {
       clear: both; }
+    @media only screen and (max-width: 480px) {
+      section#news .container .join-the-movement .social-container {
+        width: 250px; } }
   section#news .container .join-the-movement .social-button {
     display: block;
     height: 60px;
@@ -666,6 +674,16 @@ section#global-effects .fixie-graph {
       width: 60px;
       line-height: 60px;
       text-align: center; }
+    @media only screen and (max-width: 480px) {
+      section#news .container .join-the-movement .social-button {
+        width: 40px;
+        height: 40px;
+        line-height: 40px; }
+        section#news .container .join-the-movement .social-button i {
+          font-size: 1.5em;
+          width: 40px;
+          height: 40px;
+          line-height: 40px; } }
     section#news .container .join-the-movement .social-button.social-fb {
       background: #354f87; }
     section#news .container .join-the-movement .social-button.social-twit {
