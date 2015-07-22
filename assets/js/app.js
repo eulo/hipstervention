@@ -10848,7 +10848,8 @@ module.exports = Animate = (function() {
       this.$div.css({
         backgroundImage: "url(" + this.img_src + ")",
         width: dim.frame.w,
-        height: dim.frame.h
+        height: dim.frame.h,
+        backgroundPosition: "-" + dim.frame.x + "px -" + dim.frame.y + "px"
       });
     }
     if (!this.noAni) {
