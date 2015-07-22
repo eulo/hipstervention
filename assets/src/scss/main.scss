@@ -384,7 +384,11 @@ section {
 
   &#global-effects {
 
-
+    @include mobile-landscape-and-below {
+      &:before {
+        padding: 0;
+      }
+    }
 
     h2 {
       .animation {
@@ -416,6 +420,10 @@ section {
       position: relative;
       background-size: contain;
       max-width: 100%;
+      @include mobile-only {
+        margin: 0 auto;
+        height: 100vw;
+      }
 
 
       .animation {
@@ -437,11 +445,7 @@ section {
 
       @include mobile-only {
         margin: 0 auto;
-        /*
-        -webkit-transform: scale(0.5, 0.5);
-        transform: scale(0.5, 0.5);
-        margin-left: -20%;
-        */
+        height: 300px;
       }
     }
     .graph-only {
@@ -564,6 +568,10 @@ section {
       margin: 80px auto 20px;
       display: block;
 
+      @include mobile-landscape-and-below {
+        margin-top: 0px;
+      }
+
       &.ht-heading-01 {
         margin-top: 170px;
         @include mobile-landscape-and-below {
@@ -572,6 +580,10 @@ section {
       }
       &.ht-heading-03 {
         margin-top: 190px;
+
+        @include mobile-landscape-and-below {
+          margin-top: 40px;
+        }
       }
     }
 
@@ -663,6 +675,11 @@ section {
 
   &#save-a-mate {
 
+    @include mobile-landscape-and-below {
+        &:before {
+          padding: 0;
+        }
+    }
     h2 {
       margin: -210px 0;
 
@@ -804,6 +821,7 @@ section {
         margin: 0 auto;
         @include tablet-landscape-and-below {
           max-width: 640px;
+          padding-bottom: 40px;
         }
         @include mobile-landscape-and-below {
           max-width: 320px;
