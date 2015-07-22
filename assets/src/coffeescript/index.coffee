@@ -41,6 +41,10 @@ $('.open-menu').click (event) ->
     menu_state = true
     $('nav').height 471
 
+$('.section-link').click (event)->
+  menu_state = false
+  $('nav').height 64
+
 
 # Animation handle
 elements = []
