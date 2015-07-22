@@ -21,7 +21,7 @@ p {
 }
 
 body{
-  background: url(../img/paper_bg.jpg) #e8dec7;
+  background: url(../../img/paper_bg.jpg) #e8dec7;
 }
 
 footer {
@@ -61,7 +61,7 @@ footer {
 
   .back-to-top-button {
     display: block;
-    background-image: url(../img/button_back_to_top.png);
+    background-image: url(../../img/button_back_to_top.png);
     background-repeat: no-repeat;
     height:108px;
     width: 180px;
@@ -75,13 +75,13 @@ footer {
 
 
 header {
-  background: url(../img/big_beard_bg_01.jpg) top center no-repeat;
+  background: url(../../img/big_beard_bg_01.jpg) top center no-repeat;
   height: 900px;
   position: relative;
   overflow: hidden;
   @include tablet-portrait-and-below {
     position: static;
-    background-image: url(../img/guy-with-beard_mobile.jpg);
+    background-image: url(../../img/guy-with-beard_mobile.jpg);
     border-bottom: 3px solid black;
     -webkit-background-size: contain;
        -moz-background-size: contain;
@@ -94,7 +94,7 @@ header {
 
 
   h1 {
-    background: url(../img/main_logo.png) top center no-repeat;
+    background: url(../../img/main_logo.png) top center no-repeat;
     margin: 0;
     text-indent: -9999px;
     height: 227px;
@@ -122,30 +122,30 @@ header {
       display: table-cell;
 
       &.menu-1 {
-        background-image: url(../img/beard_nav_mobile_signs.png);
+        background-image: url(../../img/beard_nav_mobile_signs.png);
         width: 116px;
         height: 132px;
       }
       &.menu-2 {
-        background-image: url(../img/beard_nav_mobile_effects.png);
+        background-image: url(../../img/beard_nav_mobile_effects.png);
         width: 123px;
         height: 141px;
         background-position: 0 50px;
       }
       &.menu-3 {
-        background-image: url(../img/beard_nav_mobile_host.png);
+        background-image: url(../../img/beard_nav_mobile_host.png);
         width: 139px;
         height: 260px;
         background-position: 0 80px;
       }
       &.menu-4 {
-        background-image: url(../img/beard_nav_mobile_save.png);
+        background-image: url(../../img/beard_nav_mobile_save.png);
         width: 106px;
         height: 148px;
         background-position: 0 50px;
       }
       &.menu-5 {
-        background-image: url(../img/beard_nav_mobile_news.png);
+        background-image: url(../../img/beard_nav_mobile_news.png);
         width: 123px;
         height: 130px;
       }
@@ -295,7 +295,7 @@ header {
 section {
   overflow: hidden;
   /*
-  background: url(../img/halo.png) no-repeat center center;
+  background: url(../../img/halo.png) no-repeat center center;
   -webkit-background-size: cover, cover;
      -moz-background-size: cover, cover;
        -o-background-size: cover, cover;
@@ -314,14 +314,14 @@ section {
     width: 100%;
     display: block;
     content: ' ';
-    background: url(../img/rope_border_middle.png) no-repeat center center;
+    background: url(../../img/rope_border_middle.png) no-repeat center center;
     padding: 90px 0 60px;
   }
 
   .container {
     &:before {
       @include desktop-and-up {
-        background-image: url(../img/border-flowers.png);
+        background-image: url(../../img/border-flowers.png);
         background-repeat: no-repeat;
         content: ' ';
         height: 157px;
@@ -410,7 +410,7 @@ section {
     .barber-graph {
 
       margin: 110px auto 0;
-      background: url(../img/barber_graph.png) no-repeat;
+      background: url(../../img/barber_graph.png) no-repeat;
       width: 519px;
       height: 536px;
       position: relative;
@@ -428,7 +428,7 @@ section {
     }
     .pants-graph {
       margin: 60px auto 0;
-      background: url(../img/pants_graph.png) no-repeat;
+      background: url(../../img/pants_graph.png) no-repeat;
       width: 539px;
       height: 424px;
 
@@ -446,7 +446,7 @@ section {
     }
     .graph-only {
       margin: 40px auto 0;
-      background: url(../img/graph_only.png) no-repeat;
+      background: url(../../img/graph_only.png) no-repeat;
       width: 517px;
       height: 428px;
       position: relative;
@@ -489,7 +489,7 @@ section {
 
     &:before {
       height: 82px;
-      background: url(../img/rope_border_top.png) no-repeat center center;
+      background: url(../../img/rope_border_top.png) no-repeat center center;
       margin-top: 40px;
     }
 
@@ -650,7 +650,7 @@ section {
     }
 
     .star-border {
-      background: url(../img/star-border.png) no-repeat;
+      background: url(../../img/star-border.png) no-repeat;
       width: 226px;
       height: 25px;
       margin: 10px auto 0;
@@ -734,14 +734,14 @@ section {
       }
     }
     .star-border {
-      background: url(../img/star-border.png) no-repeat;
+      background: url(../../img/star-border.png) no-repeat;
       width: 166px;
       height: 25px;
       margin: 10px auto 0;
     }
     .download-link {
       display: block;
-      background: url(../img/download-link.png) no-repeat;
+      background: url(../../img/download-link.png) no-repeat;
       width: 251px;
       height: 97px;
       text-indent: -9999px;
@@ -763,7 +763,7 @@ section {
       }
       &:after {
         @include desktop-and-up {
-          background-image: url(../img/border-flowers.png);
+          background-image: url(../../img/border-flowers.png);
           background-repeat: no-repeat;
           content: ' ';
           height: 202px;
@@ -783,7 +783,7 @@ section {
       display: block;
       content: ' ';
       margin-top: 26px;
-      background: url(../img/rope_border_bottom.png) no-repeat center center;
+      background: url(../../img/rope_border_bottom.png) no-repeat center center;
       margin-bottom: 40px;
       z-index: -1; // tmp;
     }
@@ -840,7 +840,7 @@ section {
             cursor: pointer;
 
             div.play-button {
-              background: url(../img/button-video-play.png) no-repeat center center;
+              background: url(../../img/button-video-play.png) no-repeat center center;
               position: absolute;
               // 135 x 132
               width: 135px;

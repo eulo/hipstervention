@@ -8,9 +8,10 @@ var paths = {
   styles: ['assets/src/scss/**/*.scss']
 };
 
+args.env = 'prod';
 var isProd = args.env === 'prod';
 if(!isProd) {
-  args.env = 'dev';
+  args.env = 'prod';
 }
 plugins.util.log("Build Environment: " + plugins.util.colors.yellow(args.env.toUpperCase()));
 
