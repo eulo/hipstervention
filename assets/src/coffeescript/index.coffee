@@ -42,8 +42,15 @@ $('.open-menu').click (event) ->
     $('nav').height 471
 
 $('.section-link').click (event)->
+  event.preventDefault();
   menu_state = false
   $('nav').height 64
+  topdiff = $($(this).attr('href')).position().top;
+  $('html,body').animate({ scrollTop: topdiff }, 400);
+
+$('.back-to-top-button, nav .logo').click (event)->
+  event.preventDefault();
+  $('html,body').animate({ scrollTop: 0 }, 400);
 
 
 # Animation handle

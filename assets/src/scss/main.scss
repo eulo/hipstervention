@@ -15,6 +15,10 @@ h2, h3, h4,h5,h6 {
   color: #0a0a09;
 }
 
+a:focus {
+  color: #0a0a09;
+}
+
 p {
   font-family: "proxima-nova",sans-serif;
   color: #0a0a09;
@@ -192,7 +196,8 @@ header {
     position: absolute;
     bottom: 0;
     height: 64px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
+
     border-bottom: 3px solid black;
     width: 100%;
     overflow: hidden;
@@ -214,12 +219,9 @@ header {
           &.social-nav-link {
               padding: 0 5px;
           }
-          @include desktop-and-below {
-            padding: 0 10px;
-            font-size: 15px;
-            &.logo {
-              padding: 0 10px;
-            }
+
+          &:focus {
+            color: #828282;
           }
 
           &.open-menu {
@@ -241,6 +243,23 @@ header {
           &:hover {
             text-decoration: none;
             color: white;
+          }
+          @media (max-width : 1500px) {
+            font-size: 15px;
+            padding: 0 10px;
+            &.logo {
+              padding: 0 10px;
+            }
+          }
+          @media (max-width : 1200px) {
+            padding: 0 5px;
+            font-size: 15px;
+            &.logo {
+              padding: 0 5px;
+            }
+          }
+          @media (max-width : 1050px) {
+            font-size: 12px;
           }
         }
       }
