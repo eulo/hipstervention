@@ -81,7 +81,7 @@ ani_cb = () ->
 ani_arr[i].load ani_cb
 
 # scroll event
-throttle_scroll = _.throttle ()->
+throttle_scroll = ()->
   _.each elements, (el, i, arr) ->
     if el.isInView()
       el.start()
@@ -91,13 +91,14 @@ throttle_scroll = _.throttle ()->
   scrollTop =  $(window).scrollTop()
   $('.back-to-top-cont').css
     opacity: if scrollTop  > 1000 then 1 else 0
+
   if scrollTop > 838
     $('header nav').css
       position: 'fixed'
       top: 0
   else
     $('header nav').attr('style', '')
-, 1000
+
 $(window).scroll throttle_scroll
 
 # resize event

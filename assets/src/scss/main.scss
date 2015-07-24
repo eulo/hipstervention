@@ -212,7 +212,7 @@ header {
         a {
           font-family: 'Parliment', serif;
           text-transform:uppercase;
-          color: white;
+          color: #828282;
           font-size: 22px;
           line-height: 64px;
           padding: 0 30px;
@@ -221,7 +221,7 @@ header {
           }
 
           &:focus {
-            color: white;
+            color: #828282;
           }
 
           &.open-menu {
