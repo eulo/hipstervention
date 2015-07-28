@@ -1,0 +1,57 @@
+{"frames": [
+
+{
+	"filename": "NewsBird_01.png",
+	"frame": {"x":2,"y":2,"w":153,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":162},
+	"sourceSize": {"w":153,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NewsBird_02.png",
+	"frame": {"x":157,"y":2,"w":153,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":162},
+	"sourceSize": {"w":153,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NewsBird_03.png",
+	"frame": {"x":312,"y":2,"w":153,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":162},
+	"sourceSize": {"w":153,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NewsBird_04.png",
+	"frame": {"x":467,"y":2,"w":153,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":162},
+	"sourceSize": {"w":153,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "NewsBird_05.png",
+	"frame": {"x":622,"y":2,"w":153,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":162},
+	"sourceSize": {"w":153,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "NewsBird_Menu.png",
+	"format": "RGBA8888",
+	"size": {"w":777,"h":166},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:ac127e4f951db01326e516fa250556e6:068906c94ba89afb4b4d1d05caa71a2b:6e3de2920612e27e686c41760d75498c$"
+}
+}

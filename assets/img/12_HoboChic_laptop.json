@@ -1,0 +1,309 @@
+{"frames": [
+
+{
+	"filename": "12_HoboChic_00.png",
+	"frame": {"x":2,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_02.png",
+	"frame": {"x":2,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_04.png",
+	"frame": {"x":2,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_06.png",
+	"frame": {"x":351,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_08.png",
+	"frame": {"x":351,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_10.png",
+	"frame": {"x":351,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_12.png",
+	"frame": {"x":351,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_14.png",
+	"frame": {"x":700,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_16.png",
+	"frame": {"x":700,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_18.png",
+	"frame": {"x":700,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_20.png",
+	"frame": {"x":1049,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_22.png",
+	"frame": {"x":1049,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_24.png",
+	"frame": {"x":1049,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_26.png",
+	"frame": {"x":1398,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_28.png",
+	"frame": {"x":1398,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_30.png",
+	"frame": {"x":1398,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_32.png",
+	"frame": {"x":1398,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_34.png",
+	"frame": {"x":1398,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_36.png",
+	"frame": {"x":1747,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_38.png",
+	"frame": {"x":1747,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_40.png",
+	"frame": {"x":1747,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_42.png",
+	"frame": {"x":1747,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_44.png",
+	"frame": {"x":2096,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_46.png",
+	"frame": {"x":2096,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_48.png",
+	"frame": {"x":2096,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_50.png",
+	"frame": {"x":2445,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_52.png",
+	"frame": {"x":2794,"y":2,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_54.png",
+	"frame": {"x":2445,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_56.png",
+	"frame": {"x":2445,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_58.png",
+	"frame": {"x":2794,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_60.png",
+	"frame": {"x":2794,"y":351,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_62.png",
+	"frame": {"x":2794,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "12_HoboChic_64.png",
+	"frame": {"x":2794,"y":700,"w":347,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":347,"h":347},
+	"sourceSize": {"w":347,"h":347},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "12_HoboChic.png",
+	"format": "RGBA8888",
+	"size": {"w":3143,"h":1049},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:5d58077e76ff844f6d5a08e2c4224f86:674d9a4382f6e3079fdce261f748f895:498695e43f1801e13476ca655e9a86cd$"
+}
+}

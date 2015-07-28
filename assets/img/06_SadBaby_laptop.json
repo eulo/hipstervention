@@ -1,0 +1,111 @@
+{"frames": [
+
+{
+	"filename": "06_SadBaby_00.png",
+	"frame": {"x":2,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_02.png",
+	"frame": {"x":239,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_04.png",
+	"frame": {"x":476,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_06.png",
+	"frame": {"x":713,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_08.png",
+	"frame": {"x":950,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_10.png",
+	"frame": {"x":1187,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_12.png",
+	"frame": {"x":1424,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_14.png",
+	"frame": {"x":1661,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_16.png",
+	"frame": {"x":1898,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_18.png",
+	"frame": {"x":1898,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "06_SadBaby_20.png",
+	"frame": {"x":1898,"y":2,"w":235,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":235},
+	"sourceSize": {"w":235,"h":235},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "06_SadBaby.png",
+	"format": "RGBA8888",
+	"size": {"w":2135,"h":239},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:6c889083d0b21308ab89fb64194908c7:e91e01a687275151d532bf415339759e:df416d1b6b4f1a2c9dd608603a0dfdd5$"
+}
+}

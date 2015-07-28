@@ -1,0 +1,57 @@
+{"frames": [
+
+{
+	"filename": "Hipstervention_01.png",
+	"frame": {"x":2,"y":2,"w":161,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":201},
+	"sourceSize": {"w":161,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Hipstervention_02.png",
+	"frame": {"x":165,"y":2,"w":161,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":201},
+	"sourceSize": {"w":161,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Hipstervention_03.png",
+	"frame": {"x":328,"y":2,"w":161,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":201},
+	"sourceSize": {"w":161,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Hipstervention_04.png",
+	"frame": {"x":491,"y":2,"w":161,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":201},
+	"sourceSize": {"w":161,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Hipstervention_05.png",
+	"frame": {"x":654,"y":2,"w":161,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":201},
+	"sourceSize": {"w":161,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Hipstervention_Menu.png",
+	"format": "RGBA8888",
+	"size": {"w":817,"h":205},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:4ff5a85bfc70f1cb576f6edd8277e708:16377e95ab84a92341590e76bf39484a:680d946de487a7fb8b43aa129b1866a0$"
+}
+}

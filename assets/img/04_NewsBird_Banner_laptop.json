@@ -1,0 +1,66 @@
+{"frames": [
+
+{
+	"filename": "04_NewsBird_Banner_00.png",
+	"frame": {"x":2,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_Banner_02.png",
+	"frame": {"x":659,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_Banner_04.png",
+	"frame": {"x":1316,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_Banner_06.png",
+	"frame": {"x":1973,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_Banner_08.png",
+	"frame": {"x":2630,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_Banner_10.png",
+	"frame": {"x":3287,"y":2,"w":655,"h":237},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":655,"h":237},
+	"sourceSize": {"w":655,"h":237},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "04_NewsBird_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":3944,"h":241},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:7ccea1a8577dafbbde851505a6ac4edd:37e70f77ff61ff5a5c0914c3fa5d229f:063dc2ab55f0cb7fb8599b713fcbfaf0$"
+}
+}

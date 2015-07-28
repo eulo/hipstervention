@@ -412,6 +412,9 @@ section {
     h2 {
       .animation {
         margin: -100px 0;
+        @media (max-width : 1440px) {
+          margin: -100px 0 -60px;
+        }
         @include mobile-landscape-and-below {
           margin: 0;
         }
@@ -439,6 +442,14 @@ section {
       position: relative;
       background-size: contain;
       max-width: 100%;
+
+      @media (max-width : 1440px) {
+          width: 400px;
+          height: 400px;
+          margin: 60px auto 0;
+
+      }
+
       @include mobile-only {
         margin: 0 auto;
         height: 100vw;
@@ -458,6 +469,10 @@ section {
       background: url(../../img/pants_graph.png) no-repeat;
       width: 539px;
       height: 424px;
+
+      @media (max-width : 1440px) {
+          margin-top: 80px;
+      }
 
       background-size: contain;
       max-width: 100%;
@@ -526,6 +541,9 @@ section {
 
       .animation {
         margin: -220px 0;
+        @media (max-width : 1440px) {
+          margin: -220px 0 -140px;
+        }
         @include mobile-landscape-and-below {
           margin: 0;
         }
@@ -540,12 +558,18 @@ section {
         &.old-school-animation {
           transform: scale(0.85);
         }
+        @media (max-width : 1440px) {
+          min-height: 350px;
+        }
         @include mobile-landscape-and-below {
           min-height: initial;
         }
       }
       .col-md-6 {
         height: 750px;
+        @media (max-width : 1440px) {
+          height: 520px;
+        }
         @include mobile-landscape-and-below {
           height: auto;
         }
@@ -640,6 +664,10 @@ section {
       &.bear-trap {
         div {
           margin-bottom: -150px;
+
+          @media (max-width : 1440px) {
+            margin-top: 80px;
+          }
           @include tablet-portrait-and-below {
             margin-bottom:0;
           }
@@ -648,6 +676,9 @@ section {
       &.tears-glass {
         div {
           margin-bottom: -100px;
+          @media (max-width : 1440px) {
+            margin-top: 80px;
+          }
           @include tablet-portrait-and-below {
             margin-bottom:0;
           }
@@ -655,6 +686,9 @@ section {
       }
       &.beard-slap {
         margin-bottom: -170px;
+        @media (max-width : 1440px) {
+          margin-top: 80px;
+        }
         @include mobile-only {
           margin-bottom:0;
         }
@@ -707,6 +741,9 @@ section {
     h2 {
       margin: -210px 0;
 
+      @media (max-width : 1440px) {
+        margin: -190px 0 -100px;
+      }
       @include mobile-only {
         margin:0;
       }
@@ -814,7 +851,6 @@ section {
           left: 0;
           background-position: center -524px;
           margin-top: -140px;
-          z-index: -1;
         }
       }
     }
@@ -931,6 +967,18 @@ section {
         }
         p {
 
+        }
+        .social-absolute {
+          @include desktop-and-up {
+            position: absolute;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            float: none;
+            left: 0;
+            margin-top: -70px;
+            z-index: 2;
+          }
         }
         .social-container {
           @include clearfix;

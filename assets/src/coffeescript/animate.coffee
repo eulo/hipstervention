@@ -29,6 +29,10 @@ class Animate
       else
         @img_src = @img_src.replace('.png', '_mobile.png')
       @json_src = @json_src.replace('.json', '_mobile.json')
+    else if $(window).width() < 1440
+      @img_src = @img_src.replace('.png', '_laptop.png')
+      @json_src = @json_src.replace('.json', '_laptop.json')
+
 
     $.get @json_src, (res) =>
       @data = res.frames

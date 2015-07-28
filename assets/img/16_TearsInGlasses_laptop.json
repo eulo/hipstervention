@@ -1,0 +1,201 @@
+{"frames": [
+
+{
+	"filename": "16_TearsInGlasses_00.png",
+	"frame": {"x":2,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_02.png",
+	"frame": {"x":2,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_04.png",
+	"frame": {"x":2,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_06.png",
+	"frame": {"x":413,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_08.png",
+	"frame": {"x":413,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_10.png",
+	"frame": {"x":413,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_12.png",
+	"frame": {"x":824,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_14.png",
+	"frame": {"x":824,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_16.png",
+	"frame": {"x":824,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_18.png",
+	"frame": {"x":1235,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_20.png",
+	"frame": {"x":1235,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_22.png",
+	"frame": {"x":1235,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_24.png",
+	"frame": {"x":1646,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_26.png",
+	"frame": {"x":1646,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_28.png",
+	"frame": {"x":1646,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_30.png",
+	"frame": {"x":2057,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_32.png",
+	"frame": {"x":2468,"y":2,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_34.png",
+	"frame": {"x":2057,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_36.png",
+	"frame": {"x":2057,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_38.png",
+	"frame": {"x":2468,"y":413,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "16_TearsInGlasses_40.png",
+	"frame": {"x":2468,"y":824,"w":409,"h":409},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":409,"h":409},
+	"sourceSize": {"w":409,"h":409},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "16_TearsInGlasses.png",
+	"format": "RGBA8888",
+	"size": {"w":2879,"h":1235},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:15b863e539de94b4046f086cc925976c:c0554b886a44163cbddc3b4b604dd296:f82d55067debed8cfac4c163fdb168bb$"
+}
+}

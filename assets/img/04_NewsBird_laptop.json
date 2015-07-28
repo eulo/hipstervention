@@ -1,0 +1,102 @@
+{"frames": [
+
+{
+	"filename": "04_NewsBird_00.png",
+	"frame": {"x":2,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_02.png",
+	"frame": {"x":166,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_04.png",
+	"frame": {"x":330,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_06.png",
+	"frame": {"x":494,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_08.png",
+	"frame": {"x":658,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_10.png",
+	"frame": {"x":822,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_12.png",
+	"frame": {"x":986,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_14.png",
+	"frame": {"x":1150,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_16.png",
+	"frame": {"x":1314,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "04_NewsBird_18.png",
+	"frame": {"x":1478,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":162,"h":162},
+	"sourceSize": {"w":162,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "04_NewsBird.png",
+	"format": "RGBA8888",
+	"size": {"w":1642,"h":166},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:97becbd9b697211f340abdc7f77c52f4:d5d2735ff887d3e5b4cc51e974fb7aa9:8cfd73bfc203d684ba3bebae8a144945$"
+}
+}

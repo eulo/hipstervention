@@ -1,0 +1,237 @@
+{"frames": [
+
+{
+	"filename": "05_SaveAMate_Banner_00.png",
+	"frame": {"x":2,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_02.png",
+	"frame": {"x":2,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_04.png",
+	"frame": {"x":2,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_06.png",
+	"frame": {"x":446,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_08.png",
+	"frame": {"x":446,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_10.png",
+	"frame": {"x":446,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_12.png",
+	"frame": {"x":890,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_14.png",
+	"frame": {"x":890,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_16.png",
+	"frame": {"x":890,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_18.png",
+	"frame": {"x":1334,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_20.png",
+	"frame": {"x":1334,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_22.png",
+	"frame": {"x":1334,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_24.png",
+	"frame": {"x":1778,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_26.png",
+	"frame": {"x":1778,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_28.png",
+	"frame": {"x":1778,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_30.png",
+	"frame": {"x":2222,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_32.png",
+	"frame": {"x":2222,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_34.png",
+	"frame": {"x":2222,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_36.png",
+	"frame": {"x":2666,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_38.png",
+	"frame": {"x":2666,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_40.png",
+	"frame": {"x":2666,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_42.png",
+	"frame": {"x":3110,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_44.png",
+	"frame": {"x":3554,"y":2,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_46.png",
+	"frame": {"x":3110,"y":446,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "05_SaveAMate_Banner_48.png",
+	"frame": {"x":3110,"y":890,"w":442,"h":442},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":442,"h":442},
+	"sourceSize": {"w":442,"h":442},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "05_SaveAMate_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":3998,"h":1334},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:4c30228bf146496dd5bdf49d2605a031:4928c5937028a2eabf8fe23469b94a84:5eede9621a8b3367eadcf4e83006224d$"
+}
+}

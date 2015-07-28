@@ -1,0 +1,174 @@
+{"frames": [
+
+{
+	"filename": "02_SignAndSymptoms_Banner_00.png",
+	"frame": {"x":2,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_02.png",
+	"frame": {"x":2,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_04.png",
+	"frame": {"x":435,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_06.png",
+	"frame": {"x":435,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_08.png",
+	"frame": {"x":868,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_10.png",
+	"frame": {"x":868,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_12.png",
+	"frame": {"x":2,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_14.png",
+	"frame": {"x":1301,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_16.png",
+	"frame": {"x":1301,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_18.png",
+	"frame": {"x":1734,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_20.png",
+	"frame": {"x":1734,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_22.png",
+	"frame": {"x":2167,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_24.png",
+	"frame": {"x":2,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_26.png",
+	"frame": {"x":2167,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_28.png",
+	"frame": {"x":2600,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_30.png",
+	"frame": {"x":2600,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_32.png",
+	"frame": {"x":3033,"y":2,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "02_SignAndSymptoms_Banner_34.png",
+	"frame": {"x":3033,"y":435,"w":431,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":431,"h":431},
+	"sourceSize": {"w":431,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "03_HowToHost.png",
+	"format": "RGBA8888",
+	"size": {"w":3466,"h":868},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:eeca2229f4deaa516ec26933e4dacf2c:1e44d59894e31b483ed44abb415008ac:ac6d85ece5d51843bf25407dd5c1dcef$"
+}
+}

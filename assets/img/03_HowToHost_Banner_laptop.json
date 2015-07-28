@@ -1,0 +1,201 @@
+{"frames": [
+
+{
+	"filename": "03_HowToHost_Banner_00.png",
+	"frame": {"x":2,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_02.png",
+	"frame": {"x":2,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_04.png",
+	"frame": {"x":2,"y":438,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_06.png",
+	"frame": {"x":2,"y":656,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_08.png",
+	"frame": {"x":631,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_10.png",
+	"frame": {"x":631,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_12.png",
+	"frame": {"x":631,"y":438,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_14.png",
+	"frame": {"x":631,"y":656,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_16.png",
+	"frame": {"x":1260,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_18.png",
+	"frame": {"x":1260,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_20.png",
+	"frame": {"x":1260,"y":438,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_22.png",
+	"frame": {"x":1260,"y":656,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_24.png",
+	"frame": {"x":1889,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_26.png",
+	"frame": {"x":1889,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_28.png",
+	"frame": {"x":1889,"y":438,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_30.png",
+	"frame": {"x":1889,"y":656,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_32.png",
+	"frame": {"x":2518,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_34.png",
+	"frame": {"x":3147,"y":2,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_36.png",
+	"frame": {"x":2518,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_38.png",
+	"frame": {"x":3147,"y":220,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "03_HowToHost_Banner_40.png",
+	"frame": {"x":2518,"y":438,"w":627,"h":216},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":627,"h":216},
+	"sourceSize": {"w":627,"h":216},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "03_HowToHost_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":3776,"h":874},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:155d640ed3d7afd632d7a87fbe42b465:e9eda957e87681815a3d9e5506b17189:cf734dfc037b5c5697e142d006146a1a$"
+}
+}

@@ -1,0 +1,174 @@
+{"frames": [
+
+{
+	"filename": "17_BeardSlap_00.png",
+	"frame": {"x":2,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_02.png",
+	"frame": {"x":2,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_04.png",
+	"frame": {"x":564,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_06.png",
+	"frame": {"x":564,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_08.png",
+	"frame": {"x":1126,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_10.png",
+	"frame": {"x":1126,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_12.png",
+	"frame": {"x":1126,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_14.png",
+	"frame": {"x":1126,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_16.png",
+	"frame": {"x":1126,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_18.png",
+	"frame": {"x":1688,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_20.png",
+	"frame": {"x":1688,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_22.png",
+	"frame": {"x":2250,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_24.png",
+	"frame": {"x":2250,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_26.png",
+	"frame": {"x":2250,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_28.png",
+	"frame": {"x":2812,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_30.png",
+	"frame": {"x":2812,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_32.png",
+	"frame": {"x":2812,"y":564,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "17_BeardSlap_34.png",
+	"frame": {"x":3374,"y":2,"w":560,"h":560},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":560},
+	"sourceSize": {"w":560,"h":560},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "17_BeardSlap.png",
+	"format": "RGBA8888",
+	"size": {"w":3936,"h":1126},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:52fd2d28dc67e6e9e50e106671a206d8:26b78fe4d3d8ea8814251e4cf28b9460:edaa6cd0467bae952efb9cc2016a502b$"
+}
+}
