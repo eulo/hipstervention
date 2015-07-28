@@ -20,6 +20,7 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
 $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
     opacity: 1
+    marginTop: '160px'
 
 # Facebook share
 $('.share-fb').click (event)->
@@ -92,7 +93,13 @@ throttle_scroll = ()->
   $('.back-to-top-cont').css
     opacity: if scrollTop  > 1000 then 1 else 0
 
-  if scrollTop > 838
+  if $(window).width() > 768
+    trans = (1-(scrollTop / 1080 *2))
+    if trans >= 0 && 1080 * trans < 1080
+      $('header').height(1080 * (trans))
+
+  if scrollTop > 341 #$('nav').position().top
+    console.log(scrollTop)
     $('header nav').css
       position: 'fixed'
       top: 0
@@ -104,7 +111,7 @@ $(window).scroll throttle_scroll
 # resize event
 throttle_resize = _.throttle ()->
   if $(window).width() > 768
-    $('header').height 900
+    $('header').height 1080
   else
     $('header').height 1076/640 * $(window).width()
   $('.animation:visible').each () ->

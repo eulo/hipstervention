@@ -79,8 +79,9 @@ footer {
 
 
 header {
-  background: url(../../img/big_beard_bg_01.jpg) top center no-repeat;
-  height: 900px;
+  background: url(../../img/big_beard_bg_02.jpg) top center no-repeat;
+  //height: 900px;
+  height: 1080px;
   position: relative;
   overflow: hidden;
   @include tablet-portrait-and-below {
@@ -99,13 +100,13 @@ header {
 
   h1 {
     background: url(../../img/main_logo.png) top center no-repeat;
-    margin: 0;
+    margin: 160px 0 0 0;
     text-indent: -9999px;
     height: 227px;
     opacity: 0;
-    -webkit-transition:1.5s all;
-    -moz-transition:1.5s all;
-    transition:1.5s all;
+    -webkit-transition:1.5s opacity 0.3s margin;
+    -moz-transition:1.5s opacity, 0.3s margin;
+    transition:1.5s opacity, 0.3s margin;
     @include tablet-portrait-and-below {
       display: none;
     }
@@ -170,24 +171,24 @@ header {
       text-indent: -9999px;
 
       &.menu-1 {
-        left: -390px;
-        top: 240px;
+        left: -370px;
+        top: 200px;
       }
       &.menu-2 {
-        left: -520px;
-        top: 40px;
+        left: -490px;
+        top: -30px;
       }
       &.menu-3 {
-        left: -115px;
-        top: 330px;
+        left: -105px;
+        top: 290px;
       }
       &.menu-4 {
-        left: 160px;
-        top: 230px;
+        left: 200px;
+        top: 200px;
       }
       &.menu-5 {
-        left: 310px;
-        top: 60px;
+        left: 330px;
+        top: 0px;
       }
     }
   }
@@ -665,7 +666,7 @@ section {
         div {
           margin-bottom: -150px;
 
-          @media (max-width : 1440px) {
+          @media (max-width : 1440px) and (min-width: 768px) {
             margin-top: 80px;
           }
           @include tablet-portrait-and-below {
@@ -676,8 +677,12 @@ section {
       &.tears-glass {
         div {
           margin-bottom: -100px;
-          @media (max-width : 1440px) {
+          @media (max-width : 1440px) and (min-width: 768px) {
             margin-top: 80px;
+          }
+          @media (max-width: 767px) {
+            margin-top: 20px;
+            margin-bottom: -100px;
           }
           @include tablet-portrait-and-below {
             margin-bottom:0;
@@ -686,8 +691,11 @@ section {
       }
       &.beard-slap {
         margin-bottom: -170px;
-        @media (max-width : 1440px) {
+        @media (max-width : 1440px) and (min-width: 768px){
           margin-top: 80px;
+        }
+        @media (max-width: 767px) {
+          margin-bottom: -100px;
         }
         @include mobile-only {
           margin-bottom:0;
