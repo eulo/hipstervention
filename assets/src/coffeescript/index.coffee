@@ -98,6 +98,7 @@ throttle_scroll = ()->
     if trans >= 0 && 1080 * trans < 1080
       $('header').height(1080 * (trans))
 
+  ###
   if scrollTop > 341 #$('nav').position().top
     console.log(scrollTop)
     $('header nav').css
@@ -105,6 +106,7 @@ throttle_scroll = ()->
       top: 0
   else
     $('header nav').attr('style', '')
+  ###
 
 $(window).scroll throttle_scroll
 

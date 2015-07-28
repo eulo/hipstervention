@@ -84,10 +84,10 @@ header {
   height: 1080px;
   position: relative;
   overflow: hidden;
+  border-bottom: 3px solid black;
   @include tablet-portrait-and-below {
     position: static;
     background-image: url(../../img/guy-with-beard_mobile.jpg);
-    border-bottom: 3px solid black;
     -webkit-background-size: contain;
        -moz-background-size: contain;
          -o-background-size: contain;
@@ -194,8 +194,8 @@ header {
   }
 
   nav {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 0;
     height: 64px;
     background: rgba(0,0,0,0.7);
 
@@ -249,7 +249,7 @@ header {
             font-size: 15px;
             padding: 0 10px;
             &.logo {
-              padding: 0 10px;
+              padding: 0 60px 0 10px;
             }
           }
           @media (max-width : 1200px) {
