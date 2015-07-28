@@ -231,9 +231,14 @@ header {
 
           &.logo {
             padding-right: 80px;
+            opacity: 0;
+            -webkit-transition:1.5s opacity;
+            -moz-transition:1.5s opacity;
+            transition:1.5s opacity;
             @include tablet-portrait-and-below {
               padding: 0;
               display: block;
+              opacity: 1;
               img {
                 display: block;
                 margin: auto;
