@@ -19,7 +19,7 @@ a:focus {
   color: #0a0a09;
 }
 
-p {
+p, input, select {
   font-family: "proxima-nova",sans-serif;
   color: #0a0a09;
 }
@@ -65,11 +65,11 @@ footer {
 
   .back-to-top-button {
     display: block;
-    background-image: url(../../img/button_back_to_top.png);
+    background-image: url(../../img/back_to_top_razor.png);
     background-repeat: no-repeat;
-    height:108px;
-    width: 180px;
-    left: -90px;
+    height:188px;
+    width: 210px;
+    left: -105px;
     position: absolute;
     bottom: 10px;
 
@@ -531,24 +531,13 @@ section {
       }
     }
 
-    &:before {
-      height: 82px;
-      background: url(../../img/rope_border_top.png) no-repeat center center;
-      margin-top: 40px;
-      @include mobile-landscape-and-below {
-        padding: 0;
-        height: 25px;
-        background-position: center top;
-      }
-    }
-
 
     h2 {
 
       .animation {
-        margin: -220px 0;
+        margin: -200px 0;
         @media (max-width : 1440px) {
-          margin: -220px 0 -140px;
+          margin: -200px 0 -140px;
         }
         @include mobile-landscape-and-below {
           margin: 0;
@@ -746,11 +735,18 @@ section {
 
   &#save-a-mate {
 
-    @include mobile-landscape-and-below {
-        &:before {
-          padding: 0;
-        }
+
+    &:before {
+      height: 82px;
+      background: url(../../img/rope_border_top.png) no-repeat center center;
+      margin-top: 40px;
+      @include mobile-landscape-and-below {
+        padding: 0;
+        height: 25px;
+        background-position: center top;
+      }
     }
+
     h2 {
       margin: -210px 0;
 
@@ -780,26 +776,127 @@ section {
         padding-bottom: 0;
       }
 
-      .col-md-3 {
+      .col-md-3, .col-md-2 {
         h3 {
           font-size: 50px;
           line-height: 70px;
         }
       }
+
+      .col-md-12 {
+        p {
+          max-width: 700px;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 20px;
+        }
+      }
+
+      &.free-razor-lead {
+        margin-top: 60px;
+        padding-bottom: 20px;
+
+        .col-md-6 {
+          img {
+            max-width: 671px;
+            width: 100%;
+            margin: 10px auto;
+            display: block;
+          }
+          h5 {
+            text-align: center;
+            font-size: 64px;
+            margin: 0;
+            line-height: 1;
+          }
+          h4 {
+            text-align: center;
+            font-size: 150px;
+            margin: 0;
+            line-height: 120px;
+          }
+          p {
+            margin-top: 20px;
+          }
+        }
+      }
     }
+
+    form {
+      input, select {
+        border-radius: 0;
+        border: 2px solid black;
+        font-size: 28px;
+        height: 56px;
+        text-indent: 10px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        max-width: 400px;
+        margin: 40px auto;
+        background: #e74e2c;
+        color: white;
+        font-family: 'Parliment', serif;
+        border-radius: 0;
+        font-size: 38px;
+        line-height: 76px;
+        text-decoration: none;
+        border: none;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+      }
+    }
+
+    .video-section-cont {
+      h3 {
+        font-size: 59px;
+        text-align: center;
+      }
+      .video-player-cont{
+        position: relative;
+        height: 704px;
+        .video-player-center {
+          left: 50%;
+          width: 1240px;
+          position: absolute;
+          .video-player {
+            left: -50%;
+            position:absolute;
+            background : url(../../img/video_rope_border.png);
+            width: 1240px;
+            height: 704px;
+            .video-inner {
+              background-color: black;
+              background-image: url(../../img/button-video-play.png);
+              background-repeat: no-repeat;
+              background-position: center center;
+              width: 1030px;
+              height: 600px;
+              position: absolute;
+              z-index: -1;
+              left: 110px;
+              top: 49px;
+            }
+          }
+        }
+
+      }
+
+    }
+
 
     .share-button {
       display: block;
-      height: 60px;
-      width: 60px;
-      line-height: 60px;
+      height: 75px;
+      width: 75px;
+      line-height: 75px;
       text-align: center;
       margin: 20px auto;
 
       i {
-        height: 60px;
-        width: 60px;
-        line-height: 60px;
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
         text-align: center;
       }
       &.share-fb {
@@ -810,6 +907,9 @@ section {
       }
       &.share-google {
         background: $google-red;
+      }
+      &.share-email {
+        background: #c7c5b3;
       }
       i {
         color:white;
