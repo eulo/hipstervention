@@ -1,7 +1,7 @@
 # index
 $ = require 'jquery'
 window.$ = window.jQuery = $
-#require 'bootstrap'
+require 'bootstrap'
 _ = require 'underscore'
 Animate = require './animate'
 
@@ -21,6 +21,12 @@ $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
     opacity: 1
     marginTop: '160px'
+
+$('select').change ()->
+  if $(this).val() == 'SA'
+    $('#disclaimer-modal').modal()
+    $(this).val('')
+
 
 # Facebook share
 $('.share-fb').click (event)->
