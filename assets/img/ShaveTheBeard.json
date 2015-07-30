@@ -1,0 +1,212 @@
+{"frames": [
+
+{
+	"filename": "ShaveTheBeard_Banner_0000.png",
+	"frame": {"x":1846,"y":1162,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0002.png",
+	"frame": {"x":2768,"y":930,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0004.png",
+	"frame": {"x":1846,"y":930,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0006.png",
+	"frame": {"x":2768,"y":698,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0008.png",
+	"frame": {"x":1846,"y":698,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0010.png",
+	"frame": {"x":2768,"y":466,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0012.png",
+	"frame": {"x":1846,"y":466,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0014.png",
+	"frame": {"x":924,"y":1394,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0016.png",
+	"frame": {"x":924,"y":1162,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0018.png",
+	"frame": {"x":924,"y":930,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0020.png",
+	"frame": {"x":924,"y":698,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0022.png",
+	"frame": {"x":924,"y":466,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0024.png",
+	"frame": {"x":2768,"y":234,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0026.png",
+	"frame": {"x":1846,"y":234,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0028.png",
+	"frame": {"x":924,"y":234,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0030.png",
+	"frame": {"x":2768,"y":2,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0032.png",
+	"frame": {"x":1846,"y":2,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0034.png",
+	"frame": {"x":924,"y":2,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0036.png",
+	"frame": {"x":2,"y":1394,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0038.png",
+	"frame": {"x":2,"y":1162,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0040.png",
+	"frame": {"x":2,"y":930,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0042.png",
+	"frame": {"x":2,"y":698,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0044.png",
+	"frame": {"x":2,"y":466,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0046.png",
+	"frame": {"x":2,"y":234,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+},
+{
+	"filename": "ShaveTheBeard_Banner_0048.png",
+	"frame": {"x":2,"y":2,"w":920,"h":230},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":920,"h":230},
+	"sourceSize": {"w":920,"h":230}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "ShaveTheBeard_Banner.png",
+	"format": "RGBA8888",
+	"size": {"w":3690,"h":1626},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4c768498353f0b7beca8d94e57412c34$"
+}
+}

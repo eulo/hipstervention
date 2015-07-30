@@ -769,13 +769,7 @@ section {
     }
 
     h2 {
-      text-indent:0;
-      img {
-        width: 863px;
-        max-width: 100%;
-        margin: 0 auto;
-        display: block;
-      }
+
       .animation {
         div {
         }
@@ -841,6 +835,9 @@ section {
     }
 
     form {
+      @include mobile-only {
+        padding: 0 20px;
+      }
       input, select {
         border-radius: 0;
         border: 2px solid black;

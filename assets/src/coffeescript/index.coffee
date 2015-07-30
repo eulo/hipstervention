@@ -22,11 +22,15 @@ $.get('assets/img/main_logo.png').done ()->
     opacity: 1
     marginTop: '160px'
 
+# FORM Binds
 $('select').change ()->
   if $(this).val() == 'SA'
     $('#disclaimer-modal').modal()
     $(this).val('')
 
+$('form').submit (event) ->
+  event.preventDefault()
+  $('form button').text('It\'s on the way!')
 
 # Facebook share
 $('.share-fb').click (event)->
