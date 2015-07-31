@@ -879,6 +879,10 @@ section {
         height: 56px;
         text-indent: 10px;
         margin-bottom: 10px;
+
+        @include tablet-portrait-and-below {
+          font-size: 14px;
+        }
       }
 
       button {
@@ -893,6 +897,9 @@ section {
         text-decoration: none;
         border: none;
         box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        @include tablet-portrait-and-below {
+          font-size: 28px;
+        }
       }
 
       .small-text {
@@ -911,6 +918,9 @@ section {
       h3 {
         font-size: 59px;
         text-align: center;
+        @include tablet-portrait-and-below {
+          font-size: 38px;
+        }
       }
       .video-player-cont{
         position: relative;
