@@ -9,6 +9,7 @@ $google-red: #c5422f;
 $insta-brown: #bab39d;
 $tumblr-blue: #48738f;
 $yt-red: #e15955;
+$text-color: #0a0a09;
 
 h2, h3, h4,h5,h6 {
   font-family: 'Parliment', serif;
@@ -19,7 +20,7 @@ a:focus {
   color: #0a0a09;
 }
 
-p, input, select {
+p, input, select, label {
   font-family: "proxima-nova",sans-serif;
   color: #0a0a09;
 }
@@ -895,8 +896,13 @@ section {
         font-size: 28px;
         padding-left: 40px;
         label {
+          text-transform: uppercase;
           text-align: center;
           width: 100%;
+          a {
+            color: $text-color;
+            text-decoration: underline;
+          }
         }
         input {
           margin-top: 12px;
