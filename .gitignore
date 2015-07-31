@@ -43,6 +43,7 @@ Icon
 ############
 .project
 .sass-cache
+subscribe/settings.php
 
 # Vim Ignore #
 ##############
