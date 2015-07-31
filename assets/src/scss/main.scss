@@ -893,7 +893,7 @@ section {
       }
 
       .checkbox {
-        font-size: 28px;
+        font-size: 22px;
         padding-left: 40px;
         label {
           text-transform: uppercase;
@@ -905,11 +905,11 @@ section {
           }
         }
         input {
-          margin-top: 12px;
+          margin-top: 8px;
         }
         @include tablet-portrait-and-below {
           padding-left: 0px;
-          font-size: 14px;
+          font-size: 12px;
           input {
             margin-top: 4px;
           }
