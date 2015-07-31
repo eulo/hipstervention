@@ -165,6 +165,15 @@ header {
       display:none;
     }
 
+    > img {
+      width: 282px;
+      height: 234px;
+      display: block;
+      position: absolute;
+      left: -134px;
+      top: 28px;
+    }
+
     a.animation {
       position: absolute;
       display: block;
@@ -826,6 +835,11 @@ section {
             font-size: 150px;
             margin: 0;
             line-height: 120px;
+            sup {
+              top: -1.3em;
+              margin-right: -0.5em;
+              font-size: 0.4em;
+            }
           }
           p {
             margin-top: 20px;

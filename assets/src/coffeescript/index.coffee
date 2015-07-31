@@ -15,6 +15,28 @@ $('.bs-video-modal-lg').on 'show.bs.modal', (event) ->
   $cont = $modal.find('.modal-content').empty()
   $cont.html iframe
 ###
+placeholderSupported = typeof $('<input>')[0].placeholder == 'string'
+
+if !placeholderSupported
+   $('[placeholder]').focus(()->
+     input = $(this)
+     if input.val() == input.attr('placeholder')
+       input.val('')
+       input.removeClass('placeholder')
+
+   ).blur(()->
+     input = $(this)
+     if input.val() == '' || input.val() == input.attr('placeholder')
+       input.addClass('placeholder')
+       input.val(input.attr('placeholder'))
+
+   ).blur()
+
+   $('[placeholder]').parents('form').submit ()->
+     $(this).find('[placeholder]').each ()->
+       input = $(this)
+       if input.val() == input.attr('placeholder')
+         input.val('')
 
 # Main Logo fadeIn
 $.get('assets/img/main_logo.png').done ()->
