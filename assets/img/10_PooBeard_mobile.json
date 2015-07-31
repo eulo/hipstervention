@@ -2,38 +2,6 @@
 
 {
 	"filename": "10_PooBeard_00.png",
-	"frame": {"x":2762,"y":2,"w":228,"h":228},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":228},
-	"sourceSize": {"w":228,"h":228}
-},
-{
-	"filename": "10_PooBeard_02.png",
-	"frame": {"x":2532,"y":232,"w":228,"h":228},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":228},
-	"sourceSize": {"w":228,"h":228}
-},
-{
-	"filename": "10_PooBeard_04.png",
-	"frame": {"x":2532,"y":2,"w":228,"h":228},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":228},
-	"sourceSize": {"w":228,"h":228}
-},
-{
-	"filename": "10_PooBeard_06.png",
-	"frame": {"x":2302,"y":232,"w":228,"h":228},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":228},
-	"sourceSize": {"w":228,"h":228}
-},
-{
-	"filename": "10_PooBeard_08.png",
 	"frame": {"x":2302,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -41,7 +9,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_10.png",
+	"filename": "10_PooBeard_02.png",
 	"frame": {"x":2072,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -49,7 +17,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_12.png",
+	"filename": "10_PooBeard_04.png",
 	"frame": {"x":2072,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -57,7 +25,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_14.png",
+	"filename": "10_PooBeard_06.png",
 	"frame": {"x":1842,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -65,7 +33,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_16.png",
+	"filename": "10_PooBeard_08.png",
 	"frame": {"x":1842,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -73,7 +41,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_18.png",
+	"filename": "10_PooBeard_10.png",
 	"frame": {"x":1612,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -81,7 +49,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_20.png",
+	"filename": "10_PooBeard_12.png",
 	"frame": {"x":1612,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -89,7 +57,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_22.png",
+	"filename": "10_PooBeard_14.png",
 	"frame": {"x":1382,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -97,7 +65,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_24.png",
+	"filename": "10_PooBeard_16.png",
 	"frame": {"x":1382,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -105,7 +73,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_26.png",
+	"filename": "10_PooBeard_18.png",
 	"frame": {"x":1152,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -113,7 +81,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_28.png",
+	"filename": "10_PooBeard_20.png",
 	"frame": {"x":1152,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -121,7 +89,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_30.png",
+	"filename": "10_PooBeard_22.png",
 	"frame": {"x":922,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -129,7 +97,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_32.png",
+	"filename": "10_PooBeard_24.png",
 	"frame": {"x":922,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -137,7 +105,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_34.png",
+	"filename": "10_PooBeard_26.png",
 	"frame": {"x":692,"y":232,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -145,7 +113,7 @@
 	"sourceSize": {"w":228,"h":228}
 },
 {
-	"filename": "10_PooBeard_36.png",
+	"filename": "10_PooBeard_28.png",
 	"frame": {"x":692,"y":2,"w":228,"h":228},
 	"rotated": false,
 	"trimmed": false,
@@ -205,8 +173,8 @@
 	"version": "1.0",
 	"image": "10_PooBeard.png",
 	"format": "RGBA8888",
-	"size": {"w":2992,"h":462},
+	"size": {"w":2532,"h":462},
 	"scale": "0.5",
-	"smartupdate": "$TexturePacker:SmartUpdate:9b88154db811d7d2100e78d1d490a1a7$"
+	"smartupdate": "$TexturePacker:SmartUpdate:41e35be7f8f40126b89c4d572209affd$"
 }
 }
