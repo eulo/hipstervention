@@ -134,24 +134,24 @@ header {
       width: 20vw;
 
       &.menu-1 {
-        background-image: url(../../img/beard_nav_mobile_signs.png);
+        background-image: url(../../img/beard_nav_mobile_save.png);
         //width: 116px;
         height: 132px;
       }
       &.menu-2 {
-        background-image: url(../../img/beard_nav_mobile_effects.png);
+        background-image: url(../../img/beard_nav_mobile_signs.png);
         //width: 123px;
         height: 141px;
         background-position: 0 50px;
       }
       &.menu-3 {
-        background-image: url(../../img/beard_nav_mobile_host.png);
+        background-image: url(../../img/beard_nav_mobile_effects.png);
         //width: 139px;
         height: 260px;
         background-position: 0 80px;
       }
       &.menu-4 {
-        background-image: url(../../img/beard_nav_mobile_save.png);
+        background-image: url(../../img/beard_nav_mobile_host.png);
         //width: 106px;
         height: 148px;
         background-position: 0 50px;
@@ -187,12 +187,12 @@ header {
       text-indent: -9999px;
 
       &.menu-1 {
-        left: -370px;
-        top: 200px;
-      }
-      &.menu-2 {
         left: -490px;
         top: -30px;
+      }
+      &.menu-2 {
+        left: -370px;
+        top: 200px;
       }
       &.menu-3 {
         left: -105px;
