@@ -42,8 +42,7 @@ if !placeholderSupported
 $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
     opacity: 1
-    marginTop: '160px'
-
+    
 # FORM Binds
 $('select').change ()->
   if $(this).val() == 'SA'
@@ -126,9 +125,13 @@ throttle_scroll = ()->
     opacity: if scrollTop  > 1000 then 1 else 0
 
   if $(window).width() > 768
-    trans = (1-(scrollTop / 1080 *2))
-    if trans >= 0 && 1080 * trans < 1080
-      $('header').height(1080 * (trans))
+    if $(window).height() > 1080
+      imgH = $(window).width() / 1.77
+    else
+      imgH = 1080
+    trans = (1-(scrollTop / imgH *2))
+    if trans >= 0 && imgH * trans < imgH
+      $('header').height(imgH * (trans))
 
   if scrollTop > 341 || $(window).width() <= 768 #$('nav').position().top
     $('header .logo').css
@@ -142,7 +145,11 @@ $(window).scroll throttle_scroll
 # resize event
 throttle_resize = _.throttle ()->
   if $(window).width() > 768
-    $('header').height 1080
+    if $(window).height() > 1080
+      imgH = $(window).width() / 1.77
+    else
+      imgH = 1080
+    $('header').height imgH
   else
     $('header').height 1076/640 * $(window).width()
   $('.animation:visible').each () ->

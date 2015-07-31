@@ -79,7 +79,7 @@ footer {
 
 
 header {
-  background: url(../../img/big_beard_bg_02.jpg) top center no-repeat;
+  background: url(../../img/big_beard_bg_03.jpg) top center no-repeat;
   //height: 900px;
   height: 1080px;
   position: relative;
@@ -92,8 +92,13 @@ header {
        -moz-background-size: contain;
          -o-background-size: contain;
             background-size: contain;
+  }
 
-
+  @media only screen and (min-width: 1920px) {
+    background-size: cover;
+    h1 {
+      margin-top: 10% !important;
+    }
   }
 
 
@@ -873,7 +878,7 @@ section {
         padding-bottom: 0;
       }
 
-      input, select {
+      input[type=text], input[type=email], select {
         border-radius: 0;
         border: 2px solid black;
         font-size: 28px;
@@ -883,6 +888,25 @@ section {
 
         @include tablet-portrait-and-below {
           font-size: 14px;
+        }
+      }
+
+      .checkbox {
+        font-size: 28px;
+        padding-left: 40px;
+        label {
+          text-align: center;
+          width: 100%;
+        }
+        input {
+          margin-top: 12px;
+        }
+        @include tablet-portrait-and-below {
+          padding-left: 0px;
+          font-size: 14px;
+          input {
+            margin-top: 4px;
+          }
         }
       }
 
@@ -903,11 +927,23 @@ section {
         }
       }
 
+      .terms-text {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 80px;
+        sup {
+          font-size: 18px;
+          top: -.1em;
+        }
+      }
+
       .small-text {
         text-transform: uppercase;
         font-size: 18px;
         text-align: center;
-        padding-bottom: 80px;
         sup {
           font-size: 18px;
           top: -.1em;
