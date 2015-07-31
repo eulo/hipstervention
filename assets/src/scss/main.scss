@@ -932,20 +932,21 @@ section {
         margin-left: auto;
         margin-right: auto;
         font-size: 12px;
+        text-transform: uppercase;
         text-align: center;
-        padding-bottom: 80px;
         sup {
-          font-size: 18px;
+          font-size: 12px;
           top: -.1em;
         }
       }
 
       .small-text {
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 12px;
         text-align: center;
+        padding-bottom: 80px;
         sup {
-          font-size: 18px;
+          font-size: 12px;
           top: -.1em;
         }
       }
