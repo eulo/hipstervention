@@ -120,6 +120,12 @@ header {
     }
     overflow: hidden;
 
+    > img {
+      width: 100px;
+      display: block;
+      position: absolute;
+    }
+
     a {
       display: block;
       background-size: contain;
@@ -582,6 +588,7 @@ section {
       }
       h3 {
         font-size: 48px;
+
       }
       @include tablet-landscape-and-below {
         h3 {
@@ -858,6 +865,10 @@ section {
       @include mobile-only {
         padding: 0 20px;
       }
+      .row {
+        padding-bottom: 0;
+      }
+
       input, select {
         border-radius: 0;
         border: 2px solid black;
@@ -885,6 +896,7 @@ section {
         text-transform: uppercase;
         font-size: 18px;
         text-align: center;
+        padding-bottom: 80px;
         sup {
           font-size: 18px;
           top: -.1em;
