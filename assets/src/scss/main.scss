@@ -933,18 +933,7 @@ section {
         }
       }
 
-      .terms-text {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 12px;
-        text-transform: uppercase;
-        text-align: center;
-        sup {
-          font-size: 12px;
-          top: -.1em;
-        }
-      }
+
 
       .small-text {
         text-transform: uppercase;
@@ -955,6 +944,20 @@ section {
           font-size: 12px;
           top: -.1em;
         }
+      }
+    }
+
+    .terms-text {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 20px;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-align: center;
+      sup {
+        font-size: 12px;
+        top: -.1em;
       }
     }
 
