@@ -666,8 +666,9 @@ section {
           margin-top: 240px;
 
           @include tablet-portrait-and-below {
-            margin-top: 40px;
+            margin-top: 0px;
             margin-bottom: 60px;
+            max-width: 80%;
           }
         }
         @include tablet-landscape-and-below {
