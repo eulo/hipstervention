@@ -131,33 +131,34 @@ header {
       background-size: contain;
       background-repeat: no-repeat;
       display: table-cell;
+      width: 20vw;
 
       &.menu-1 {
         background-image: url(../../img/beard_nav_mobile_signs.png);
-        width: 116px;
+        //width: 116px;
         height: 132px;
       }
       &.menu-2 {
         background-image: url(../../img/beard_nav_mobile_effects.png);
-        width: 123px;
+        //width: 123px;
         height: 141px;
         background-position: 0 50px;
       }
       &.menu-3 {
         background-image: url(../../img/beard_nav_mobile_host.png);
-        width: 139px;
+        //width: 139px;
         height: 260px;
         background-position: 0 80px;
       }
       &.menu-4 {
         background-image: url(../../img/beard_nav_mobile_save.png);
-        width: 106px;
+        //width: 106px;
         height: 148px;
         background-position: 0 50px;
       }
       &.menu-5 {
         background-image: url(../../img/beard_nav_mobile_news.png);
-        width: 123px;
+        //width: 123px;
         height: 130px;
       }
     }
