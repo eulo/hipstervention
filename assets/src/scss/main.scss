@@ -569,14 +569,19 @@ section {
           min-height: initial;
         }
       }
+
       .col-md-6 {
         height: 750px;
+
         @media (max-width : 1440px) {
           height: 520px;
         }
         @include mobile-landscape-and-below {
           height: auto;
         }
+      }
+      h3 {
+        font-size: 48px;
       }
       @include tablet-landscape-and-below {
         h3 {
@@ -650,8 +655,9 @@ section {
           width: 420px;
           margin-top: 240px;
 
-          @include mobile-only {
+          @include tablet-portrait-and-below {
             margin-top: 40px;
+            margin-bottom: 60px;
           }
         }
         @include tablet-landscape-and-below {
