@@ -915,6 +915,7 @@ section {
     }
 
     .video-section-cont {
+
       h3 {
         font-size: 59px;
         text-align: center;
@@ -924,7 +925,13 @@ section {
       }
       .video-player-cont{
         position: relative;
-        height: 704px;
+        //height: 704px;
+        img {
+          margin: 0 auto;
+          max-width: 100%;
+          display: block;
+          width: 1260px;
+        }
         .video-player-center {
           left: 50%;
           width: 1240px;
