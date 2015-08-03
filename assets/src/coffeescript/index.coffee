@@ -42,12 +42,14 @@ if !placeholderSupported
 $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
     opacity: 1
-    
+
 # FORM Binds
+###
 $('select').change ()->
   if $(this).val() == 'SA'
     $('#disclaimer-modal').modal()
     $(this).val('')
+###
 
 $('form').submit (event) ->
   event.preventDefault()
