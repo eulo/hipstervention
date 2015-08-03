@@ -118,7 +118,6 @@ $('form').submit (event) ->
   event.preventDefault()
   $('form button').text('Sending...')
   $.post 'subscribe/index.php', $(this).serialize(), (res) ->
-    console.log(res);
     if (!res.success)
       stop = false;
       $('form button').text(res.error || 'Failure, Try again.')
@@ -131,6 +130,12 @@ $('form').submit (event) ->
         , 3000
     else
       $('form button').text('It\'s on the way!')
+
+      if FB?
+        FB.ui
+          method: 'share'
+          href: 'http://thehipstervention.com/'
+        , (response) ->
 
 
 # Facebook share
