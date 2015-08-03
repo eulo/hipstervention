@@ -24,7 +24,7 @@
     }
   }
 
-
+  # Get List Length
   $auth = array('api_key' => $config['API_KEY']);
 
   $wrap = new CS_REST_Lists($config['LIST_ID'], $auth);
@@ -46,9 +46,9 @@
     die;
   }
 
+  # Add Subscriber to List
   $wrap = null;
   $wrap = new CS_REST_Subscribers($config['LIST_ID'], $auth);
-
 
   $headers = array(
     'Accept' => 'application/json'

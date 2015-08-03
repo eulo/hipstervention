@@ -55,6 +55,9 @@ stop = false;
 $('form').submit (event) ->
   if (stop)
     return false;
+  if ($('[name="accept"]').is(":checked"))
+    $('form button').text('You must accept the Terms')
+    return false;
   stop = true;
   event.preventDefault()
   $('form button').text('Sending...')
