@@ -974,6 +974,10 @@ section {
         position: relative;
         cursor: pointer;
         //height: 704px;
+        iframe {
+          display: block;
+          margin: 0 auto;
+        }
         img {
           margin: 0 auto;
           max-width: 100%;

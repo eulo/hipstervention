@@ -51,6 +51,13 @@ $('select').change ()->
     $(this).val('')
 ###
 
+$('.video-player-cont').click ->
+  vpw = $('.video-player-cont').width()
+  if (vpw > 1000)
+    vpw = 1000
+  $(this).find('img').replaceWith "<iframe width='#{vpw}' height='#{vpw / 1.77}' src='https://www.youtube.com/embed/CHyYzp8DZco' frameborder='0' allowfullscreen></iframe>"
+  $(this).unbind 'click'
+
 
 $.post 'subscribe/index.php', 'list_length=1', (res)->
   if (res.success && res.error)
@@ -59,8 +66,6 @@ $.post 'subscribe/index.php', 'list_length=1', (res)->
     $('.free-razor-lead').replaceWith $('.video-section-cont')
   else
     $('form').show()
-
-
 
 stop = false;
 $('form').submit (event) ->
