@@ -2,7 +2,12 @@
   .modal-dialog {
     .modal-content {
       background: url(../img/paper_bg.jpg) #e8dec7;
-      border-radius: 0; 
+      border-radius: 0;
+      border: none;
+
+      .modal-body {
+        padding: 0;
+      }
     }
   }
 }
