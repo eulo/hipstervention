@@ -10,17 +10,19 @@
   # Validation
   $customer_data = $_POST;
 
-  $required_fields = array(
-    'firstname', 'lastname', 'email', 'address', 'state', 'suburb', 'postcode'
-  );
-  foreach ($required_fields as $key) {
-    if (!array_key_exists($key, $_POST) || $_POST[$key] == '') {
-      echo json_encode(array(
-        'success' => false,
-        'error' => "Missing field: $key",
-        'field' => $key
-      ));
-      die;
+  if (!isset($_POST['list_length'])) {
+    $required_fields = array(
+      'firstname', 'lastname', 'email', 'address', 'state', 'suburb', 'postcode'
+    );
+    foreach ($required_fields as $key) {
+      if (!array_key_exists($key, $_POST) || $_POST[$key] == '') {
+        echo json_encode(array(
+          'success' => false,
+          'error' => "Missing field: $key",
+          'field' => $key
+        ));
+        die;
+      }
     }
   }
 
@@ -34,7 +36,13 @@
     if ($result->response->TotalNumberOfRecords >= 2000) {
       echo json_encode(array(
         'success' => true,
-        'error' => 'Subscription full'
+        'error' => 'All 2,000 razors have been claimed...'
+      ));
+      die;
+    } else if (isset($_POST['list_length'])) {
+      echo json_encode(array(
+        'success' => true,
+        #'error' => 'test'
       ));
       die;
     }

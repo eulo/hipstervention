@@ -51,6 +51,14 @@ $('select').change ()->
     $(this).val('')
 ###
 
+$.post 'subscribe/index.php', 'list_length=1', (res)->
+  if (res.success && res.error)
+    $('form').replaceWith("<div class='row'><h3>#{res.error}</h3></div>");
+  else
+    $('form').show();
+
+
+
 stop = false;
 $('form').submit (event) ->
   if (stop)
