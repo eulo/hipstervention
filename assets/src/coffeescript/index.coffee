@@ -51,12 +51,36 @@ $('select').change ()->
     $(this).val('')
 ###
 
+fakeClick = (fn)->
+  $a = $('<a href="#" id="fakeClick"></a>')
+  $a.bind "click", (e)->
+    e.preventDefault()
+    fn()
+
+  $("body").append($a)
+
+  el = $("#fakeClick").get(0)
+
+  if (document.createEvent)
+    evt = document.createEvent("MouseEvents")
+    if (evt.initMouseEvent)
+      evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
+      el.dispatchEvent(evt)
+
+  $(el).remove()
+
 $('.video-player-cont').click ->
   vpw = $('.video-player-cont').width()
   if (vpw > 1000)
     vpw = 1000
   $(this).find('img').replaceWith "<iframe width='#{vpw}' height='#{vpw / 1.77}' src='https://www.youtube.com/embed/CHyYzp8DZco?autoplay=1' frameborder='0' allowfullscreen></iframe>"
-  $(this).unbind 'click'
+
+  video = $(this).find('video').get(0)
+  fakeClick ()->
+    try
+      video.play()
+    catch e
+    $(this).unbind 'click'
 
 
 $.post 'subscribe/index.php', 'list_length=1', (res)->
