@@ -113,7 +113,7 @@ header {
     -webkit-transition:1.5s opacity 0.3s margin;
     -moz-transition:1.5s opacity, 0.3s margin;
     transition:1.5s opacity, 0.3s margin;
-    @include tablet-portrait-and-below {
+    @media only screen and (max-width: 950px) {
       display: none;
     }
   }
@@ -121,7 +121,7 @@ header {
   .beard-nav-mobile {
     position: relative;
     margin-top: 95%;
-    @include tablet-landscape-and-up {
+    @media only screen and (min-width: 769px) {
       display: none;
     }
     overflow: hidden;
@@ -174,10 +174,12 @@ header {
   .beard-nav {
     position: relative;
     left: 52%;
-    @include tablet-portrait-and-below {
+    @media only screen and (max-width: 768px) {
       display:none;
     }
-
+    @media only screen and (max-width: 950px) {
+      margin-top: 320px;
+    }
     > img {
       width: 282px;
       height: 234px;
@@ -258,7 +260,7 @@ header {
             -webkit-transition:1.5s opacity;
             -moz-transition:1.5s opacity;
             transition:1.5s opacity;
-            @include tablet-portrait-and-below {
+            @media only screen and (max-width: 950px) {
               padding: 0;
               display: block;
               opacity: 1;
@@ -295,7 +297,7 @@ header {
       }
     }
 
-    @include tablet-portrait-and-below {
+    @media only screen and (max-width: 950px) {
       top: 0;
       position: fixed;
       z-index: 10;

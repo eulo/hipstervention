@@ -166,7 +166,7 @@ throttle_scroll = ()->
     if trans >= 0 && imgH * trans < imgH
       $('header').height(imgH * (trans))
 
-  if scrollTop > 341 || $(window).width() <= 768 #$('nav').position().top
+  if scrollTop > 341 || $(window).width() <= 950 #$('nav').position().top
     $('header .logo').css
       opacity: 1
   else
