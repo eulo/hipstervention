@@ -83,7 +83,6 @@ $.post 'subscribe/index.php', 'list_length=1', (res)->
     #.replaceWith("<div class='row'><h3>#{res.error}</h3></div>");
     $('.free-razor-lead').replaceWith $('.video-section-cont')
     $('.video-section-cont').prepend('<h5>Well it seems you all feel the same way as us about Hipster beards...<br>All our BIC Flex 3 razors have been claimed. Hipsters beware, the Hipsterventions are coming...</h5>')
-    $('.star-border').first().remove()
   else
     $('form').show()
 
