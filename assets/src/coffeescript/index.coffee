@@ -95,6 +95,7 @@ $('form').submit (event) ->
 
   if ($('[name="address"]').val().toLowerCase().indexOf('po box') != -1)
     $('form button').text('We can\'t send to PO Boxes')
+    $('[name="address"]').val('')
     setTimeout ()->
       $('form button').text 'Get Your Free Razor'
     , 3000
