@@ -88,10 +88,17 @@ $.post 'subscribe/index.php', 'list_length=1', (res)->
 stop = false;
 $('form').submit (event) ->
 
- $(this).find('[placeholder]').each ()->
- input = $(this)
- if input.val() == input.attr('placeholder')
-   input.val('')
+  $(this).find('[placeholder]').each ()->
+    input = $(this)
+    if input.val() == input.attr('placeholder')
+      input.val('')
+
+  if ($('[name="address"]').val().toLowerCase().indexOf('po box') != -1)
+    $('form button').text('We can\'t send to PO Boxes')
+    setTimeout ()->
+      $('form button').text 'Get Your Free Razor'
+    , 3000
+    return false;
   if (stop)
     return false;
 
