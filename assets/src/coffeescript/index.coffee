@@ -95,8 +95,23 @@ stop = false;
 $('form').submit (event) ->
   if (stop)
     return false;
+
+  trig = false
+  $('form input').each ->
+    if $(this).val().length == 0
+      trig = true
+  if trig
+    $('form button').text('Please fill out all fields')
+    setTimeout ()->
+      $('form button').text 'Get Your Free Razor'
+    , 3000
+    return false
+
   if (!$('[name="accept"]').is(":checked"))
     $('form button').text('Accept Terms')
+    setTimeout ()->
+      $('form button').text 'Get Your Free Razor'
+    , 3000
     return false;
   stop = true;
   event.preventDefault()
