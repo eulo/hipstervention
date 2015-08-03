@@ -32,12 +32,6 @@ if !placeholderSupported
 
    ).blur()
 
-   $('[placeholder]').parents('form').submit ()->
-     $(this).find('[placeholder]').each ()->
-       input = $(this)
-       if input.val() == input.attr('placeholder')
-         input.val('')
-
 # Main Logo fadeIn
 $.get('assets/img/main_logo.png').done ()->
   $('h1.brand').css
@@ -93,6 +87,11 @@ $.post 'subscribe/index.php', 'list_length=1', (res)->
 
 stop = false;
 $('form').submit (event) ->
+
+ $(this).find('[placeholder]').each ()->
+ input = $(this)
+ if input.val() == input.attr('placeholder')
+   input.val('')
   if (stop)
     return false;
 
@@ -105,6 +104,7 @@ $('form').submit (event) ->
     setTimeout ()->
       $('form button').text 'Get Your Free Razor'
     , 3000
+    $('[placeholder]').blur()
     return false
 
   if (!$('[name="accept"]').is(":checked"))
@@ -112,6 +112,7 @@ $('form').submit (event) ->
     setTimeout ()->
       $('form button').text 'Get Your Free Razor'
     , 3000
+    $('[placeholder]').blur()
     return false;
   stop = true;
   event.preventDefault()
