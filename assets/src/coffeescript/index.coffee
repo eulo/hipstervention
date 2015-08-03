@@ -51,9 +51,28 @@ $('select').change ()->
     $(this).val('')
 ###
 
+stop = false;
 $('form').submit (event) ->
+  if (stop)
+    return false;
+  stop = true;
   event.preventDefault()
-  $('form button').text('It\'s on the way!')
+  $('form button').text('Sending...')
+  $.post 'subscribe/index.php', $(this).serialize(), (res) ->
+    console.log(res);
+    if (!res.success)
+      stop = false;
+      $('form button').text(res.error || 'Failure, Try again.')
+      if (res.field?)
+        $("[name='#{res.field}']").css
+          borderColor: 'red'
+        setTimeout ()->
+          $("[name='#{res.field}']").css
+            borderColor: 'black'
+        , 3000
+    else
+      $('form button').text('It\'s on the way!')
+
 
 # Facebook share
 $('.share-fb').click (event)->
