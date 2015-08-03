@@ -51,9 +51,6 @@ $('select').change ()->
     $(this).val('')
 ###
 
-$('.video-player-cont').click (event)->
-  $('#disclaimer-modal').modal()
-
 
 $.post 'subscribe/index.php', 'list_length=1', (res)->
   if (res.success && res.error)
