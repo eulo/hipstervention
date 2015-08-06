@@ -76,7 +76,7 @@ $('.video-player-cont').click ->
     catch e
     $(this).unbind 'click'
 
-
+###
 $.post 'subscribe/index.php', 'list_length=1', (res)->
   if (res.success && res.error)
     $('form').hide()
@@ -85,6 +85,7 @@ $.post 'subscribe/index.php', 'list_length=1', (res)->
     $('.video-section-cont').prepend('<h5>Well it seems you all feel the same way as us about Hipster beards...<br>All our BIC Flex 3 razors have been claimed. Hipsters beware, the Hipsterventions are coming...</h5>')
   else
     $('form').show()
+###
 
 stop = false;
 $('form').submit (event) ->
@@ -176,7 +177,8 @@ $('.section-link').click (event)->
 
 $('.back-to-top-button, nav .logo').click (event)->
   event.preventDefault();
-  $('html,body').animate({ scrollTop: 0 }, 400);
+  if $(this).parent().css('opacity') == '1'
+    $('html,body').animate({ scrollTop: 0 }, 400);
 
 
 # Animation handle
