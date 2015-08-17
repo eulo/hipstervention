@@ -67,7 +67,7 @@ $('.video-player-cont').click ->
   vpw = $('.video-player-cont').width()
   if (vpw > 1000)
     vpw = 1000
-  $(this).find('img').replaceWith "<iframe width='#{vpw}' height='#{vpw / 1.77}' src='https://www.youtube.com/embed/CHyYzp8DZco?autoplay=1' frameborder='0' allowfullscreen></iframe>"
+  $(this).find('img').replaceWith "<iframe width='#{vpw}' height='#{vpw / 1.77}' src='https://www.youtube.com/embed/c5oVzSPElK4?autoplay=1' frameborder='0' allowfullscreen></iframe>"
 
   video = $(this).find('video').get(0)
   fakeClick ()->
